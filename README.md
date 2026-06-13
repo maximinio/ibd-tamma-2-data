@@ -8,7 +8,9 @@ Current host layer layout:
 
 - `metadata/metadata.tsv.gz`
 - `host/umap/host_umap_coordinates.tsv.gz`
-- `host/rds/dge/*.rds`
-- `host/rds/pathways/*.rds`
+- `host/db/dge/*.sqlite.gz`
+- `host/db/pathways/*.sqlite.gz`
 - `indices/host_contrasts.tsv`
 - `assets/branding/*`
+
+DGE and pathway data are SQLite-only. The application intentionally does not fall back to local TSV/RDS result tables.

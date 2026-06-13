@@ -8,6 +8,6 @@ host/go_bp/
 host/opentargets/
 host/dge/
 host/pathways/
-host/db/
+host/rds/
 *.tmp
 *.bak
