@@ -4,7 +4,7 @@
     "id": "ibd_tamma_2",
     "title": "IBD TaMMA 2"
   },
-  "generated_at": "2026-06-13T10:30:45+0200",
+  "generated_at": "2026-06-13T11:44:13+0200",
   "metadata": {
     "table": "metadata/metadata.tsv.gz"
   },
@@ -20,1220 +20,1901 @@
       {
         "name": "CD Cecum vs CD Ileum No",
         "contrast": "CD_Cecum_vs_CD_Ileum_No",
-        "fdr_threshold": 9.4152e-25,
+        "fdr_threshold": 7.3152e-25,
         "database": "host/db/dge/CD_Cecum_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Cecum_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4997,
+        "full_rows": 68391
       },
       {
         "name": "CD Cecum vs CD Transverse",
         "contrast": "CD_Cecum_vs_CD_Transverse",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/CD_Cecum_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Cecum_vs_CD_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3725,
+        "full_rows": 68391
       },
       {
         "name": "CD Cecum vs Healthy Cecum",
         "contrast": "CD_Cecum_vs_Healthy_Cecum",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/CD_Cecum_vs_Healthy_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Cecum_vs_Healthy_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4209,
+        "full_rows": 68391
       },
       {
         "name": "CD Cecum vs Healthy Colon",
         "contrast": "CD_Cecum_vs_Healthy_Colon",
         "fdr_threshold": 1.0793e-13,
         "database": "host/db/dge/CD_Cecum_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Cecum_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Cecum vs Healthy Ileum No",
         "contrast": "CD_Cecum_vs_Healthy_Ileum_No",
         "fdr_threshold": 1.574e-14,
         "database": "host/db/dge/CD_Cecum_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Cecum_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Cecum vs Healthy Sigmoid",
         "contrast": "CD_Cecum_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/CD_Cecum_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Cecum_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3972,
+        "full_rows": 68391
       },
       {
         "name": "CD Cecum vs UC Cecum",
         "contrast": "CD_Cecum_vs_UC_Cecum",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/CD_Cecum_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Cecum_vs_UC_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4035,
+        "full_rows": 68391
       },
       {
         "name": "CD Cecum vs UC Ileum No",
         "contrast": "CD_Cecum_vs_UC_Ileum_No",
         "fdr_threshold": 2.3343e-17,
         "database": "host/db/dge/CD_Cecum_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Cecum_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "CD Cecum vs UC Sigmoid",
         "contrast": "CD_Cecum_vs_UC_Sigmoid",
         "fdr_threshold": 0.0634,
         "database": "host/db/dge/CD_Cecum_vs_UC_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Cecum_vs_UC_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5256,
+        "full_rows": 68391
       },
       {
         "name": "CD Cecum vs UC Transverse",
         "contrast": "CD_Cecum_vs_UC_Transverse",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/CD_Cecum_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Cecum_vs_UC_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3728,
+        "full_rows": 68391
       },
       {
         "name": "CD Colon vs CD Cecum",
         "contrast": "CD_Colon_vs_CD_Cecum",
         "fdr_threshold": 0,
         "database": "host/db/dge/CD_Colon_vs_CD_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_CD_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
+      },
+      {
+        "name": "CD Colon vs CD Ileum No",
+        "contrast": "CD_Colon_vs_CD_Ileum_No",
+        "fdr_threshold": 4.3759e-33,
+        "database": "host/db/dge/CD_Colon_vs_CD_Ileum_No.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4992,
+        "full_rows": 68391
       },
       {
         "name": "CD Colon vs CD Transverse",
         "contrast": "CD_Colon_vs_CD_Transverse",
         "fdr_threshold": 0.0007,
         "database": "host/db/dge/CD_Colon_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_CD_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4728,
+        "full_rows": 68391
       },
       {
         "name": "CD Colon vs Healthy Cecum",
         "contrast": "CD_Colon_vs_Healthy_Cecum",
         "fdr_threshold": 0.0001,
         "database": "host/db/dge/CD_Colon_vs_Healthy_Cecum.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "CD Colon vs Healthy Colon",
-        "contrast": "CD_Colon_vs_Healthy_Colon",
-        "fdr_threshold": 2.3032e-09,
-        "database": "host/db/dge/CD_Colon_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_Healthy_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Colon vs Healthy Ileum No",
         "contrast": "CD_Colon_vs_Healthy_Ileum_No",
         "fdr_threshold": 4.9813e-15,
         "database": "host/db/dge/CD_Colon_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "CD Colon vs Healthy Rectum",
         "contrast": "CD_Colon_vs_Healthy_Rectum",
         "fdr_threshold": 3.3767e-12,
         "database": "host/db/dge/CD_Colon_vs_Healthy_Rectum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_Healthy_Rectum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
+      },
+      {
+        "name": "CD Colon vs Healthy Sigmoid",
+        "contrast": "CD_Colon_vs_Healthy_Sigmoid",
+        "fdr_threshold": 0.1,
+        "database": "host/db/dge/CD_Colon_vs_Healthy_Sigmoid.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3907,
+        "full_rows": 68391
       },
       {
         "name": "CD Colon vs UC Cecum",
         "contrast": "CD_Colon_vs_UC_Cecum",
         "fdr_threshold": 0,
         "database": "host/db/dge/CD_Colon_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_UC_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Colon vs UC Colon",
         "contrast": "CD_Colon_vs_UC_Colon",
         "fdr_threshold": 0.0038,
         "database": "host/db/dge/CD_Colon_vs_UC_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_UC_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Colon vs UC Ileum No",
         "contrast": "CD_Colon_vs_UC_Ileum_No",
         "fdr_threshold": 2.6447e-18,
         "database": "host/db/dge/CD_Colon_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4997,
+        "full_rows": 68391
       },
       {
         "name": "CD Colon vs UC Ileum",
         "contrast": "CD_Colon_vs_UC_Ileum",
         "fdr_threshold": 1.4658e-18,
         "database": "host/db/dge/CD_Colon_vs_UC_Ileum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_UC_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Colon vs UC Sigmoid",
         "contrast": "CD_Colon_vs_UC_Sigmoid",
-        "fdr_threshold": 9.8689e-06,
+        "fdr_threshold": 0.0001,
         "database": "host/db/dge/CD_Colon_vs_UC_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "CD Colon vs UC Transverse",
-        "contrast": "CD_Colon_vs_UC_Transverse",
-        "fdr_threshold": 0.0002,
-        "database": "host/db/dge/CD_Colon_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Colon_vs_UC_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum No vs Healthy Ileum No",
         "contrast": "CD_Ileum_No_vs_Healthy_Ileum_No",
         "fdr_threshold": 0.0075,
         "database": "host/db/dge/CD_Ileum_No_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_No_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum No vs UC Ileum No",
         "contrast": "CD_Ileum_No_vs_UC_Ileum_No",
         "fdr_threshold": 0.017,
         "database": "host/db/dge/CD_Ileum_No_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_No_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs CD Cecum",
         "contrast": "CD_Ileum_vs_CD_Cecum",
         "fdr_threshold": 1.2614e-06,
         "database": "host/db/dge/CD_Ileum_vs_CD_Cecum.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "CD Ileum vs CD Colon",
-        "contrast": "CD_Ileum_vs_CD_Colon",
-        "fdr_threshold": 2.5344e-20,
-        "database": "host/db/dge/CD_Ileum_vs_CD_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_CD_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5135,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs CD Ileum No",
         "contrast": "CD_Ileum_vs_CD_Ileum_No",
         "fdr_threshold": 8.1775e-39,
         "database": "host/db/dge/CD_Ileum_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4990,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs CD Rectum",
         "contrast": "CD_Ileum_vs_CD_Rectum",
         "fdr_threshold": 3.3499e-21,
         "database": "host/db/dge/CD_Ileum_vs_CD_Rectum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_CD_Rectum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs CD Transverse",
         "contrast": "CD_Ileum_vs_CD_Transverse",
         "fdr_threshold": 0.0001,
         "database": "host/db/dge/CD_Ileum_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_CD_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs Healthy Cecum",
         "contrast": "CD_Ileum_vs_Healthy_Cecum",
         "fdr_threshold": 5.5357e-06,
         "database": "host/db/dge/CD_Ileum_vs_Healthy_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_Healthy_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5205,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs Healthy Colon",
         "contrast": "CD_Ileum_vs_Healthy_Colon",
         "fdr_threshold": 5.0041e-25,
         "database": "host/db/dge/CD_Ileum_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs Healthy Ileum No",
         "contrast": "CD_Ileum_vs_Healthy_Ileum_No",
         "fdr_threshold": 3.0331e-14,
         "database": "host/db/dge/CD_Ileum_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs Healthy Ileum",
         "contrast": "CD_Ileum_vs_Healthy_Ileum",
         "fdr_threshold": 0.0035,
         "database": "host/db/dge/CD_Ileum_vs_Healthy_Ileum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_Healthy_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs Healthy Rectum",
         "contrast": "CD_Ileum_vs_Healthy_Rectum",
         "fdr_threshold": 3.766e-24,
         "database": "host/db/dge/CD_Ileum_vs_Healthy_Rectum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_Healthy_Rectum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4997,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs Healthy Sigmoid",
         "contrast": "CD_Ileum_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/CD_Ileum_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4412,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs UC Cecum",
         "contrast": "CD_Ileum_vs_UC_Cecum",
         "fdr_threshold": 5.0407e-06,
         "database": "host/db/dge/CD_Ileum_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_UC_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs UC Colon",
         "contrast": "CD_Ileum_vs_UC_Colon",
         "fdr_threshold": 4.3038e-16,
         "database": "host/db/dge/CD_Ileum_vs_UC_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_UC_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
+      },
+      {
+        "name": "CD Ileum vs UC Ileum No",
+        "contrast": "CD_Ileum_vs_UC_Ileum_No",
+        "fdr_threshold": 9.9712e-19,
+        "database": "host/db/dge/CD_Ileum_vs_UC_Ileum_No.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4997,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs UC Ileum",
         "contrast": "CD_Ileum_vs_UC_Ileum",
         "fdr_threshold": 0.0175,
         "database": "host/db/dge/CD_Ileum_vs_UC_Ileum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_UC_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4703,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs UC Rectum",
         "contrast": "CD_Ileum_vs_UC_Rectum",
         "fdr_threshold": 1.8209e-16,
         "database": "host/db/dge/CD_Ileum_vs_UC_Rectum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_UC_Rectum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs UC Sigmoid",
         "contrast": "CD_Ileum_vs_UC_Sigmoid",
         "fdr_threshold": 6.2079e-07,
         "database": "host/db/dge/CD_Ileum_vs_UC_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_UC_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5191,
+        "full_rows": 68391
       },
       {
         "name": "CD Ileum vs UC Transverse",
         "contrast": "CD_Ileum_vs_UC_Transverse",
         "fdr_threshold": 0,
         "database": "host/db/dge/CD_Ileum_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Ileum_vs_UC_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs CD Cecum",
         "contrast": "CD_Rectum_vs_CD_Cecum",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 0.0608,
         "database": "host/db/dge/CD_Rectum_vs_CD_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_CD_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs CD Colon",
         "contrast": "CD_Rectum_vs_CD_Colon",
         "fdr_threshold": 3.3699e-14,
         "database": "host/db/dge/CD_Rectum_vs_CD_Colon.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "CD Rectum vs CD Ileum No",
-        "contrast": "CD_Rectum_vs_CD_Ileum_No",
-        "fdr_threshold": 7.9367e-45,
-        "database": "host/db/dge/CD_Rectum_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_CD_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs CD Transverse",
         "contrast": "CD_Rectum_vs_CD_Transverse",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/CD_Rectum_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_CD_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4913,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs Healthy Cecum",
         "contrast": "CD_Rectum_vs_Healthy_Cecum",
         "fdr_threshold": 0.0027,
         "database": "host/db/dge/CD_Rectum_vs_Healthy_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_Healthy_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs Healthy Colon",
         "contrast": "CD_Rectum_vs_Healthy_Colon",
         "fdr_threshold": 4.6728e-24,
         "database": "host/db/dge/CD_Rectum_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs Healthy Ileum No",
         "contrast": "CD_Rectum_vs_Healthy_Ileum_No",
-        "fdr_threshold": 6.2007e-19,
+        "fdr_threshold": 2.7661e-19,
         "database": "host/db/dge/CD_Rectum_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs Healthy Ileum",
         "contrast": "CD_Rectum_vs_Healthy_Ileum",
         "fdr_threshold": 4.5194e-14,
         "database": "host/db/dge/CD_Rectum_vs_Healthy_Ileum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_Healthy_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs Healthy Rectum",
         "contrast": "CD_Rectum_vs_Healthy_Rectum",
         "fdr_threshold": 0.002,
         "database": "host/db/dge/CD_Rectum_vs_Healthy_Rectum.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "CD Rectum vs Healthy Sigmoid",
-        "contrast": "CD_Rectum_vs_Healthy_Sigmoid",
-        "fdr_threshold": 0.1,
-        "database": "host/db/dge/CD_Rectum_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_Healthy_Rectum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs UC Cecum",
         "contrast": "CD_Rectum_vs_UC_Cecum",
         "fdr_threshold": 0.0023,
         "database": "host/db/dge/CD_Rectum_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_UC_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs UC Colon",
         "contrast": "CD_Rectum_vs_UC_Colon",
         "fdr_threshold": 4.338e-08,
         "database": "host/db/dge/CD_Rectum_vs_UC_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_UC_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
-        "name": "CD Rectum vs UC Ileum No",
-        "contrast": "CD_Rectum_vs_UC_Ileum_No",
-        "fdr_threshold": 9.92e-25,
-        "database": "host/db/dge/CD_Rectum_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "name": "CD Rectum vs UC Ileum",
+        "contrast": "CD_Rectum_vs_UC_Ileum",
+        "fdr_threshold": 2.6363e-18,
+        "database": "host/db/dge/CD_Rectum_vs_UC_Ileum.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_UC_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
+      },
+      {
+        "name": "CD Rectum vs UC Rectum",
+        "contrast": "CD_Rectum_vs_UC_Rectum",
+        "fdr_threshold": 0.1,
+        "database": "host/db/dge/CD_Rectum_vs_UC_Rectum.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_UC_Rectum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4787,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs UC Sigmoid",
         "contrast": "CD_Rectum_vs_UC_Sigmoid",
         "fdr_threshold": 0.0465,
         "database": "host/db/dge/CD_Rectum_vs_UC_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_UC_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5314,
+        "full_rows": 68391
       },
       {
         "name": "CD Rectum vs UC Transverse",
         "contrast": "CD_Rectum_vs_UC_Transverse",
         "fdr_threshold": 0.0419,
         "database": "host/db/dge/CD_Rectum_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "CD Sigmoid vs CD Cecum",
-        "contrast": "CD_Sigmoid_vs_CD_Cecum",
-        "fdr_threshold": 0.1,
-        "database": "host/db/dge/CD_Sigmoid_vs_CD_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Rectum_vs_UC_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs CD Colon",
         "contrast": "CD_Sigmoid_vs_CD_Colon",
         "fdr_threshold": 0,
         "database": "host/db/dge/CD_Sigmoid_vs_CD_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_CD_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5193,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs CD Ileum No",
         "contrast": "CD_Sigmoid_vs_CD_Ileum_No",
         "fdr_threshold": 2.3271e-24,
         "database": "host/db/dge/CD_Sigmoid_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5039,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs CD Ileum",
         "contrast": "CD_Sigmoid_vs_CD_Ileum",
         "fdr_threshold": 9.5786e-06,
         "database": "host/db/dge/CD_Sigmoid_vs_CD_Ileum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_CD_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs CD Rectum",
         "contrast": "CD_Sigmoid_vs_CD_Rectum",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/CD_Sigmoid_vs_CD_Rectum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_CD_Rectum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4825,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs CD Transverse",
         "contrast": "CD_Sigmoid_vs_CD_Transverse",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/CD_Sigmoid_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_CD_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4046,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs Healthy Cecum",
         "contrast": "CD_Sigmoid_vs_Healthy_Cecum",
         "fdr_threshold": 0.0471,
         "database": "host/db/dge/CD_Sigmoid_vs_Healthy_Cecum.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "CD Sigmoid vs Healthy Colon",
-        "contrast": "CD_Sigmoid_vs_Healthy_Colon",
-        "fdr_threshold": 1.6264e-12,
-        "database": "host/db/dge/CD_Sigmoid_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_Healthy_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs Healthy Ileum No",
         "contrast": "CD_Sigmoid_vs_Healthy_Ileum_No",
         "fdr_threshold": 1.4104e-13,
         "database": "host/db/dge/CD_Sigmoid_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs Healthy Ileum",
         "contrast": "CD_Sigmoid_vs_Healthy_Ileum",
-        "fdr_threshold": 1.1357e-06,
+        "fdr_threshold": 7.3728e-07,
         "database": "host/db/dge/CD_Sigmoid_vs_Healthy_Ileum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_Healthy_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs Healthy Rectum",
         "contrast": "CD_Sigmoid_vs_Healthy_Rectum",
         "fdr_threshold": 0.0084,
         "database": "host/db/dge/CD_Sigmoid_vs_Healthy_Rectum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_Healthy_Rectum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4996,
+        "full_rows": 68391
+      },
+      {
+        "name": "CD Sigmoid vs Healthy Sigmoid",
+        "contrast": "CD_Sigmoid_vs_Healthy_Sigmoid",
+        "fdr_threshold": 0.1,
+        "database": "host/db/dge/CD_Sigmoid_vs_Healthy_Sigmoid.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3646,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs UC Cecum",
         "contrast": "CD_Sigmoid_vs_UC_Cecum",
         "fdr_threshold": 0.0498,
         "database": "host/db/dge/CD_Sigmoid_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_UC_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs UC Colon",
         "contrast": "CD_Sigmoid_vs_UC_Colon",
         "fdr_threshold": 0.0006,
         "database": "host/db/dge/CD_Sigmoid_vs_UC_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_UC_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
+      },
+      {
+        "name": "CD Sigmoid vs UC Ileum No",
+        "contrast": "CD_Sigmoid_vs_UC_Ileum_No",
+        "fdr_threshold": 5.8358e-16,
+        "database": "host/db/dge/CD_Sigmoid_vs_UC_Ileum_No.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5122,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs UC Ileum",
         "contrast": "CD_Sigmoid_vs_UC_Ileum",
         "fdr_threshold": 1.2718e-06,
         "database": "host/db/dge/CD_Sigmoid_vs_UC_Ileum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_UC_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs UC Rectum",
         "contrast": "CD_Sigmoid_vs_UC_Rectum",
         "fdr_threshold": 0.0691,
         "database": "host/db/dge/CD_Sigmoid_vs_UC_Rectum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_UC_Rectum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Sigmoid vs UC Sigmoid",
         "contrast": "CD_Sigmoid_vs_UC_Sigmoid",
         "fdr_threshold": 0.0375,
         "database": "host/db/dge/CD_Sigmoid_vs_UC_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "CD Sigmoid vs UC Transverse",
-        "contrast": "CD_Sigmoid_vs_UC_Transverse",
-        "fdr_threshold": 0.1,
-        "database": "host/db/dge/CD_Sigmoid_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Sigmoid_vs_UC_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5291,
+        "full_rows": 68391
       },
       {
         "name": "CD Transverse vs CD Ileum No",
         "contrast": "CD_Transverse_vs_CD_Ileum_No",
         "fdr_threshold": 1.6669e-16,
         "database": "host/db/dge/CD_Transverse_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Transverse_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Transverse vs Healthy Colon",
         "contrast": "CD_Transverse_vs_Healthy_Colon",
         "fdr_threshold": 6.0028e-10,
         "database": "host/db/dge/CD_Transverse_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Transverse_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Transverse vs Healthy Ileum No",
         "contrast": "CD_Transverse_vs_Healthy_Ileum_No",
         "fdr_threshold": 1.0546e-10,
         "database": "host/db/dge/CD_Transverse_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Transverse_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "CD Transverse vs Healthy Sigmoid",
         "contrast": "CD_Transverse_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/CD_Transverse_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Transverse_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3750,
+        "full_rows": 68391
       },
       {
         "name": "CD Transverse vs UC Ileum No",
         "contrast": "CD_Transverse_vs_UC_Ileum_No",
         "fdr_threshold": 1.4724e-12,
         "database": "host/db/dge/CD_Transverse_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "CD Transverse vs UC Transverse",
-        "contrast": "CD_Transverse_vs_UC_Transverse",
-        "fdr_threshold": 0.1,
-        "database": "host/db/dge/CD_Transverse_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "Healthy Cecum vs CD Ileum No",
-        "contrast": "Healthy_Cecum_vs_CD_Ileum_No",
-        "fdr_threshold": 9.0638e-19,
-        "database": "host/db/dge/Healthy_Cecum_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/CD_Transverse_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Cecum vs CD Transverse",
         "contrast": "Healthy_Cecum_vs_CD_Transverse",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/Healthy_Cecum_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Cecum_vs_CD_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3661,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Cecum vs Healthy Colon",
         "contrast": "Healthy_Cecum_vs_Healthy_Colon",
         "fdr_threshold": 6.2759e-11,
         "database": "host/db/dge/Healthy_Cecum_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Cecum_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5091,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Cecum vs Healthy Ileum No",
         "contrast": "Healthy_Cecum_vs_Healthy_Ileum_No",
         "fdr_threshold": 1.2798e-11,
         "database": "host/db/dge/Healthy_Cecum_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Cecum_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Cecum vs Healthy Sigmoid",
         "contrast": "Healthy_Cecum_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/Healthy_Cecum_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Cecum_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4078,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Cecum vs UC Cecum",
         "contrast": "Healthy_Cecum_vs_UC_Cecum",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/Healthy_Cecum_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Cecum_vs_UC_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3877,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Cecum vs UC Ileum No",
         "contrast": "Healthy_Cecum_vs_UC_Ileum_No",
-        "fdr_threshold": 1.047e-13,
+        "fdr_threshold": 1.3487e-14,
         "database": "host/db/dge/Healthy_Cecum_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "Healthy Cecum vs UC Transverse",
-        "contrast": "Healthy_Cecum_vs_UC_Transverse",
-        "fdr_threshold": 0.1,
-        "database": "host/db/dge/Healthy_Cecum_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Cecum_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Colon vs CD Ileum No",
         "contrast": "Healthy_Colon_vs_CD_Ileum_No",
         "fdr_threshold": 7.5428e-19,
         "database": "host/db/dge/Healthy_Colon_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Colon_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4995,
+        "full_rows": 68391
+      },
+      {
+        "name": "Healthy Colon vs Healthy Ileum No",
+        "contrast": "Healthy_Colon_vs_Healthy_Ileum_No",
+        "fdr_threshold": 6.6578e-10,
+        "database": "host/db/dge/Healthy_Colon_vs_Healthy_Ileum_No.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Colon_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Colon vs Healthy Sigmoid",
         "contrast": "Healthy_Colon_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.0494,
         "database": "host/db/dge/Healthy_Colon_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Colon_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Colon vs UC Ileum No",
         "contrast": "Healthy_Colon_vs_UC_Ileum_No",
         "fdr_threshold": 1.6497e-11,
         "database": "host/db/dge/Healthy_Colon_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Colon_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5301,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum No vs UC Ileum No",
         "contrast": "Healthy_Ileum_No_vs_UC_Ileum_No",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/Healthy_Ileum_No_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_No_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4033,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs CD Cecum",
         "contrast": "Healthy_Ileum_vs_CD_Cecum",
         "fdr_threshold": 9.5451e-08,
         "database": "host/db/dge/Healthy_Ileum_vs_CD_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_CD_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5043,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs CD Colon",
         "contrast": "Healthy_Ileum_vs_CD_Colon",
         "fdr_threshold": 6.0165e-13,
         "database": "host/db/dge/Healthy_Ileum_vs_CD_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_CD_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs CD Ileum No",
         "contrast": "Healthy_Ileum_vs_CD_Ileum_No",
         "fdr_threshold": 5.1263e-27,
         "database": "host/db/dge/Healthy_Ileum_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4996,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs CD Transverse",
         "contrast": "Healthy_Ileum_vs_CD_Transverse",
         "fdr_threshold": 0,
         "database": "host/db/dge/Healthy_Ileum_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_CD_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs Healthy Cecum",
         "contrast": "Healthy_Ileum_vs_Healthy_Cecum",
         "fdr_threshold": 6.5981e-07,
         "database": "host/db/dge/Healthy_Ileum_vs_Healthy_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_Healthy_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4920,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs Healthy Colon",
         "contrast": "Healthy_Ileum_vs_Healthy_Colon",
         "fdr_threshold": 7.9647e-17,
         "database": "host/db/dge/Healthy_Ileum_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
+      },
+      {
+        "name": "Healthy Ileum vs Healthy Ileum No",
+        "contrast": "Healthy_Ileum_vs_Healthy_Ileum_No",
+        "fdr_threshold": 5.2171e-11,
+        "database": "host/db/dge/Healthy_Ileum_vs_Healthy_Ileum_No.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs Healthy Rectum",
         "contrast": "Healthy_Ileum_vs_Healthy_Rectum",
         "fdr_threshold": 2.6066e-15,
         "database": "host/db/dge/Healthy_Ileum_vs_Healthy_Rectum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_Healthy_Rectum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs Healthy Sigmoid",
         "contrast": "Healthy_Ileum_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/Healthy_Ileum_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4759,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs UC Cecum",
         "contrast": "Healthy_Ileum_vs_UC_Cecum",
         "fdr_threshold": 1.6183e-06,
         "database": "host/db/dge/Healthy_Ileum_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_UC_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4997,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs UC Colon",
         "contrast": "Healthy_Ileum_vs_UC_Colon",
         "fdr_threshold": 6.0322e-12,
         "database": "host/db/dge/Healthy_Ileum_vs_UC_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_UC_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs UC Ileum No",
         "contrast": "Healthy_Ileum_vs_UC_Ileum_No",
         "fdr_threshold": 2.1076e-14,
         "database": "host/db/dge/Healthy_Ileum_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs UC Ileum",
         "contrast": "Healthy_Ileum_vs_UC_Ileum",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/Healthy_Ileum_vs_UC_Ileum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_UC_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4349,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs UC Sigmoid",
         "contrast": "Healthy_Ileum_vs_UC_Sigmoid",
         "fdr_threshold": 1.1051e-07,
         "database": "host/db/dge/Healthy_Ileum_vs_UC_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_UC_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5224,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Ileum vs UC Transverse",
         "contrast": "Healthy_Ileum_vs_UC_Transverse",
         "fdr_threshold": 4.5912e-06,
         "database": "host/db/dge/Healthy_Ileum_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Ileum_vs_UC_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Rectum vs CD Cecum",
         "contrast": "Healthy_Rectum_vs_CD_Cecum",
         "fdr_threshold": 0.0021,
         "database": "host/db/dge/Healthy_Rectum_vs_CD_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_CD_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5273,
+        "full_rows": 68391
+      },
+      {
+        "name": "Healthy Rectum vs CD Ileum No",
+        "contrast": "Healthy_Rectum_vs_CD_Ileum_No",
+        "fdr_threshold": 1.0499e-44,
+        "database": "host/db/dge/Healthy_Rectum_vs_CD_Ileum_No.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4993,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Rectum vs CD Transverse",
         "contrast": "Healthy_Rectum_vs_CD_Transverse",
         "fdr_threshold": 0.0119,
         "database": "host/db/dge/Healthy_Rectum_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_CD_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Rectum vs Healthy Cecum",
         "contrast": "Healthy_Rectum_vs_Healthy_Cecum",
         "fdr_threshold": 0.0034,
         "database": "host/db/dge/Healthy_Rectum_vs_Healthy_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_Healthy_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5198,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Rectum vs Healthy Colon",
         "contrast": "Healthy_Rectum_vs_Healthy_Colon",
         "fdr_threshold": 2.0612e-22,
         "database": "host/db/dge/Healthy_Rectum_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Rectum vs Healthy Ileum No",
         "contrast": "Healthy_Rectum_vs_Healthy_Ileum_No",
         "fdr_threshold": 2.6925e-19,
         "database": "host/db/dge/Healthy_Rectum_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5096,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Rectum vs Healthy Sigmoid",
         "contrast": "Healthy_Rectum_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/Healthy_Rectum_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3616,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Rectum vs UC Cecum",
         "contrast": "Healthy_Rectum_vs_UC_Cecum",
         "fdr_threshold": 0.0004,
         "database": "host/db/dge/Healthy_Rectum_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_UC_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5235,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Rectum vs UC Colon",
         "contrast": "Healthy_Rectum_vs_UC_Colon",
         "fdr_threshold": 3.6065e-11,
         "database": "host/db/dge/Healthy_Rectum_vs_UC_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_UC_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Rectum vs UC Ileum No",
         "contrast": "Healthy_Rectum_vs_UC_Ileum_No",
-        "fdr_threshold": 1.9852e-25,
+        "fdr_threshold": 2.2935e-25,
         "database": "host/db/dge/Healthy_Rectum_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4997,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Rectum vs UC Ileum",
         "contrast": "Healthy_Rectum_vs_UC_Ileum",
         "fdr_threshold": 2.4999e-18,
         "database": "host/db/dge/Healthy_Rectum_vs_UC_Ileum.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "Healthy Rectum vs UC Sigmoid",
-        "contrast": "Healthy_Rectum_vs_UC_Sigmoid",
-        "fdr_threshold": 0.0001,
-        "database": "host/db/dge/Healthy_Rectum_vs_UC_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_UC_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Rectum vs UC Transverse",
         "contrast": "Healthy_Rectum_vs_UC_Transverse",
-        "fdr_threshold": 0.0366,
+        "fdr_threshold": 0.0225,
         "database": "host/db/dge/Healthy_Rectum_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Rectum_vs_UC_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Sigmoid vs CD Ileum No",
         "contrast": "Healthy_Sigmoid_vs_CD_Ileum_No",
         "fdr_threshold": 0.0027,
         "database": "host/db/dge/Healthy_Sigmoid_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Sigmoid_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5060,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Sigmoid vs Healthy Ileum No",
         "contrast": "Healthy_Sigmoid_vs_Healthy_Ileum_No",
         "fdr_threshold": 0.0055,
         "database": "host/db/dge/Healthy_Sigmoid_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Sigmoid_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "Healthy Sigmoid vs UC Ileum No",
         "contrast": "Healthy_Sigmoid_vs_UC_Ileum_No",
         "fdr_threshold": 0.0027,
         "database": "host/db/dge/Healthy_Sigmoid_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/Healthy_Sigmoid_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Cecum vs CD Ileum No",
         "contrast": "UC_Cecum_vs_CD_Ileum_No",
         "fdr_threshold": 2.255e-20,
         "database": "host/db/dge/UC_Cecum_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Cecum_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "UC Cecum vs CD Transverse",
         "contrast": "UC_Cecum_vs_CD_Transverse",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/UC_Cecum_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Cecum_vs_CD_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3886,
+        "full_rows": 68391
       },
       {
         "name": "UC Cecum vs Healthy Colon",
         "contrast": "UC_Cecum_vs_Healthy_Colon",
         "fdr_threshold": 8.267e-13,
         "database": "host/db/dge/UC_Cecum_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Cecum_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5012,
+        "full_rows": 68391
       },
       {
         "name": "UC Cecum vs Healthy Ileum No",
         "contrast": "UC_Cecum_vs_Healthy_Ileum_No",
         "fdr_threshold": 3.5039e-12,
         "database": "host/db/dge/UC_Cecum_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Cecum_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Cecum vs Healthy Sigmoid",
         "contrast": "UC_Cecum_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/UC_Cecum_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Cecum_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3734,
+        "full_rows": 68391
+      },
+      {
+        "name": "UC Cecum vs UC Ileum No",
+        "contrast": "UC_Cecum_vs_UC_Ileum_No",
+        "fdr_threshold": 3.0619e-15,
+        "database": "host/db/dge/UC_Cecum_vs_UC_Ileum_No.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Cecum_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Cecum vs UC Transverse",
         "contrast": "UC_Cecum_vs_UC_Transverse",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/UC_Cecum_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Cecum_vs_UC_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3992,
+        "full_rows": 68391
       },
       {
         "name": "UC Colon vs CD Cecum",
         "contrast": "UC_Colon_vs_CD_Cecum",
         "fdr_threshold": 0.0011,
         "database": "host/db/dge/UC_Colon_vs_CD_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Colon_vs_CD_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "UC Colon vs CD Ileum No",
         "contrast": "UC_Colon_vs_CD_Ileum_No",
         "fdr_threshold": 2.513e-33,
         "database": "host/db/dge/UC_Colon_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Colon_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4993,
+        "full_rows": 68391
       },
       {
         "name": "UC Colon vs CD Transverse",
         "contrast": "UC_Colon_vs_CD_Transverse",
         "fdr_threshold": 0.0097,
         "database": "host/db/dge/UC_Colon_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "UC Colon vs Healthy Cecum",
-        "contrast": "UC_Colon_vs_Healthy_Cecum",
-        "fdr_threshold": 0.0001,
-        "database": "host/db/dge/UC_Colon_vs_Healthy_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Colon_vs_CD_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4736,
+        "full_rows": 68391
       },
       {
         "name": "UC Colon vs Healthy Colon",
         "contrast": "UC_Colon_vs_Healthy_Colon",
         "fdr_threshold": 1.6555e-12,
         "database": "host/db/dge/UC_Colon_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Colon_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4775,
+        "full_rows": 68391
+      },
+      {
+        "name": "UC Colon vs Healthy Ileum No",
+        "contrast": "UC_Colon_vs_Healthy_Ileum_No",
+        "fdr_threshold": 1.8839e-14,
+        "database": "host/db/dge/UC_Colon_vs_Healthy_Ileum_No.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Colon_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
+      },
+      {
+        "name": "UC Colon vs Healthy Sigmoid",
+        "contrast": "UC_Colon_vs_Healthy_Sigmoid",
+        "fdr_threshold": 0.1,
+        "database": "host/db/dge/UC_Colon_vs_Healthy_Sigmoid.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Colon_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3758,
+        "full_rows": 68391
       },
       {
         "name": "UC Colon vs UC Cecum",
         "contrast": "UC_Colon_vs_UC_Cecum",
         "fdr_threshold": 0.0001,
         "database": "host/db/dge/UC_Colon_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Colon_vs_UC_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4742,
+        "full_rows": 68391
+      },
+      {
+        "name": "UC Colon vs UC Ileum No",
+        "contrast": "UC_Colon_vs_UC_Ileum_No",
+        "fdr_threshold": 4.5396e-19,
+        "database": "host/db/dge/UC_Colon_vs_UC_Ileum_No.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Colon_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4892,
+        "full_rows": 68391
       },
       {
         "name": "UC Colon vs UC Ileum",
         "contrast": "UC_Colon_vs_UC_Ileum",
-        "fdr_threshold": 1.5225e-15,
+        "fdr_threshold": 2.1091e-16,
         "database": "host/db/dge/UC_Colon_vs_UC_Ileum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Colon_vs_UC_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Colon vs UC Sigmoid",
         "contrast": "UC_Colon_vs_UC_Sigmoid",
         "fdr_threshold": 0.0393,
         "database": "host/db/dge/UC_Colon_vs_UC_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Colon_vs_UC_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Colon vs UC Transverse",
         "contrast": "UC_Colon_vs_UC_Transverse",
         "fdr_threshold": 0.0025,
         "database": "host/db/dge/UC_Colon_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Colon_vs_UC_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Ileum vs CD Cecum",
         "contrast": "UC_Ileum_vs_CD_Cecum",
         "fdr_threshold": 6.3477e-08,
         "database": "host/db/dge/UC_Ileum_vs_CD_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Ileum_vs_CD_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5131,
+        "full_rows": 68391
       },
       {
         "name": "UC Ileum vs CD Ileum No",
         "contrast": "UC_Ileum_vs_CD_Ileum_No",
         "fdr_threshold": 9.2229e-35,
         "database": "host/db/dge/UC_Ileum_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "UC Ileum vs CD Transverse",
-        "contrast": "UC_Ileum_vs_CD_Transverse",
-        "fdr_threshold": 0,
-        "database": "host/db/dge/UC_Ileum_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Ileum_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4995,
+        "full_rows": 68391
       },
       {
         "name": "UC Ileum vs Healthy Cecum",
         "contrast": "UC_Ileum_vs_Healthy_Cecum",
         "fdr_threshold": 1.0443e-06,
         "database": "host/db/dge/UC_Ileum_vs_Healthy_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Ileum_vs_Healthy_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Ileum vs Healthy Colon",
         "contrast": "UC_Ileum_vs_Healthy_Colon",
         "fdr_threshold": 2.7351e-23,
         "database": "host/db/dge/UC_Ileum_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Ileum_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Ileum vs Healthy Ileum No",
         "contrast": "UC_Ileum_vs_Healthy_Ileum_No",
         "fdr_threshold": 2.4155e-13,
         "database": "host/db/dge/UC_Ileum_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Ileum_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "UC Ileum vs Healthy Ileum",
         "contrast": "UC_Ileum_vs_Healthy_Ileum",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/UC_Ileum_vs_Healthy_Ileum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Ileum_vs_Healthy_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4612,
+        "full_rows": 68391
       },
       {
         "name": "UC Ileum vs Healthy Sigmoid",
         "contrast": "UC_Ileum_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/UC_Ileum_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Ileum_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4558,
+        "full_rows": 68391
       },
       {
         "name": "UC Ileum vs UC Cecum",
         "contrast": "UC_Ileum_vs_UC_Cecum",
         "fdr_threshold": 1.3482e-06,
         "database": "host/db/dge/UC_Ileum_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Ileum_vs_UC_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Ileum vs UC Ileum No",
         "contrast": "UC_Ileum_vs_UC_Ileum_No",
         "fdr_threshold": 1.5037e-17,
         "database": "host/db/dge/UC_Ileum_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Ileum_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "UC Ileum vs UC Sigmoid",
         "contrast": "UC_Ileum_vs_UC_Sigmoid",
         "fdr_threshold": 9.491e-09,
         "database": "host/db/dge/UC_Ileum_vs_UC_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Ileum_vs_UC_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
+      },
+      {
+        "name": "UC Ileum vs UC Transverse",
+        "contrast": "UC_Ileum_vs_UC_Transverse",
+        "fdr_threshold": 2.9221e-06,
+        "database": "host/db/dge/UC_Ileum_vs_UC_Transverse.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Ileum_vs_UC_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs CD Cecum",
         "contrast": "UC_Rectum_vs_CD_Cecum",
         "fdr_threshold": 0.0489,
         "database": "host/db/dge/UC_Rectum_vs_CD_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_CD_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
-        "name": "UC Rectum vs CD Ileum No",
-        "contrast": "UC_Rectum_vs_CD_Ileum_No",
-        "fdr_threshold": 3.9157e-39,
-        "database": "host/db/dge/UC_Rectum_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "name": "UC Rectum vs CD Colon",
+        "contrast": "UC_Rectum_vs_CD_Colon",
+        "fdr_threshold": 2.3556e-10,
+        "database": "host/db/dge/UC_Rectum_vs_CD_Colon.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_CD_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4465,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs CD Transverse",
         "contrast": "UC_Rectum_vs_CD_Transverse",
-        "fdr_threshold": 0.0844,
+        "fdr_threshold": 0.1,
         "database": "host/db/dge/UC_Rectum_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_CD_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4821,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs Healthy Cecum",
         "contrast": "UC_Rectum_vs_Healthy_Cecum",
         "fdr_threshold": 0.0014,
         "database": "host/db/dge/UC_Rectum_vs_Healthy_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_Healthy_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5037,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs Healthy Colon",
         "contrast": "UC_Rectum_vs_Healthy_Colon",
         "fdr_threshold": 3.6456e-20,
         "database": "host/db/dge/UC_Rectum_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs Healthy Ileum No",
         "contrast": "UC_Rectum_vs_Healthy_Ileum_No",
         "fdr_threshold": 1.509e-17,
         "database": "host/db/dge/UC_Rectum_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs Healthy Ileum",
         "contrast": "UC_Rectum_vs_Healthy_Ileum",
         "fdr_threshold": 6.1788e-13,
         "database": "host/db/dge/UC_Rectum_vs_Healthy_Ileum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_Healthy_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
+      },
+      {
+        "name": "UC Rectum vs Healthy Rectum",
+        "contrast": "UC_Rectum_vs_Healthy_Rectum",
+        "fdr_threshold": 0.0003,
+        "database": "host/db/dge/UC_Rectum_vs_Healthy_Rectum.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_Healthy_Rectum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5022,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs Healthy Sigmoid",
         "contrast": "UC_Rectum_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/UC_Rectum_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3537,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs UC Cecum",
         "contrast": "UC_Rectum_vs_UC_Cecum",
         "fdr_threshold": 0.0019,
         "database": "host/db/dge/UC_Rectum_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_UC_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs UC Colon",
         "contrast": "UC_Rectum_vs_UC_Colon",
-        "fdr_threshold": 0.0001,
+        "fdr_threshold": 0,
         "database": "host/db/dge/UC_Rectum_vs_UC_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_UC_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs UC Ileum No",
         "contrast": "UC_Rectum_vs_UC_Ileum_No",
         "fdr_threshold": 2.7896e-22,
         "database": "host/db/dge/UC_Rectum_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4997,
+        "full_rows": 68391
+      },
+      {
+        "name": "UC Rectum vs UC Ileum",
+        "contrast": "UC_Rectum_vs_UC_Ileum",
+        "fdr_threshold": 2.7372e-15,
+        "database": "host/db/dge/UC_Rectum_vs_UC_Ileum.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_UC_Ileum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5160,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs UC Sigmoid",
         "contrast": "UC_Rectum_vs_UC_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/UC_Rectum_vs_UC_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_UC_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4503,
+        "full_rows": 68391
       },
       {
         "name": "UC Rectum vs UC Transverse",
         "contrast": "UC_Rectum_vs_UC_Transverse",
-        "fdr_threshold": 0.0315,
+        "fdr_threshold": 0.0406,
         "database": "host/db/dge/UC_Rectum_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Rectum_vs_UC_Transverse.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Sigmoid vs CD Ileum No",
         "contrast": "UC_Sigmoid_vs_CD_Ileum_No",
         "fdr_threshold": 1.4489e-25,
         "database": "host/db/dge/UC_Sigmoid_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "UC Sigmoid vs CD Transverse",
-        "contrast": "UC_Sigmoid_vs_CD_Transverse",
-        "fdr_threshold": 0.0759,
-        "database": "host/db/dge/UC_Sigmoid_vs_CD_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Sigmoid_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4834,
+        "full_rows": 68391
       },
       {
         "name": "UC Sigmoid vs Healthy Cecum",
         "contrast": "UC_Sigmoid_vs_Healthy_Cecum",
         "fdr_threshold": 0.0015,
         "database": "host/db/dge/UC_Sigmoid_vs_Healthy_Cecum.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Sigmoid_vs_Healthy_Cecum.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4998,
+        "full_rows": 68391
+      },
+      {
+        "name": "UC Sigmoid vs Healthy Colon",
+        "contrast": "UC_Sigmoid_vs_Healthy_Colon",
+        "fdr_threshold": 4.7353e-12,
+        "database": "host/db/dge/UC_Sigmoid_vs_Healthy_Colon.sqlite.gz",
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Sigmoid_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Sigmoid vs Healthy Ileum No",
         "contrast": "UC_Sigmoid_vs_Healthy_Ileum_No",
         "fdr_threshold": 1.4085e-13,
         "database": "host/db/dge/UC_Sigmoid_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Sigmoid_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4911,
+        "full_rows": 68391
       },
       {
         "name": "UC Sigmoid vs Healthy Sigmoid",
         "contrast": "UC_Sigmoid_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/UC_Sigmoid_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "UC Sigmoid vs UC Cecum",
-        "contrast": "UC_Sigmoid_vs_UC_Cecum",
-        "fdr_threshold": 0.0026,
-        "database": "host/db/dge/UC_Sigmoid_vs_UC_Cecum.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "UC Sigmoid vs UC Ileum No",
-        "contrast": "UC_Sigmoid_vs_UC_Ileum_No",
-        "fdr_threshold": 8.3143e-17,
-        "database": "host/db/dge/UC_Sigmoid_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
-      },
-      {
-        "name": "UC Sigmoid vs UC Transverse",
-        "contrast": "UC_Sigmoid_vs_UC_Transverse",
-        "fdr_threshold": 0.0122,
-        "database": "host/db/dge/UC_Sigmoid_vs_UC_Transverse.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Sigmoid_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3659,
+        "full_rows": 68391
       },
       {
         "name": "UC Transverse vs CD Ileum No",
         "contrast": "UC_Transverse_vs_CD_Ileum_No",
         "fdr_threshold": 5.8558e-20,
         "database": "host/db/dge/UC_Transverse_vs_CD_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Transverse_vs_CD_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 5119,
+        "full_rows": 68391
       },
       {
         "name": "UC Transverse vs Healthy Colon",
         "contrast": "UC_Transverse_vs_Healthy_Colon",
         "fdr_threshold": 5.3992e-11,
         "database": "host/db/dge/UC_Transverse_vs_Healthy_Colon.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Transverse_vs_Healthy_Colon.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Transverse vs Healthy Ileum No",
         "contrast": "UC_Transverse_vs_Healthy_Ileum_No",
         "fdr_threshold": 1.0569e-12,
         "database": "host/db/dge/UC_Transverse_vs_Healthy_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Transverse_vs_Healthy_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "UC Transverse vs Healthy Sigmoid",
         "contrast": "UC_Transverse_vs_Healthy_Sigmoid",
         "fdr_threshold": 0.1,
         "database": "host/db/dge/UC_Transverse_vs_Healthy_Sigmoid.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Transverse_vs_Healthy_Sigmoid.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 3616,
+        "full_rows": 68391
       },
       {
         "name": "UC Transverse vs UC Ileum No",
         "contrast": "UC_Transverse_vs_UC_Ileum_No",
-        "fdr_threshold": 2.0698e-14,
+        "fdr_threshold": 7.0354e-15,
         "database": "host/db/dge/UC_Transverse_vs_UC_Ileum_No.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/UC_Transverse_vs_UC_Ileum_No.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 4999,
+        "full_rows": 68391
       },
       {
         "name": "condition lrt results",
         "contrast": "condition_lrt_results",
         "fdr_threshold": 1.0322e-94,
         "database": "host/db/dge/condition_lrt_results.sqlite.gz",
-        "db_table": "host_dge"
+        "db_table": "host_dge",
+        "plot_database": "host/db/dge_plot/condition_lrt_results.sqlite.gz",
+        "plot_db_table": "host_dge_plot",
+        "plot_rows": 6086,
+        "full_rows": 68391
       }
     ],
     "pathways": [
       {
         "name": "CD Cecum vs CD Ileum No",
         "contrast": "CD_Cecum_vs_CD_Ileum_No",
-        "fdr_threshold": 9.4152e-25,
+        "fdr_threshold": 7.3152e-25,
         "database": "host/db/pathways/CD_Cecum_vs_CD_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1303,7 +1984,7 @@
       {
         "name": "CD Colon vs CD Ileum No",
         "contrast": "CD_Colon_vs_CD_Ileum_No",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 4.3759e-33,
         "database": "host/db/pathways/CD_Colon_vs_CD_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1324,7 +2005,7 @@
       {
         "name": "CD Colon vs Healthy Colon",
         "contrast": "CD_Colon_vs_Healthy_Colon",
-        "fdr_threshold": 2.3032e-09,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/CD_Colon_vs_Healthy_Colon.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1380,14 +2061,14 @@
       {
         "name": "CD Colon vs UC Sigmoid",
         "contrast": "CD_Colon_vs_UC_Sigmoid",
-        "fdr_threshold": 9.8689e-06,
+        "fdr_threshold": 0.0001,
         "database": "host/db/pathways/CD_Colon_vs_UC_Sigmoid.sqlite.gz",
         "db_table": "host_pathways"
       },
       {
         "name": "CD Colon vs UC Transverse",
         "contrast": "CD_Colon_vs_UC_Transverse",
-        "fdr_threshold": 0.0002,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/CD_Colon_vs_UC_Transverse.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1415,7 +2096,7 @@
       {
         "name": "CD Ileum vs CD Colon",
         "contrast": "CD_Ileum_vs_CD_Colon",
-        "fdr_threshold": 2.5344e-20,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/CD_Ileum_vs_CD_Colon.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1506,7 +2187,7 @@
       {
         "name": "CD Ileum vs UC Ileum No",
         "contrast": "CD_Ileum_vs_UC_Ileum_No",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 9.9712e-19,
         "database": "host/db/pathways/CD_Ileum_vs_UC_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1534,7 +2215,7 @@
       {
         "name": "CD Rectum vs CD Cecum",
         "contrast": "CD_Rectum_vs_CD_Cecum",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 0.0608,
         "database": "host/db/pathways/CD_Rectum_vs_CD_Cecum.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1548,7 +2229,7 @@
       {
         "name": "CD Rectum vs CD Ileum No",
         "contrast": "CD_Rectum_vs_CD_Ileum_No",
-        "fdr_threshold": 7.9367e-45,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/CD_Rectum_vs_CD_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1583,7 +2264,7 @@
       {
         "name": "CD Rectum vs Healthy Ileum No",
         "contrast": "CD_Rectum_vs_Healthy_Ileum_No",
-        "fdr_threshold": 6.2007e-19,
+        "fdr_threshold": 2.7661e-19,
         "database": "host/db/pathways/CD_Rectum_vs_Healthy_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1611,14 +2292,14 @@
       {
         "name": "CD Rectum vs UC Ileum",
         "contrast": "CD_Rectum_vs_UC_Ileum",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 2.6363e-18,
         "database": "host/db/pathways/CD_Rectum_vs_UC_Ileum.sqlite.gz",
         "db_table": "host_pathways"
       },
       {
         "name": "CD Rectum vs UC Ileum No",
         "contrast": "CD_Rectum_vs_UC_Ileum_No",
-        "fdr_threshold": 9.92e-25,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/CD_Rectum_vs_UC_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1695,14 +2376,14 @@
       {
         "name": "CD Sigmoid vs Healthy Colon",
         "contrast": "CD_Sigmoid_vs_Healthy_Colon",
-        "fdr_threshold": 1.6264e-12,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/CD_Sigmoid_vs_Healthy_Colon.sqlite.gz",
         "db_table": "host_pathways"
       },
       {
         "name": "CD Sigmoid vs Healthy Ileum",
         "contrast": "CD_Sigmoid_vs_Healthy_Ileum",
-        "fdr_threshold": 1.1357e-06,
+        "fdr_threshold": 7.3728e-07,
         "database": "host/db/pathways/CD_Sigmoid_vs_Healthy_Ileum.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1751,7 +2432,7 @@
       {
         "name": "CD Sigmoid vs UC Ileum No",
         "contrast": "CD_Sigmoid_vs_UC_Ileum_No",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 5.8358e-16,
         "database": "host/db/pathways/CD_Sigmoid_vs_UC_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1821,7 +2502,7 @@
       {
         "name": "Healthy Cecum vs CD Ileum No",
         "contrast": "Healthy_Cecum_vs_CD_Ileum_No",
-        "fdr_threshold": 9.0638e-19,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/Healthy_Cecum_vs_CD_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1863,7 +2544,7 @@
       {
         "name": "Healthy Cecum vs UC Ileum No",
         "contrast": "Healthy_Cecum_vs_UC_Ileum_No",
-        "fdr_threshold": 1.047e-13,
+        "fdr_threshold": 1.3487e-14,
         "database": "host/db/pathways/Healthy_Cecum_vs_UC_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1877,7 +2558,7 @@
       {
         "name": "Healthy Colon vs Healthy Ileum No",
         "contrast": "Healthy_Colon_vs_Healthy_Ileum_No",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 6.6578e-10,
         "database": "host/db/pathways/Healthy_Colon_vs_Healthy_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -1940,7 +2621,7 @@
       {
         "name": "Healthy Ileum vs Healthy Ileum No",
         "contrast": "Healthy_Ileum_vs_Healthy_Ileum_No",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 5.2171e-11,
         "database": "host/db/pathways/Healthy_Ileum_vs_Healthy_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2010,7 +2691,7 @@
       {
         "name": "Healthy Rectum vs CD Ileum No",
         "contrast": "Healthy_Rectum_vs_CD_Ileum_No",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 1.0499e-44,
         "database": "host/db/pathways/Healthy_Rectum_vs_CD_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2073,21 +2754,21 @@
       {
         "name": "Healthy Rectum vs UC Ileum No",
         "contrast": "Healthy_Rectum_vs_UC_Ileum_No",
-        "fdr_threshold": 1.9852e-25,
+        "fdr_threshold": 2.2935e-25,
         "database": "host/db/pathways/Healthy_Rectum_vs_UC_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
       {
         "name": "Healthy Rectum vs UC Sigmoid",
         "contrast": "Healthy_Rectum_vs_UC_Sigmoid",
-        "fdr_threshold": 0.0001,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/Healthy_Rectum_vs_UC_Sigmoid.sqlite.gz",
         "db_table": "host_pathways"
       },
       {
         "name": "Healthy Rectum vs UC Transverse",
         "contrast": "Healthy_Rectum_vs_UC_Transverse",
-        "fdr_threshold": 0.0366,
+        "fdr_threshold": 0.0225,
         "database": "host/db/pathways/Healthy_Rectum_vs_UC_Transverse.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2157,7 +2838,7 @@
       {
         "name": "UC Cecum vs UC Ileum No",
         "contrast": "UC_Cecum_vs_UC_Ileum_No",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 3.0619e-15,
         "database": "host/db/pathways/UC_Cecum_vs_UC_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2192,7 +2873,7 @@
       {
         "name": "UC Colon vs Healthy Cecum",
         "contrast": "UC_Colon_vs_Healthy_Cecum",
-        "fdr_threshold": 0.0001,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/UC_Colon_vs_Healthy_Cecum.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2206,7 +2887,7 @@
       {
         "name": "UC Colon vs Healthy Ileum No",
         "contrast": "UC_Colon_vs_Healthy_Ileum_No",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 1.8839e-14,
         "database": "host/db/pathways/UC_Colon_vs_Healthy_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2227,14 +2908,14 @@
       {
         "name": "UC Colon vs UC Ileum",
         "contrast": "UC_Colon_vs_UC_Ileum",
-        "fdr_threshold": 1.5225e-15,
+        "fdr_threshold": 2.1091e-16,
         "database": "host/db/pathways/UC_Colon_vs_UC_Ileum.sqlite.gz",
         "db_table": "host_pathways"
       },
       {
         "name": "UC Colon vs UC Ileum No",
         "contrast": "UC_Colon_vs_UC_Ileum_No",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 4.5396e-19,
         "database": "host/db/pathways/UC_Colon_vs_UC_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2269,7 +2950,7 @@
       {
         "name": "UC Ileum vs CD Transverse",
         "contrast": "UC_Ileum_vs_CD_Transverse",
-        "fdr_threshold": 0,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/UC_Ileum_vs_CD_Transverse.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2332,7 +3013,7 @@
       {
         "name": "UC Ileum vs UC Transverse",
         "contrast": "UC_Ileum_vs_UC_Transverse",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 2.9221e-06,
         "database": "host/db/pathways/UC_Ileum_vs_UC_Transverse.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2346,21 +3027,21 @@
       {
         "name": "UC Rectum vs CD Colon",
         "contrast": "UC_Rectum_vs_CD_Colon",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 2.3556e-10,
         "database": "host/db/pathways/UC_Rectum_vs_CD_Colon.sqlite.gz",
         "db_table": "host_pathways"
       },
       {
         "name": "UC Rectum vs CD Ileum No",
         "contrast": "UC_Rectum_vs_CD_Ileum_No",
-        "fdr_threshold": 3.9157e-39,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/UC_Rectum_vs_CD_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
       {
         "name": "UC Rectum vs CD Transverse",
         "contrast": "UC_Rectum_vs_CD_Transverse",
-        "fdr_threshold": 0.0844,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/UC_Rectum_vs_CD_Transverse.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2395,7 +3076,7 @@
       {
         "name": "UC Rectum vs Healthy Rectum",
         "contrast": "UC_Rectum_vs_Healthy_Rectum",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 0.0003,
         "database": "host/db/pathways/UC_Rectum_vs_Healthy_Rectum.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2409,14 +3090,14 @@
       {
         "name": "UC Rectum vs UC Colon",
         "contrast": "UC_Rectum_vs_UC_Colon",
-        "fdr_threshold": 0.0001,
+        "fdr_threshold": 0,
         "database": "host/db/pathways/UC_Rectum_vs_UC_Colon.sqlite.gz",
         "db_table": "host_pathways"
       },
       {
         "name": "UC Rectum vs UC Ileum",
         "contrast": "UC_Rectum_vs_UC_Ileum",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 2.7372e-15,
         "database": "host/db/pathways/UC_Rectum_vs_UC_Ileum.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2437,7 +3118,7 @@
       {
         "name": "UC Rectum vs UC Transverse",
         "contrast": "UC_Rectum_vs_UC_Transverse",
-        "fdr_threshold": 0.0315,
+        "fdr_threshold": 0.0406,
         "database": "host/db/pathways/UC_Rectum_vs_UC_Transverse.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2451,7 +3132,7 @@
       {
         "name": "UC Sigmoid vs CD Transverse",
         "contrast": "UC_Sigmoid_vs_CD_Transverse",
-        "fdr_threshold": 0.0759,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/UC_Sigmoid_vs_CD_Transverse.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2465,7 +3146,7 @@
       {
         "name": "UC Sigmoid vs Healthy Colon",
         "contrast": "UC_Sigmoid_vs_Healthy_Colon",
-        "fdr_threshold": 0.1,
+        "fdr_threshold": 4.7353e-12,
         "database": "host/db/pathways/UC_Sigmoid_vs_Healthy_Colon.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2486,21 +3167,21 @@
       {
         "name": "UC Sigmoid vs UC Cecum",
         "contrast": "UC_Sigmoid_vs_UC_Cecum",
-        "fdr_threshold": 0.0026,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/UC_Sigmoid_vs_UC_Cecum.sqlite.gz",
         "db_table": "host_pathways"
       },
       {
         "name": "UC Sigmoid vs UC Ileum No",
         "contrast": "UC_Sigmoid_vs_UC_Ileum_No",
-        "fdr_threshold": 8.3143e-17,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/UC_Sigmoid_vs_UC_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       },
       {
         "name": "UC Sigmoid vs UC Transverse",
         "contrast": "UC_Sigmoid_vs_UC_Transverse",
-        "fdr_threshold": 0.0122,
+        "fdr_threshold": 0.1,
         "database": "host/db/pathways/UC_Sigmoid_vs_UC_Transverse.sqlite.gz",
         "db_table": "host_pathways"
       },
@@ -2528,7 +3209,7 @@
       {
         "name": "UC Transverse vs UC Ileum No",
         "contrast": "UC_Transverse_vs_UC_Ileum_No",
-        "fdr_threshold": 2.0698e-14,
+        "fdr_threshold": 7.0354e-15,
         "database": "host/db/pathways/UC_Transverse_vs_UC_Ileum_No.sqlite.gz",
         "db_table": "host_pathways"
       }
