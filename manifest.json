@@ -3218,12 +3218,13 @@
     "contrasts": "indices/host_contrasts.tsv",
     "expression": {
       "name": "Host expression",
-      "value_type": "svaseq_vst",
+      "value_type": "log2_normalized_counts",
       "gene_index": "host/db/expression_gene_index.tsv.gz",
       "sample_metadata": "host/db/expression_sample_metadata.tsv.gz",
       "shard_count": 32,
       "shard_pattern": "host/db/expression_shards/host_expression_shard_%02d.sqlite.gz",
-      "db_table": "expression_gene"
+      "db_table": "expression_gene",
+      "transform": "log2(normalized_counts + 1)"
     }
   }
 }
