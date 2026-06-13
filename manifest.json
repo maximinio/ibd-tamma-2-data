@@ -3215,7 +3215,6 @@
         "db_table": "host_pathways"
       }
     ],
-    "contrasts": "indices/host_contrasts.tsv",
-    "default_contrast": "CD_Ileum_vs_Healthy_Ileum"
+    "contrasts": "indices/host_contrasts.tsv"
   }
 }
