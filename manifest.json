@@ -6,7 +6,8 @@
   },
   "generated_at": "2026-06-13T11:44:13+0200",
   "metadata": {
-    "table": "metadata/metadata.tsv.gz"
+    "table": "metadata/metadata.tsv.gz",
+    "sankey": "metadata/metadata_sankey.json"
   },
   "host": {
     "umap": "host/umap/host_umap_coordinates.tsv.gz",
@@ -3214,6 +3215,7 @@
         "db_table": "host_pathways"
       }
     ],
-    "contrasts": "indices/host_contrasts.tsv"
+    "contrasts": "indices/host_contrasts.tsv",
+    "default_contrast": "CD_Ileum_vs_Healthy_Ileum"
   }
 }
