@@ -1,0 +1,11 @@
+logs/
+publish/
+assets/
+project.yaml
+webapp_rna_seq.shiny.log
+host/deseq2/
+host/expression/
+host/go_bp/
+host/opentargets/
+*.tmp
+*.bak

@@ -1,0 +1,1835 @@
+{
+  "schema_version": "0.1.0",
+  "project": {
+    "id": "ibd_tamma_2",
+    "title": "IBD TaMMA 2"
+  },
+  "generated_at": "2026-06-13T09:28:34+0200",
+  "metadata": {
+    "table": "metadata/metadata.tsv.gz"
+  },
+  "host": {
+    "umap": "host/umap/host_umap_coordinates.tsv.gz",
+    "umaps": [
+      {
+        "name": "Host UMAP",
+        "table": "host/umap/host_umap_coordinates.tsv.gz"
+      }
+    ],
+    "dge": [
+      {
+        "name": "CD Blood vs Healthy Blood",
+        "contrast": "CD_Blood_vs_Healthy_Blood",
+        "table": "host/dge/CD_Blood_vs_Healthy_Blood.results.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs CD Ileum No",
+        "contrast": "CD_Cecum_vs_CD_Ileum_No",
+        "table": "host/dge/CD_Cecum_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs CD Transverse",
+        "contrast": "CD_Cecum_vs_CD_Transverse",
+        "table": "host/dge/CD_Cecum_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs Healthy Cecum",
+        "contrast": "CD_Cecum_vs_Healthy_Cecum",
+        "table": "host/dge/CD_Cecum_vs_Healthy_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs Healthy Colon",
+        "contrast": "CD_Cecum_vs_Healthy_Colon",
+        "table": "host/dge/CD_Cecum_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs Healthy Ileum No",
+        "contrast": "CD_Cecum_vs_Healthy_Ileum_No",
+        "table": "host/dge/CD_Cecum_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs UC Cecum",
+        "contrast": "CD_Cecum_vs_UC_Cecum",
+        "table": "host/dge/CD_Cecum_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs UC Ileum No",
+        "contrast": "CD_Cecum_vs_UC_Ileum_No",
+        "table": "host/dge/CD_Cecum_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs UC Sigmoid",
+        "contrast": "CD_Cecum_vs_UC_Sigmoid",
+        "table": "host/dge/CD_Cecum_vs_UC_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs UC Transverse",
+        "contrast": "CD_Cecum_vs_UC_Transverse",
+        "table": "host/dge/CD_Cecum_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs CD Cecum",
+        "contrast": "CD_Colon_vs_CD_Cecum",
+        "table": "host/dge/CD_Colon_vs_CD_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs CD Ileum No",
+        "contrast": "CD_Colon_vs_CD_Ileum_No",
+        "table": "host/dge/CD_Colon_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs CD Transverse",
+        "contrast": "CD_Colon_vs_CD_Transverse",
+        "table": "host/dge/CD_Colon_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs Healthy Cecum",
+        "contrast": "CD_Colon_vs_Healthy_Cecum",
+        "table": "host/dge/CD_Colon_vs_Healthy_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs Healthy Colon",
+        "contrast": "CD_Colon_vs_Healthy_Colon",
+        "table": "host/dge/CD_Colon_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs Healthy Rectum",
+        "contrast": "CD_Colon_vs_Healthy_Rectum",
+        "table": "host/dge/CD_Colon_vs_Healthy_Rectum.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs Healthy Sigmoid",
+        "contrast": "CD_Colon_vs_Healthy_Sigmoid",
+        "table": "host/dge/CD_Colon_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Cecum",
+        "contrast": "CD_Colon_vs_UC_Cecum",
+        "table": "host/dge/CD_Colon_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Colon",
+        "contrast": "CD_Colon_vs_UC_Colon",
+        "table": "host/dge/CD_Colon_vs_UC_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Ileum No",
+        "contrast": "CD_Colon_vs_UC_Ileum_No",
+        "table": "host/dge/CD_Colon_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Ileum",
+        "contrast": "CD_Colon_vs_UC_Ileum",
+        "table": "host/dge/CD_Colon_vs_UC_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Sigmoid",
+        "contrast": "CD_Colon_vs_UC_Sigmoid",
+        "table": "host/dge/CD_Colon_vs_UC_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Transverse",
+        "contrast": "CD_Colon_vs_UC_Transverse",
+        "table": "host/dge/CD_Colon_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum No vs Healthy Ileum No",
+        "contrast": "CD_Ileum_No_vs_Healthy_Ileum_No",
+        "table": "host/dge/CD_Ileum_No_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum No vs UC Ileum No",
+        "contrast": "CD_Ileum_No_vs_UC_Ileum_No",
+        "table": "host/dge/CD_Ileum_No_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs CD Cecum",
+        "contrast": "CD_Ileum_vs_CD_Cecum",
+        "table": "host/dge/CD_Ileum_vs_CD_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs CD Colon",
+        "contrast": "CD_Ileum_vs_CD_Colon",
+        "table": "host/dge/CD_Ileum_vs_CD_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs CD Ileum No",
+        "contrast": "CD_Ileum_vs_CD_Ileum_No",
+        "table": "host/dge/CD_Ileum_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs CD Rectum",
+        "contrast": "CD_Ileum_vs_CD_Rectum",
+        "table": "host/dge/CD_Ileum_vs_CD_Rectum.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs CD Transverse",
+        "contrast": "CD_Ileum_vs_CD_Transverse",
+        "table": "host/dge/CD_Ileum_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Cecum",
+        "contrast": "CD_Ileum_vs_Healthy_Cecum",
+        "table": "host/dge/CD_Ileum_vs_Healthy_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Colon",
+        "contrast": "CD_Ileum_vs_Healthy_Colon",
+        "table": "host/dge/CD_Ileum_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Ileum No",
+        "contrast": "CD_Ileum_vs_Healthy_Ileum_No",
+        "table": "host/dge/CD_Ileum_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Ileum",
+        "contrast": "CD_Ileum_vs_Healthy_Ileum",
+        "table": "host/dge/CD_Ileum_vs_Healthy_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Rectum",
+        "contrast": "CD_Ileum_vs_Healthy_Rectum",
+        "table": "host/dge/CD_Ileum_vs_Healthy_Rectum.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Sigmoid",
+        "contrast": "CD_Ileum_vs_Healthy_Sigmoid",
+        "table": "host/dge/CD_Ileum_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Cecum",
+        "contrast": "CD_Ileum_vs_UC_Cecum",
+        "table": "host/dge/CD_Ileum_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Colon",
+        "contrast": "CD_Ileum_vs_UC_Colon",
+        "table": "host/dge/CD_Ileum_vs_UC_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Ileum No",
+        "contrast": "CD_Ileum_vs_UC_Ileum_No",
+        "table": "host/dge/CD_Ileum_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Ileum",
+        "contrast": "CD_Ileum_vs_UC_Ileum",
+        "table": "host/dge/CD_Ileum_vs_UC_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Rectum",
+        "contrast": "CD_Ileum_vs_UC_Rectum",
+        "table": "host/dge/CD_Ileum_vs_UC_Rectum.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Sigmoid",
+        "contrast": "CD_Ileum_vs_UC_Sigmoid",
+        "table": "host/dge/CD_Ileum_vs_UC_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Transverse",
+        "contrast": "CD_Ileum_vs_UC_Transverse",
+        "table": "host/dge/CD_Ileum_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs CD Colon",
+        "contrast": "CD_Rectum_vs_CD_Colon",
+        "table": "host/dge/CD_Rectum_vs_CD_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs CD Ileum No",
+        "contrast": "CD_Rectum_vs_CD_Ileum_No",
+        "table": "host/dge/CD_Rectum_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs CD Transverse",
+        "contrast": "CD_Rectum_vs_CD_Transverse",
+        "table": "host/dge/CD_Rectum_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs Healthy Cecum",
+        "contrast": "CD_Rectum_vs_Healthy_Cecum",
+        "table": "host/dge/CD_Rectum_vs_Healthy_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs Healthy Colon",
+        "contrast": "CD_Rectum_vs_Healthy_Colon",
+        "table": "host/dge/CD_Rectum_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs Healthy Ileum No",
+        "contrast": "CD_Rectum_vs_Healthy_Ileum_No",
+        "table": "host/dge/CD_Rectum_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs Healthy Ileum",
+        "contrast": "CD_Rectum_vs_Healthy_Ileum",
+        "table": "host/dge/CD_Rectum_vs_Healthy_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs Healthy Rectum",
+        "contrast": "CD_Rectum_vs_Healthy_Rectum",
+        "table": "host/dge/CD_Rectum_vs_Healthy_Rectum.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs Healthy Sigmoid",
+        "contrast": "CD_Rectum_vs_Healthy_Sigmoid",
+        "table": "host/dge/CD_Rectum_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Cecum",
+        "contrast": "CD_Rectum_vs_UC_Cecum",
+        "table": "host/dge/CD_Rectum_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Colon",
+        "contrast": "CD_Rectum_vs_UC_Colon",
+        "table": "host/dge/CD_Rectum_vs_UC_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Ileum No",
+        "contrast": "CD_Rectum_vs_UC_Ileum_No",
+        "table": "host/dge/CD_Rectum_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Ileum",
+        "contrast": "CD_Rectum_vs_UC_Ileum",
+        "table": "host/dge/CD_Rectum_vs_UC_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Rectum",
+        "contrast": "CD_Rectum_vs_UC_Rectum",
+        "table": "host/dge/CD_Rectum_vs_UC_Rectum.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Sigmoid",
+        "contrast": "CD_Rectum_vs_UC_Sigmoid",
+        "table": "host/dge/CD_Rectum_vs_UC_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Transverse",
+        "contrast": "CD_Rectum_vs_UC_Transverse",
+        "table": "host/dge/CD_Rectum_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs CD Cecum",
+        "contrast": "CD_Sigmoid_vs_CD_Cecum",
+        "table": "host/dge/CD_Sigmoid_vs_CD_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs CD Colon",
+        "contrast": "CD_Sigmoid_vs_CD_Colon",
+        "table": "host/dge/CD_Sigmoid_vs_CD_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs CD Ileum",
+        "contrast": "CD_Sigmoid_vs_CD_Ileum",
+        "table": "host/dge/CD_Sigmoid_vs_CD_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs CD Rectum",
+        "contrast": "CD_Sigmoid_vs_CD_Rectum",
+        "table": "host/dge/CD_Sigmoid_vs_CD_Rectum.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs CD Transverse",
+        "contrast": "CD_Sigmoid_vs_CD_Transverse",
+        "table": "host/dge/CD_Sigmoid_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs Healthy Cecum",
+        "contrast": "CD_Sigmoid_vs_Healthy_Cecum",
+        "table": "host/dge/CD_Sigmoid_vs_Healthy_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs Healthy Colon",
+        "contrast": "CD_Sigmoid_vs_Healthy_Colon",
+        "table": "host/dge/CD_Sigmoid_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs Healthy Rectum",
+        "contrast": "CD_Sigmoid_vs_Healthy_Rectum",
+        "table": "host/dge/CD_Sigmoid_vs_Healthy_Rectum.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs Healthy Sigmoid",
+        "contrast": "CD_Sigmoid_vs_Healthy_Sigmoid",
+        "table": "host/dge/CD_Sigmoid_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Cecum",
+        "contrast": "CD_Sigmoid_vs_UC_Cecum",
+        "table": "host/dge/CD_Sigmoid_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Colon",
+        "contrast": "CD_Sigmoid_vs_UC_Colon",
+        "table": "host/dge/CD_Sigmoid_vs_UC_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Ileum No",
+        "contrast": "CD_Sigmoid_vs_UC_Ileum_No",
+        "table": "host/dge/CD_Sigmoid_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Ileum",
+        "contrast": "CD_Sigmoid_vs_UC_Ileum",
+        "table": "host/dge/CD_Sigmoid_vs_UC_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Rectum",
+        "contrast": "CD_Sigmoid_vs_UC_Rectum",
+        "table": "host/dge/CD_Sigmoid_vs_UC_Rectum.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Sigmoid",
+        "contrast": "CD_Sigmoid_vs_UC_Sigmoid",
+        "table": "host/dge/CD_Sigmoid_vs_UC_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Transverse",
+        "contrast": "CD_Sigmoid_vs_UC_Transverse",
+        "table": "host/dge/CD_Sigmoid_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "CD Stool Associated vs Healthy Stool Associated",
+        "contrast": "CD_Stool_Associated_vs_Healthy_Stool_Associated",
+        "table": "host/dge/CD_Stool_Associated_vs_Healthy_Stool_Associated.results.tsv.gz"
+      },
+      {
+        "name": "CD Transverse vs CD Ileum No",
+        "contrast": "CD_Transverse_vs_CD_Ileum_No",
+        "table": "host/dge/CD_Transverse_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Transverse vs Healthy Colon",
+        "contrast": "CD_Transverse_vs_Healthy_Colon",
+        "table": "host/dge/CD_Transverse_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "CD Transverse vs Healthy Ileum No",
+        "contrast": "CD_Transverse_vs_Healthy_Ileum_No",
+        "table": "host/dge/CD_Transverse_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Transverse vs UC Ileum No",
+        "contrast": "CD_Transverse_vs_UC_Ileum_No",
+        "table": "host/dge/CD_Transverse_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "CD Transverse vs UC Transverse",
+        "contrast": "CD_Transverse_vs_UC_Transverse",
+        "table": "host/dge/CD_Transverse_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs CD Ileum No",
+        "contrast": "Healthy_Cecum_vs_CD_Ileum_No",
+        "table": "host/dge/Healthy_Cecum_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs CD Transverse",
+        "contrast": "Healthy_Cecum_vs_CD_Transverse",
+        "table": "host/dge/Healthy_Cecum_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs Healthy Ileum No",
+        "contrast": "Healthy_Cecum_vs_Healthy_Ileum_No",
+        "table": "host/dge/Healthy_Cecum_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs UC Cecum",
+        "contrast": "Healthy_Cecum_vs_UC_Cecum",
+        "table": "host/dge/Healthy_Cecum_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs UC Transverse",
+        "contrast": "Healthy_Cecum_vs_UC_Transverse",
+        "table": "host/dge/Healthy_Cecum_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Colon vs CD Ileum No",
+        "contrast": "Healthy_Colon_vs_CD_Ileum_No",
+        "table": "host/dge/Healthy_Colon_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Colon vs Healthy Ileum No",
+        "contrast": "Healthy_Colon_vs_Healthy_Ileum_No",
+        "table": "host/dge/Healthy_Colon_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Colon vs Healthy Sigmoid",
+        "contrast": "Healthy_Colon_vs_Healthy_Sigmoid",
+        "table": "host/dge/Healthy_Colon_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Colon vs UC Ileum No",
+        "contrast": "Healthy_Colon_vs_UC_Ileum_No",
+        "table": "host/dge/Healthy_Colon_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum No vs UC Ileum No",
+        "contrast": "Healthy_Ileum_No_vs_UC_Ileum_No",
+        "table": "host/dge/Healthy_Ileum_No_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs CD Cecum",
+        "contrast": "Healthy_Ileum_vs_CD_Cecum",
+        "table": "host/dge/Healthy_Ileum_vs_CD_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs CD Colon",
+        "contrast": "Healthy_Ileum_vs_CD_Colon",
+        "table": "host/dge/Healthy_Ileum_vs_CD_Colon.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs CD Ileum No",
+        "contrast": "Healthy_Ileum_vs_CD_Ileum_No",
+        "table": "host/dge/Healthy_Ileum_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs CD Transverse",
+        "contrast": "Healthy_Ileum_vs_CD_Transverse",
+        "table": "host/dge/Healthy_Ileum_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs Healthy Cecum",
+        "contrast": "Healthy_Ileum_vs_Healthy_Cecum",
+        "table": "host/dge/Healthy_Ileum_vs_Healthy_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs Healthy Colon",
+        "contrast": "Healthy_Ileum_vs_Healthy_Colon",
+        "table": "host/dge/Healthy_Ileum_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs Healthy Ileum No",
+        "contrast": "Healthy_Ileum_vs_Healthy_Ileum_No",
+        "table": "host/dge/Healthy_Ileum_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs Healthy Rectum",
+        "contrast": "Healthy_Ileum_vs_Healthy_Rectum",
+        "table": "host/dge/Healthy_Ileum_vs_Healthy_Rectum.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs Healthy Sigmoid",
+        "contrast": "Healthy_Ileum_vs_Healthy_Sigmoid",
+        "table": "host/dge/Healthy_Ileum_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Cecum",
+        "contrast": "Healthy_Ileum_vs_UC_Cecum",
+        "table": "host/dge/Healthy_Ileum_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Colon",
+        "contrast": "Healthy_Ileum_vs_UC_Colon",
+        "table": "host/dge/Healthy_Ileum_vs_UC_Colon.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Ileum No",
+        "contrast": "Healthy_Ileum_vs_UC_Ileum_No",
+        "table": "host/dge/Healthy_Ileum_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Ileum",
+        "contrast": "Healthy_Ileum_vs_UC_Ileum",
+        "table": "host/dge/Healthy_Ileum_vs_UC_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Sigmoid",
+        "contrast": "Healthy_Ileum_vs_UC_Sigmoid",
+        "table": "host/dge/Healthy_Ileum_vs_UC_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Transverse",
+        "contrast": "Healthy_Ileum_vs_UC_Transverse",
+        "table": "host/dge/Healthy_Ileum_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs CD Ileum No",
+        "contrast": "Healthy_Rectum_vs_CD_Ileum_No",
+        "table": "host/dge/Healthy_Rectum_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs CD Transverse",
+        "contrast": "Healthy_Rectum_vs_CD_Transverse",
+        "table": "host/dge/Healthy_Rectum_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs Healthy Cecum",
+        "contrast": "Healthy_Rectum_vs_Healthy_Cecum",
+        "table": "host/dge/Healthy_Rectum_vs_Healthy_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs Healthy Colon",
+        "contrast": "Healthy_Rectum_vs_Healthy_Colon",
+        "table": "host/dge/Healthy_Rectum_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs Healthy Sigmoid",
+        "contrast": "Healthy_Rectum_vs_Healthy_Sigmoid",
+        "table": "host/dge/Healthy_Rectum_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs UC Cecum",
+        "contrast": "Healthy_Rectum_vs_UC_Cecum",
+        "table": "host/dge/Healthy_Rectum_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs UC Colon",
+        "contrast": "Healthy_Rectum_vs_UC_Colon",
+        "table": "host/dge/Healthy_Rectum_vs_UC_Colon.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs UC Ileum",
+        "contrast": "Healthy_Rectum_vs_UC_Ileum",
+        "table": "host/dge/Healthy_Rectum_vs_UC_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs UC Sigmoid",
+        "contrast": "Healthy_Rectum_vs_UC_Sigmoid",
+        "table": "host/dge/Healthy_Rectum_vs_UC_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs UC Transverse",
+        "contrast": "Healthy_Rectum_vs_UC_Transverse",
+        "table": "host/dge/Healthy_Rectum_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Sigmoid vs CD Ileum No",
+        "contrast": "Healthy_Sigmoid_vs_CD_Ileum_No",
+        "table": "host/dge/Healthy_Sigmoid_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Sigmoid vs Healthy Ileum No",
+        "contrast": "Healthy_Sigmoid_vs_Healthy_Ileum_No",
+        "table": "host/dge/Healthy_Sigmoid_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "Healthy Sigmoid vs UC Ileum No",
+        "contrast": "Healthy_Sigmoid_vs_UC_Ileum_No",
+        "table": "host/dge/Healthy_Sigmoid_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Blood vs Healthy Blood",
+        "contrast": "UC_Blood_vs_Healthy_Blood",
+        "table": "host/dge/UC_Blood_vs_Healthy_Blood.results.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs CD Ileum No",
+        "contrast": "UC_Cecum_vs_CD_Ileum_No",
+        "table": "host/dge/UC_Cecum_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs CD Transverse",
+        "contrast": "UC_Cecum_vs_CD_Transverse",
+        "table": "host/dge/UC_Cecum_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs Healthy Ileum No",
+        "contrast": "UC_Cecum_vs_Healthy_Ileum_No",
+        "table": "host/dge/UC_Cecum_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs Healthy Sigmoid",
+        "contrast": "UC_Cecum_vs_Healthy_Sigmoid",
+        "table": "host/dge/UC_Cecum_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs UC Ileum No",
+        "contrast": "UC_Cecum_vs_UC_Ileum_No",
+        "table": "host/dge/UC_Cecum_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs CD Cecum",
+        "contrast": "UC_Colon_vs_CD_Cecum",
+        "table": "host/dge/UC_Colon_vs_CD_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs CD Ileum No",
+        "contrast": "UC_Colon_vs_CD_Ileum_No",
+        "table": "host/dge/UC_Colon_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs CD Transverse",
+        "contrast": "UC_Colon_vs_CD_Transverse",
+        "table": "host/dge/UC_Colon_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs Healthy Cecum",
+        "contrast": "UC_Colon_vs_Healthy_Cecum",
+        "table": "host/dge/UC_Colon_vs_Healthy_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs Healthy Colon",
+        "contrast": "UC_Colon_vs_Healthy_Colon",
+        "table": "host/dge/UC_Colon_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs Healthy Ileum No",
+        "contrast": "UC_Colon_vs_Healthy_Ileum_No",
+        "table": "host/dge/UC_Colon_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs Healthy Sigmoid",
+        "contrast": "UC_Colon_vs_Healthy_Sigmoid",
+        "table": "host/dge/UC_Colon_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs UC Cecum",
+        "contrast": "UC_Colon_vs_UC_Cecum",
+        "table": "host/dge/UC_Colon_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs UC Ileum No",
+        "contrast": "UC_Colon_vs_UC_Ileum_No",
+        "table": "host/dge/UC_Colon_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs UC Ileum",
+        "contrast": "UC_Colon_vs_UC_Ileum",
+        "table": "host/dge/UC_Colon_vs_UC_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs UC Sigmoid",
+        "contrast": "UC_Colon_vs_UC_Sigmoid",
+        "table": "host/dge/UC_Colon_vs_UC_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs UC Transverse",
+        "contrast": "UC_Colon_vs_UC_Transverse",
+        "table": "host/dge/UC_Colon_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs CD Cecum",
+        "contrast": "UC_Ileum_vs_CD_Cecum",
+        "table": "host/dge/UC_Ileum_vs_CD_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs CD Ileum No",
+        "contrast": "UC_Ileum_vs_CD_Ileum_No",
+        "table": "host/dge/UC_Ileum_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs CD Transverse",
+        "contrast": "UC_Ileum_vs_CD_Transverse",
+        "table": "host/dge/UC_Ileum_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs Healthy Cecum",
+        "contrast": "UC_Ileum_vs_Healthy_Cecum",
+        "table": "host/dge/UC_Ileum_vs_Healthy_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs Healthy Colon",
+        "contrast": "UC_Ileum_vs_Healthy_Colon",
+        "table": "host/dge/UC_Ileum_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs Healthy Ileum No",
+        "contrast": "UC_Ileum_vs_Healthy_Ileum_No",
+        "table": "host/dge/UC_Ileum_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs Healthy Ileum",
+        "contrast": "UC_Ileum_vs_Healthy_Ileum",
+        "table": "host/dge/UC_Ileum_vs_Healthy_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs Healthy Sigmoid",
+        "contrast": "UC_Ileum_vs_Healthy_Sigmoid",
+        "table": "host/dge/UC_Ileum_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs UC Cecum",
+        "contrast": "UC_Ileum_vs_UC_Cecum",
+        "table": "host/dge/UC_Ileum_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs UC Ileum No",
+        "contrast": "UC_Ileum_vs_UC_Ileum_No",
+        "table": "host/dge/UC_Ileum_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs UC Sigmoid",
+        "contrast": "UC_Ileum_vs_UC_Sigmoid",
+        "table": "host/dge/UC_Ileum_vs_UC_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs UC Transverse",
+        "contrast": "UC_Ileum_vs_UC_Transverse",
+        "table": "host/dge/UC_Ileum_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs CD Cecum",
+        "contrast": "UC_Rectum_vs_CD_Cecum",
+        "table": "host/dge/UC_Rectum_vs_CD_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs CD Colon",
+        "contrast": "UC_Rectum_vs_CD_Colon",
+        "table": "host/dge/UC_Rectum_vs_CD_Colon.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs CD Ileum No",
+        "contrast": "UC_Rectum_vs_CD_Ileum_No",
+        "table": "host/dge/UC_Rectum_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs Healthy Colon",
+        "contrast": "UC_Rectum_vs_Healthy_Colon",
+        "table": "host/dge/UC_Rectum_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs Healthy Ileum No",
+        "contrast": "UC_Rectum_vs_Healthy_Ileum_No",
+        "table": "host/dge/UC_Rectum_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs Healthy Ileum",
+        "contrast": "UC_Rectum_vs_Healthy_Ileum",
+        "table": "host/dge/UC_Rectum_vs_Healthy_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs Healthy Rectum",
+        "contrast": "UC_Rectum_vs_Healthy_Rectum",
+        "table": "host/dge/UC_Rectum_vs_Healthy_Rectum.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs Healthy Sigmoid",
+        "contrast": "UC_Rectum_vs_Healthy_Sigmoid",
+        "table": "host/dge/UC_Rectum_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs UC Cecum",
+        "contrast": "UC_Rectum_vs_UC_Cecum",
+        "table": "host/dge/UC_Rectum_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs UC Ileum No",
+        "contrast": "UC_Rectum_vs_UC_Ileum_No",
+        "table": "host/dge/UC_Rectum_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs UC Ileum",
+        "contrast": "UC_Rectum_vs_UC_Ileum",
+        "table": "host/dge/UC_Rectum_vs_UC_Ileum.results.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs UC Sigmoid",
+        "contrast": "UC_Rectum_vs_UC_Sigmoid",
+        "table": "host/dge/UC_Rectum_vs_UC_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs CD Transverse",
+        "contrast": "UC_Sigmoid_vs_CD_Transverse",
+        "table": "host/dge/UC_Sigmoid_vs_CD_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs Healthy Cecum",
+        "contrast": "UC_Sigmoid_vs_Healthy_Cecum",
+        "table": "host/dge/UC_Sigmoid_vs_Healthy_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs Healthy Colon",
+        "contrast": "UC_Sigmoid_vs_Healthy_Colon",
+        "table": "host/dge/UC_Sigmoid_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs Healthy Ileum No",
+        "contrast": "UC_Sigmoid_vs_Healthy_Ileum_No",
+        "table": "host/dge/UC_Sigmoid_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs Healthy Sigmoid",
+        "contrast": "UC_Sigmoid_vs_Healthy_Sigmoid",
+        "table": "host/dge/UC_Sigmoid_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs UC Cecum",
+        "contrast": "UC_Sigmoid_vs_UC_Cecum",
+        "table": "host/dge/UC_Sigmoid_vs_UC_Cecum.results.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs UC Ileum No",
+        "contrast": "UC_Sigmoid_vs_UC_Ileum_No",
+        "table": "host/dge/UC_Sigmoid_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs UC Transverse",
+        "contrast": "UC_Sigmoid_vs_UC_Transverse",
+        "table": "host/dge/UC_Sigmoid_vs_UC_Transverse.results.tsv.gz"
+      },
+      {
+        "name": "UC Stool Associated vs Healthy Stool Associated",
+        "contrast": "UC_Stool_Associated_vs_Healthy_Stool_Associated",
+        "table": "host/dge/UC_Stool_Associated_vs_Healthy_Stool_Associated.results.tsv.gz"
+      },
+      {
+        "name": "UC Transverse vs CD Ileum No",
+        "contrast": "UC_Transverse_vs_CD_Ileum_No",
+        "table": "host/dge/UC_Transverse_vs_CD_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Transverse vs Healthy Colon",
+        "contrast": "UC_Transverse_vs_Healthy_Colon",
+        "table": "host/dge/UC_Transverse_vs_Healthy_Colon.results.tsv.gz"
+      },
+      {
+        "name": "UC Transverse vs Healthy Ileum No",
+        "contrast": "UC_Transverse_vs_Healthy_Ileum_No",
+        "table": "host/dge/UC_Transverse_vs_Healthy_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "UC Transverse vs Healthy Sigmoid",
+        "contrast": "UC_Transverse_vs_Healthy_Sigmoid",
+        "table": "host/dge/UC_Transverse_vs_Healthy_Sigmoid.results.tsv.gz"
+      },
+      {
+        "name": "UC Transverse vs UC Ileum No",
+        "contrast": "UC_Transverse_vs_UC_Ileum_No",
+        "table": "host/dge/UC_Transverse_vs_UC_Ileum_No.results.tsv.gz"
+      },
+      {
+        "name": "condition lrt results",
+        "contrast": "condition_lrt_results",
+        "table": "host/dge/condition_lrt_results.results.tsv.gz"
+      }
+    ],
+    "pathways": [
+      {
+        "name": "CD Cecum vs CD Ileum No",
+        "contrast": "CD_Cecum_vs_CD_Ileum_No",
+        "table": "host/pathways/CD_Cecum_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs Healthy Cecum",
+        "contrast": "CD_Cecum_vs_Healthy_Cecum",
+        "table": "host/pathways/CD_Cecum_vs_Healthy_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs Healthy Colon",
+        "contrast": "CD_Cecum_vs_Healthy_Colon",
+        "table": "host/pathways/CD_Cecum_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs Healthy Ileum No",
+        "contrast": "CD_Cecum_vs_Healthy_Ileum_No",
+        "table": "host/pathways/CD_Cecum_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs Healthy Sigmoid",
+        "contrast": "CD_Cecum_vs_Healthy_Sigmoid",
+        "table": "host/pathways/CD_Cecum_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs UC Cecum",
+        "contrast": "CD_Cecum_vs_UC_Cecum",
+        "table": "host/pathways/CD_Cecum_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs UC Ileum No",
+        "contrast": "CD_Cecum_vs_UC_Ileum_No",
+        "table": "host/pathways/CD_Cecum_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs UC Sigmoid",
+        "contrast": "CD_Cecum_vs_UC_Sigmoid",
+        "table": "host/pathways/CD_Cecum_vs_UC_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Cecum vs UC Transverse",
+        "contrast": "CD_Cecum_vs_UC_Transverse",
+        "table": "host/pathways/CD_Cecum_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs CD Cecum",
+        "contrast": "CD_Colon_vs_CD_Cecum",
+        "table": "host/pathways/CD_Colon_vs_CD_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs CD Ileum No",
+        "contrast": "CD_Colon_vs_CD_Ileum_No",
+        "table": "host/pathways/CD_Colon_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs CD Transverse",
+        "contrast": "CD_Colon_vs_CD_Transverse",
+        "table": "host/pathways/CD_Colon_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs Healthy Cecum",
+        "contrast": "CD_Colon_vs_Healthy_Cecum",
+        "table": "host/pathways/CD_Colon_vs_Healthy_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs Healthy Colon",
+        "contrast": "CD_Colon_vs_Healthy_Colon",
+        "table": "host/pathways/CD_Colon_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs Healthy Ileum No",
+        "contrast": "CD_Colon_vs_Healthy_Ileum_No",
+        "table": "host/pathways/CD_Colon_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs Healthy Rectum",
+        "contrast": "CD_Colon_vs_Healthy_Rectum",
+        "table": "host/pathways/CD_Colon_vs_Healthy_Rectum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs Healthy Sigmoid",
+        "contrast": "CD_Colon_vs_Healthy_Sigmoid",
+        "table": "host/pathways/CD_Colon_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Cecum",
+        "contrast": "CD_Colon_vs_UC_Cecum",
+        "table": "host/pathways/CD_Colon_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Colon",
+        "contrast": "CD_Colon_vs_UC_Colon",
+        "table": "host/pathways/CD_Colon_vs_UC_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Ileum",
+        "contrast": "CD_Colon_vs_UC_Ileum",
+        "table": "host/pathways/CD_Colon_vs_UC_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Ileum No",
+        "contrast": "CD_Colon_vs_UC_Ileum_No",
+        "table": "host/pathways/CD_Colon_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Sigmoid",
+        "contrast": "CD_Colon_vs_UC_Sigmoid",
+        "table": "host/pathways/CD_Colon_vs_UC_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Colon vs UC Transverse",
+        "contrast": "CD_Colon_vs_UC_Transverse",
+        "table": "host/pathways/CD_Colon_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum No vs Healthy Ileum No",
+        "contrast": "CD_Ileum_No_vs_Healthy_Ileum_No",
+        "table": "host/pathways/CD_Ileum_No_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum No vs UC Ileum No",
+        "contrast": "CD_Ileum_No_vs_UC_Ileum_No",
+        "table": "host/pathways/CD_Ileum_No_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs CD Cecum",
+        "contrast": "CD_Ileum_vs_CD_Cecum",
+        "table": "host/pathways/CD_Ileum_vs_CD_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs CD Colon",
+        "contrast": "CD_Ileum_vs_CD_Colon",
+        "table": "host/pathways/CD_Ileum_vs_CD_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs CD Ileum No",
+        "contrast": "CD_Ileum_vs_CD_Ileum_No",
+        "table": "host/pathways/CD_Ileum_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs CD Rectum",
+        "contrast": "CD_Ileum_vs_CD_Rectum",
+        "table": "host/pathways/CD_Ileum_vs_CD_Rectum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs CD Transverse",
+        "contrast": "CD_Ileum_vs_CD_Transverse",
+        "table": "host/pathways/CD_Ileum_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Cecum",
+        "contrast": "CD_Ileum_vs_Healthy_Cecum",
+        "table": "host/pathways/CD_Ileum_vs_Healthy_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Colon",
+        "contrast": "CD_Ileum_vs_Healthy_Colon",
+        "table": "host/pathways/CD_Ileum_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Ileum",
+        "contrast": "CD_Ileum_vs_Healthy_Ileum",
+        "table": "host/pathways/CD_Ileum_vs_Healthy_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Ileum No",
+        "contrast": "CD_Ileum_vs_Healthy_Ileum_No",
+        "table": "host/pathways/CD_Ileum_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Rectum",
+        "contrast": "CD_Ileum_vs_Healthy_Rectum",
+        "table": "host/pathways/CD_Ileum_vs_Healthy_Rectum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs Healthy Sigmoid",
+        "contrast": "CD_Ileum_vs_Healthy_Sigmoid",
+        "table": "host/pathways/CD_Ileum_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Cecum",
+        "contrast": "CD_Ileum_vs_UC_Cecum",
+        "table": "host/pathways/CD_Ileum_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Colon",
+        "contrast": "CD_Ileum_vs_UC_Colon",
+        "table": "host/pathways/CD_Ileum_vs_UC_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Ileum",
+        "contrast": "CD_Ileum_vs_UC_Ileum",
+        "table": "host/pathways/CD_Ileum_vs_UC_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Ileum No",
+        "contrast": "CD_Ileum_vs_UC_Ileum_No",
+        "table": "host/pathways/CD_Ileum_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Rectum",
+        "contrast": "CD_Ileum_vs_UC_Rectum",
+        "table": "host/pathways/CD_Ileum_vs_UC_Rectum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Sigmoid",
+        "contrast": "CD_Ileum_vs_UC_Sigmoid",
+        "table": "host/pathways/CD_Ileum_vs_UC_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Ileum vs UC Transverse",
+        "contrast": "CD_Ileum_vs_UC_Transverse",
+        "table": "host/pathways/CD_Ileum_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs CD Cecum",
+        "contrast": "CD_Rectum_vs_CD_Cecum",
+        "table": "host/pathways/CD_Rectum_vs_CD_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs CD Colon",
+        "contrast": "CD_Rectum_vs_CD_Colon",
+        "table": "host/pathways/CD_Rectum_vs_CD_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs CD Ileum No",
+        "contrast": "CD_Rectum_vs_CD_Ileum_No",
+        "table": "host/pathways/CD_Rectum_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs CD Transverse",
+        "contrast": "CD_Rectum_vs_CD_Transverse",
+        "table": "host/pathways/CD_Rectum_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs Healthy Cecum",
+        "contrast": "CD_Rectum_vs_Healthy_Cecum",
+        "table": "host/pathways/CD_Rectum_vs_Healthy_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs Healthy Colon",
+        "contrast": "CD_Rectum_vs_Healthy_Colon",
+        "table": "host/pathways/CD_Rectum_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs Healthy Ileum",
+        "contrast": "CD_Rectum_vs_Healthy_Ileum",
+        "table": "host/pathways/CD_Rectum_vs_Healthy_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs Healthy Ileum No",
+        "contrast": "CD_Rectum_vs_Healthy_Ileum_No",
+        "table": "host/pathways/CD_Rectum_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs Healthy Rectum",
+        "contrast": "CD_Rectum_vs_Healthy_Rectum",
+        "table": "host/pathways/CD_Rectum_vs_Healthy_Rectum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Cecum",
+        "contrast": "CD_Rectum_vs_UC_Cecum",
+        "table": "host/pathways/CD_Rectum_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Colon",
+        "contrast": "CD_Rectum_vs_UC_Colon",
+        "table": "host/pathways/CD_Rectum_vs_UC_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Ileum",
+        "contrast": "CD_Rectum_vs_UC_Ileum",
+        "table": "host/pathways/CD_Rectum_vs_UC_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Ileum No",
+        "contrast": "CD_Rectum_vs_UC_Ileum_No",
+        "table": "host/pathways/CD_Rectum_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Rectum",
+        "contrast": "CD_Rectum_vs_UC_Rectum",
+        "table": "host/pathways/CD_Rectum_vs_UC_Rectum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Sigmoid",
+        "contrast": "CD_Rectum_vs_UC_Sigmoid",
+        "table": "host/pathways/CD_Rectum_vs_UC_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Rectum vs UC Transverse",
+        "contrast": "CD_Rectum_vs_UC_Transverse",
+        "table": "host/pathways/CD_Rectum_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs CD Cecum",
+        "contrast": "CD_Sigmoid_vs_CD_Cecum",
+        "table": "host/pathways/CD_Sigmoid_vs_CD_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs CD Colon",
+        "contrast": "CD_Sigmoid_vs_CD_Colon",
+        "table": "host/pathways/CD_Sigmoid_vs_CD_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs CD Ileum",
+        "contrast": "CD_Sigmoid_vs_CD_Ileum",
+        "table": "host/pathways/CD_Sigmoid_vs_CD_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs CD Ileum No",
+        "contrast": "CD_Sigmoid_vs_CD_Ileum_No",
+        "table": "host/pathways/CD_Sigmoid_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs CD Rectum",
+        "contrast": "CD_Sigmoid_vs_CD_Rectum",
+        "table": "host/pathways/CD_Sigmoid_vs_CD_Rectum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs CD Transverse",
+        "contrast": "CD_Sigmoid_vs_CD_Transverse",
+        "table": "host/pathways/CD_Sigmoid_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs Healthy Cecum",
+        "contrast": "CD_Sigmoid_vs_Healthy_Cecum",
+        "table": "host/pathways/CD_Sigmoid_vs_Healthy_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs Healthy Colon",
+        "contrast": "CD_Sigmoid_vs_Healthy_Colon",
+        "table": "host/pathways/CD_Sigmoid_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs Healthy Ileum",
+        "contrast": "CD_Sigmoid_vs_Healthy_Ileum",
+        "table": "host/pathways/CD_Sigmoid_vs_Healthy_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs Healthy Ileum No",
+        "contrast": "CD_Sigmoid_vs_Healthy_Ileum_No",
+        "table": "host/pathways/CD_Sigmoid_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs Healthy Rectum",
+        "contrast": "CD_Sigmoid_vs_Healthy_Rectum",
+        "table": "host/pathways/CD_Sigmoid_vs_Healthy_Rectum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs Healthy Sigmoid",
+        "contrast": "CD_Sigmoid_vs_Healthy_Sigmoid",
+        "table": "host/pathways/CD_Sigmoid_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Cecum",
+        "contrast": "CD_Sigmoid_vs_UC_Cecum",
+        "table": "host/pathways/CD_Sigmoid_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Colon",
+        "contrast": "CD_Sigmoid_vs_UC_Colon",
+        "table": "host/pathways/CD_Sigmoid_vs_UC_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Ileum",
+        "contrast": "CD_Sigmoid_vs_UC_Ileum",
+        "table": "host/pathways/CD_Sigmoid_vs_UC_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Ileum No",
+        "contrast": "CD_Sigmoid_vs_UC_Ileum_No",
+        "table": "host/pathways/CD_Sigmoid_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Rectum",
+        "contrast": "CD_Sigmoid_vs_UC_Rectum",
+        "table": "host/pathways/CD_Sigmoid_vs_UC_Rectum.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Sigmoid",
+        "contrast": "CD_Sigmoid_vs_UC_Sigmoid",
+        "table": "host/pathways/CD_Sigmoid_vs_UC_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Sigmoid vs UC Transverse",
+        "contrast": "CD_Sigmoid_vs_UC_Transverse",
+        "table": "host/pathways/CD_Sigmoid_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Transverse vs CD Ileum No",
+        "contrast": "CD_Transverse_vs_CD_Ileum_No",
+        "table": "host/pathways/CD_Transverse_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Transverse vs Healthy Colon",
+        "contrast": "CD_Transverse_vs_Healthy_Colon",
+        "table": "host/pathways/CD_Transverse_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Transverse vs Healthy Ileum No",
+        "contrast": "CD_Transverse_vs_Healthy_Ileum_No",
+        "table": "host/pathways/CD_Transverse_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Transverse vs Healthy Sigmoid",
+        "contrast": "CD_Transverse_vs_Healthy_Sigmoid",
+        "table": "host/pathways/CD_Transverse_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Transverse vs UC Ileum No",
+        "contrast": "CD_Transverse_vs_UC_Ileum_No",
+        "table": "host/pathways/CD_Transverse_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "CD Transverse vs UC Transverse",
+        "contrast": "CD_Transverse_vs_UC_Transverse",
+        "table": "host/pathways/CD_Transverse_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs CD Ileum No",
+        "contrast": "Healthy_Cecum_vs_CD_Ileum_No",
+        "table": "host/pathways/Healthy_Cecum_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs CD Transverse",
+        "contrast": "Healthy_Cecum_vs_CD_Transverse",
+        "table": "host/pathways/Healthy_Cecum_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs Healthy Colon",
+        "contrast": "Healthy_Cecum_vs_Healthy_Colon",
+        "table": "host/pathways/Healthy_Cecum_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs Healthy Ileum No",
+        "contrast": "Healthy_Cecum_vs_Healthy_Ileum_No",
+        "table": "host/pathways/Healthy_Cecum_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs Healthy Sigmoid",
+        "contrast": "Healthy_Cecum_vs_Healthy_Sigmoid",
+        "table": "host/pathways/Healthy_Cecum_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs UC Cecum",
+        "contrast": "Healthy_Cecum_vs_UC_Cecum",
+        "table": "host/pathways/Healthy_Cecum_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Cecum vs UC Ileum No",
+        "contrast": "Healthy_Cecum_vs_UC_Ileum_No",
+        "table": "host/pathways/Healthy_Cecum_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Colon vs CD Ileum No",
+        "contrast": "Healthy_Colon_vs_CD_Ileum_No",
+        "table": "host/pathways/Healthy_Colon_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Colon vs Healthy Ileum No",
+        "contrast": "Healthy_Colon_vs_Healthy_Ileum_No",
+        "table": "host/pathways/Healthy_Colon_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Colon vs Healthy Sigmoid",
+        "contrast": "Healthy_Colon_vs_Healthy_Sigmoid",
+        "table": "host/pathways/Healthy_Colon_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Colon vs UC Ileum No",
+        "contrast": "Healthy_Colon_vs_UC_Ileum_No",
+        "table": "host/pathways/Healthy_Colon_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs CD Cecum",
+        "contrast": "Healthy_Ileum_vs_CD_Cecum",
+        "table": "host/pathways/Healthy_Ileum_vs_CD_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs CD Colon",
+        "contrast": "Healthy_Ileum_vs_CD_Colon",
+        "table": "host/pathways/Healthy_Ileum_vs_CD_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs CD Ileum No",
+        "contrast": "Healthy_Ileum_vs_CD_Ileum_No",
+        "table": "host/pathways/Healthy_Ileum_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs CD Transverse",
+        "contrast": "Healthy_Ileum_vs_CD_Transverse",
+        "table": "host/pathways/Healthy_Ileum_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs Healthy Cecum",
+        "contrast": "Healthy_Ileum_vs_Healthy_Cecum",
+        "table": "host/pathways/Healthy_Ileum_vs_Healthy_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs Healthy Colon",
+        "contrast": "Healthy_Ileum_vs_Healthy_Colon",
+        "table": "host/pathways/Healthy_Ileum_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs Healthy Ileum No",
+        "contrast": "Healthy_Ileum_vs_Healthy_Ileum_No",
+        "table": "host/pathways/Healthy_Ileum_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs Healthy Rectum",
+        "contrast": "Healthy_Ileum_vs_Healthy_Rectum",
+        "table": "host/pathways/Healthy_Ileum_vs_Healthy_Rectum.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs Healthy Sigmoid",
+        "contrast": "Healthy_Ileum_vs_Healthy_Sigmoid",
+        "table": "host/pathways/Healthy_Ileum_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Cecum",
+        "contrast": "Healthy_Ileum_vs_UC_Cecum",
+        "table": "host/pathways/Healthy_Ileum_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Colon",
+        "contrast": "Healthy_Ileum_vs_UC_Colon",
+        "table": "host/pathways/Healthy_Ileum_vs_UC_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Ileum",
+        "contrast": "Healthy_Ileum_vs_UC_Ileum",
+        "table": "host/pathways/Healthy_Ileum_vs_UC_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Ileum No",
+        "contrast": "Healthy_Ileum_vs_UC_Ileum_No",
+        "table": "host/pathways/Healthy_Ileum_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Sigmoid",
+        "contrast": "Healthy_Ileum_vs_UC_Sigmoid",
+        "table": "host/pathways/Healthy_Ileum_vs_UC_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Ileum vs UC Transverse",
+        "contrast": "Healthy_Ileum_vs_UC_Transverse",
+        "table": "host/pathways/Healthy_Ileum_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs CD Cecum",
+        "contrast": "Healthy_Rectum_vs_CD_Cecum",
+        "table": "host/pathways/Healthy_Rectum_vs_CD_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs CD Ileum No",
+        "contrast": "Healthy_Rectum_vs_CD_Ileum_No",
+        "table": "host/pathways/Healthy_Rectum_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs CD Transverse",
+        "contrast": "Healthy_Rectum_vs_CD_Transverse",
+        "table": "host/pathways/Healthy_Rectum_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs Healthy Cecum",
+        "contrast": "Healthy_Rectum_vs_Healthy_Cecum",
+        "table": "host/pathways/Healthy_Rectum_vs_Healthy_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs Healthy Colon",
+        "contrast": "Healthy_Rectum_vs_Healthy_Colon",
+        "table": "host/pathways/Healthy_Rectum_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs Healthy Ileum No",
+        "contrast": "Healthy_Rectum_vs_Healthy_Ileum_No",
+        "table": "host/pathways/Healthy_Rectum_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs Healthy Sigmoid",
+        "contrast": "Healthy_Rectum_vs_Healthy_Sigmoid",
+        "table": "host/pathways/Healthy_Rectum_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs UC Cecum",
+        "contrast": "Healthy_Rectum_vs_UC_Cecum",
+        "table": "host/pathways/Healthy_Rectum_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs UC Colon",
+        "contrast": "Healthy_Rectum_vs_UC_Colon",
+        "table": "host/pathways/Healthy_Rectum_vs_UC_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs UC Ileum",
+        "contrast": "Healthy_Rectum_vs_UC_Ileum",
+        "table": "host/pathways/Healthy_Rectum_vs_UC_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs UC Ileum No",
+        "contrast": "Healthy_Rectum_vs_UC_Ileum_No",
+        "table": "host/pathways/Healthy_Rectum_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs UC Sigmoid",
+        "contrast": "Healthy_Rectum_vs_UC_Sigmoid",
+        "table": "host/pathways/Healthy_Rectum_vs_UC_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Rectum vs UC Transverse",
+        "contrast": "Healthy_Rectum_vs_UC_Transverse",
+        "table": "host/pathways/Healthy_Rectum_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Sigmoid vs CD Ileum No",
+        "contrast": "Healthy_Sigmoid_vs_CD_Ileum_No",
+        "table": "host/pathways/Healthy_Sigmoid_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Sigmoid vs Healthy Ileum No",
+        "contrast": "Healthy_Sigmoid_vs_Healthy_Ileum_No",
+        "table": "host/pathways/Healthy_Sigmoid_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "Healthy Sigmoid vs UC Ileum No",
+        "contrast": "Healthy_Sigmoid_vs_UC_Ileum_No",
+        "table": "host/pathways/Healthy_Sigmoid_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "results",
+        "contrast": "results",
+        "table": "host/pathways/results.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs CD Ileum No",
+        "contrast": "UC_Cecum_vs_CD_Ileum_No",
+        "table": "host/pathways/UC_Cecum_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs CD Transverse",
+        "contrast": "UC_Cecum_vs_CD_Transverse",
+        "table": "host/pathways/UC_Cecum_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs Healthy Colon",
+        "contrast": "UC_Cecum_vs_Healthy_Colon",
+        "table": "host/pathways/UC_Cecum_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs Healthy Ileum No",
+        "contrast": "UC_Cecum_vs_Healthy_Ileum_No",
+        "table": "host/pathways/UC_Cecum_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs Healthy Sigmoid",
+        "contrast": "UC_Cecum_vs_Healthy_Sigmoid",
+        "table": "host/pathways/UC_Cecum_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs UC Ileum No",
+        "contrast": "UC_Cecum_vs_UC_Ileum_No",
+        "table": "host/pathways/UC_Cecum_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Cecum vs UC Transverse",
+        "contrast": "UC_Cecum_vs_UC_Transverse",
+        "table": "host/pathways/UC_Cecum_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs CD Cecum",
+        "contrast": "UC_Colon_vs_CD_Cecum",
+        "table": "host/pathways/UC_Colon_vs_CD_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs CD Ileum No",
+        "contrast": "UC_Colon_vs_CD_Ileum_No",
+        "table": "host/pathways/UC_Colon_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs CD Transverse",
+        "contrast": "UC_Colon_vs_CD_Transverse",
+        "table": "host/pathways/UC_Colon_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs Healthy Cecum",
+        "contrast": "UC_Colon_vs_Healthy_Cecum",
+        "table": "host/pathways/UC_Colon_vs_Healthy_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs Healthy Colon",
+        "contrast": "UC_Colon_vs_Healthy_Colon",
+        "table": "host/pathways/UC_Colon_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs Healthy Ileum No",
+        "contrast": "UC_Colon_vs_Healthy_Ileum_No",
+        "table": "host/pathways/UC_Colon_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs Healthy Sigmoid",
+        "contrast": "UC_Colon_vs_Healthy_Sigmoid",
+        "table": "host/pathways/UC_Colon_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs UC Cecum",
+        "contrast": "UC_Colon_vs_UC_Cecum",
+        "table": "host/pathways/UC_Colon_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs UC Ileum",
+        "contrast": "UC_Colon_vs_UC_Ileum",
+        "table": "host/pathways/UC_Colon_vs_UC_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs UC Ileum No",
+        "contrast": "UC_Colon_vs_UC_Ileum_No",
+        "table": "host/pathways/UC_Colon_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs UC Sigmoid",
+        "contrast": "UC_Colon_vs_UC_Sigmoid",
+        "table": "host/pathways/UC_Colon_vs_UC_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Colon vs UC Transverse",
+        "contrast": "UC_Colon_vs_UC_Transverse",
+        "table": "host/pathways/UC_Colon_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs CD Cecum",
+        "contrast": "UC_Ileum_vs_CD_Cecum",
+        "table": "host/pathways/UC_Ileum_vs_CD_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs CD Ileum No",
+        "contrast": "UC_Ileum_vs_CD_Ileum_No",
+        "table": "host/pathways/UC_Ileum_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs CD Transverse",
+        "contrast": "UC_Ileum_vs_CD_Transverse",
+        "table": "host/pathways/UC_Ileum_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs Healthy Cecum",
+        "contrast": "UC_Ileum_vs_Healthy_Cecum",
+        "table": "host/pathways/UC_Ileum_vs_Healthy_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs Healthy Colon",
+        "contrast": "UC_Ileum_vs_Healthy_Colon",
+        "table": "host/pathways/UC_Ileum_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs Healthy Ileum",
+        "contrast": "UC_Ileum_vs_Healthy_Ileum",
+        "table": "host/pathways/UC_Ileum_vs_Healthy_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs Healthy Ileum No",
+        "contrast": "UC_Ileum_vs_Healthy_Ileum_No",
+        "table": "host/pathways/UC_Ileum_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs Healthy Sigmoid",
+        "contrast": "UC_Ileum_vs_Healthy_Sigmoid",
+        "table": "host/pathways/UC_Ileum_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs UC Cecum",
+        "contrast": "UC_Ileum_vs_UC_Cecum",
+        "table": "host/pathways/UC_Ileum_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs UC Ileum No",
+        "contrast": "UC_Ileum_vs_UC_Ileum_No",
+        "table": "host/pathways/UC_Ileum_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs UC Sigmoid",
+        "contrast": "UC_Ileum_vs_UC_Sigmoid",
+        "table": "host/pathways/UC_Ileum_vs_UC_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Ileum vs UC Transverse",
+        "contrast": "UC_Ileum_vs_UC_Transverse",
+        "table": "host/pathways/UC_Ileum_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs CD Cecum",
+        "contrast": "UC_Rectum_vs_CD_Cecum",
+        "table": "host/pathways/UC_Rectum_vs_CD_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs CD Colon",
+        "contrast": "UC_Rectum_vs_CD_Colon",
+        "table": "host/pathways/UC_Rectum_vs_CD_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs CD Ileum No",
+        "contrast": "UC_Rectum_vs_CD_Ileum_No",
+        "table": "host/pathways/UC_Rectum_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs CD Transverse",
+        "contrast": "UC_Rectum_vs_CD_Transverse",
+        "table": "host/pathways/UC_Rectum_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs Healthy Cecum",
+        "contrast": "UC_Rectum_vs_Healthy_Cecum",
+        "table": "host/pathways/UC_Rectum_vs_Healthy_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs Healthy Colon",
+        "contrast": "UC_Rectum_vs_Healthy_Colon",
+        "table": "host/pathways/UC_Rectum_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs Healthy Ileum",
+        "contrast": "UC_Rectum_vs_Healthy_Ileum",
+        "table": "host/pathways/UC_Rectum_vs_Healthy_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs Healthy Ileum No",
+        "contrast": "UC_Rectum_vs_Healthy_Ileum_No",
+        "table": "host/pathways/UC_Rectum_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs Healthy Rectum",
+        "contrast": "UC_Rectum_vs_Healthy_Rectum",
+        "table": "host/pathways/UC_Rectum_vs_Healthy_Rectum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs UC Cecum",
+        "contrast": "UC_Rectum_vs_UC_Cecum",
+        "table": "host/pathways/UC_Rectum_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs UC Colon",
+        "contrast": "UC_Rectum_vs_UC_Colon",
+        "table": "host/pathways/UC_Rectum_vs_UC_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs UC Ileum",
+        "contrast": "UC_Rectum_vs_UC_Ileum",
+        "table": "host/pathways/UC_Rectum_vs_UC_Ileum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs UC Ileum No",
+        "contrast": "UC_Rectum_vs_UC_Ileum_No",
+        "table": "host/pathways/UC_Rectum_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs UC Sigmoid",
+        "contrast": "UC_Rectum_vs_UC_Sigmoid",
+        "table": "host/pathways/UC_Rectum_vs_UC_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Rectum vs UC Transverse",
+        "contrast": "UC_Rectum_vs_UC_Transverse",
+        "table": "host/pathways/UC_Rectum_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs CD Ileum No",
+        "contrast": "UC_Sigmoid_vs_CD_Ileum_No",
+        "table": "host/pathways/UC_Sigmoid_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs CD Transverse",
+        "contrast": "UC_Sigmoid_vs_CD_Transverse",
+        "table": "host/pathways/UC_Sigmoid_vs_CD_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs Healthy Cecum",
+        "contrast": "UC_Sigmoid_vs_Healthy_Cecum",
+        "table": "host/pathways/UC_Sigmoid_vs_Healthy_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs Healthy Colon",
+        "contrast": "UC_Sigmoid_vs_Healthy_Colon",
+        "table": "host/pathways/UC_Sigmoid_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs Healthy Ileum No",
+        "contrast": "UC_Sigmoid_vs_Healthy_Ileum_No",
+        "table": "host/pathways/UC_Sigmoid_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs Healthy Sigmoid",
+        "contrast": "UC_Sigmoid_vs_Healthy_Sigmoid",
+        "table": "host/pathways/UC_Sigmoid_vs_Healthy_Sigmoid.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs UC Cecum",
+        "contrast": "UC_Sigmoid_vs_UC_Cecum",
+        "table": "host/pathways/UC_Sigmoid_vs_UC_Cecum.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs UC Ileum No",
+        "contrast": "UC_Sigmoid_vs_UC_Ileum_No",
+        "table": "host/pathways/UC_Sigmoid_vs_UC_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Sigmoid vs UC Transverse",
+        "contrast": "UC_Sigmoid_vs_UC_Transverse",
+        "table": "host/pathways/UC_Sigmoid_vs_UC_Transverse.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Transverse vs CD Ileum No",
+        "contrast": "UC_Transverse_vs_CD_Ileum_No",
+        "table": "host/pathways/UC_Transverse_vs_CD_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Transverse vs Healthy Colon",
+        "contrast": "UC_Transverse_vs_Healthy_Colon",
+        "table": "host/pathways/UC_Transverse_vs_Healthy_Colon.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Transverse vs Healthy Ileum No",
+        "contrast": "UC_Transverse_vs_Healthy_Ileum_No",
+        "table": "host/pathways/UC_Transverse_vs_Healthy_Ileum_No.go_bp.tsv.gz"
+      },
+      {
+        "name": "UC Transverse vs UC Ileum No",
+        "contrast": "UC_Transverse_vs_UC_Ileum_No",
+        "table": "host/pathways/UC_Transverse_vs_UC_Ileum_No.go_bp.tsv.gz"
+      }
+    ],
+    "contrasts": "indices/host_contrasts.tsv"
+  }
+}
