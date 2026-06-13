@@ -1,10 +1,10 @@
 contrast	name	dge_table
-CD_Blood_vs_Healthy_Blood	CD Blood vs Healthy Blood	host/dge/CD_Blood_vs_Healthy_Blood.results.tsv.gz
 CD_Cecum_vs_CD_Ileum_No	CD Cecum vs CD Ileum No	host/dge/CD_Cecum_vs_CD_Ileum_No.results.tsv.gz
 CD_Cecum_vs_CD_Transverse	CD Cecum vs CD Transverse	host/dge/CD_Cecum_vs_CD_Transverse.results.tsv.gz
 CD_Cecum_vs_Healthy_Cecum	CD Cecum vs Healthy Cecum	host/dge/CD_Cecum_vs_Healthy_Cecum.results.tsv.gz
 CD_Cecum_vs_Healthy_Colon	CD Cecum vs Healthy Colon	host/dge/CD_Cecum_vs_Healthy_Colon.results.tsv.gz
 CD_Cecum_vs_Healthy_Ileum_No	CD Cecum vs Healthy Ileum No	host/dge/CD_Cecum_vs_Healthy_Ileum_No.results.tsv.gz
+CD_Cecum_vs_Healthy_Sigmoid	CD Cecum vs Healthy Sigmoid	host/dge/CD_Cecum_vs_Healthy_Sigmoid.results.tsv.gz
 CD_Cecum_vs_UC_Cecum	CD Cecum vs UC Cecum	host/dge/CD_Cecum_vs_UC_Cecum.results.tsv.gz
 CD_Cecum_vs_UC_Ileum_No	CD Cecum vs UC Ileum No	host/dge/CD_Cecum_vs_UC_Ileum_No.results.tsv.gz
 CD_Cecum_vs_UC_Sigmoid	CD Cecum vs UC Sigmoid	host/dge/CD_Cecum_vs_UC_Sigmoid.results.tsv.gz
@@ -14,6 +14,7 @@ CD_Colon_vs_CD_Ileum_No	CD Colon vs CD Ileum No	host/dge/CD_Colon_vs_CD_Ileum_No
 CD_Colon_vs_CD_Transverse	CD Colon vs CD Transverse	host/dge/CD_Colon_vs_CD_Transverse.results.tsv.gz
 CD_Colon_vs_Healthy_Cecum	CD Colon vs Healthy Cecum	host/dge/CD_Colon_vs_Healthy_Cecum.results.tsv.gz
 CD_Colon_vs_Healthy_Colon	CD Colon vs Healthy Colon	host/dge/CD_Colon_vs_Healthy_Colon.results.tsv.gz
+CD_Colon_vs_Healthy_Ileum_No	CD Colon vs Healthy Ileum No	host/dge/CD_Colon_vs_Healthy_Ileum_No.results.tsv.gz
 CD_Colon_vs_Healthy_Rectum	CD Colon vs Healthy Rectum	host/dge/CD_Colon_vs_Healthy_Rectum.results.tsv.gz
 CD_Colon_vs_Healthy_Sigmoid	CD Colon vs Healthy Sigmoid	host/dge/CD_Colon_vs_Healthy_Sigmoid.results.tsv.gz
 CD_Colon_vs_UC_Cecum	CD Colon vs UC Cecum	host/dge/CD_Colon_vs_UC_Cecum.results.tsv.gz
@@ -37,7 +38,6 @@ CD_Ileum_vs_Healthy_Rectum	CD Ileum vs Healthy Rectum	host/dge/CD_Ileum_vs_Healt
 CD_Ileum_vs_Healthy_Sigmoid	CD Ileum vs Healthy Sigmoid	host/dge/CD_Ileum_vs_Healthy_Sigmoid.results.tsv.gz
 CD_Ileum_vs_UC_Cecum	CD Ileum vs UC Cecum	host/dge/CD_Ileum_vs_UC_Cecum.results.tsv.gz
 CD_Ileum_vs_UC_Colon	CD Ileum vs UC Colon	host/dge/CD_Ileum_vs_UC_Colon.results.tsv.gz
-CD_Ileum_vs_UC_Ileum_No	CD Ileum vs UC Ileum No	host/dge/CD_Ileum_vs_UC_Ileum_No.results.tsv.gz
 CD_Ileum_vs_UC_Ileum	CD Ileum vs UC Ileum	host/dge/CD_Ileum_vs_UC_Ileum.results.tsv.gz
 CD_Ileum_vs_UC_Rectum	CD Ileum vs UC Rectum	host/dge/CD_Ileum_vs_UC_Rectum.results.tsv.gz
 CD_Ileum_vs_UC_Sigmoid	CD Ileum vs UC Sigmoid	host/dge/CD_Ileum_vs_UC_Sigmoid.results.tsv.gz
@@ -65,16 +65,16 @@ CD_Sigmoid_vs_CD_Rectum	CD Sigmoid vs CD Rectum	host/dge/CD_Sigmoid_vs_CD_Rectum
 CD_Sigmoid_vs_CD_Transverse	CD Sigmoid vs CD Transverse	host/dge/CD_Sigmoid_vs_CD_Transverse.results.tsv.gz
 CD_Sigmoid_vs_Healthy_Cecum	CD Sigmoid vs Healthy Cecum	host/dge/CD_Sigmoid_vs_Healthy_Cecum.results.tsv.gz
 CD_Sigmoid_vs_Healthy_Colon	CD Sigmoid vs Healthy Colon	host/dge/CD_Sigmoid_vs_Healthy_Colon.results.tsv.gz
+CD_Sigmoid_vs_Healthy_Ileum_No	CD Sigmoid vs Healthy Ileum No	host/dge/CD_Sigmoid_vs_Healthy_Ileum_No.results.tsv.gz
+CD_Sigmoid_vs_Healthy_Ileum	CD Sigmoid vs Healthy Ileum	host/dge/CD_Sigmoid_vs_Healthy_Ileum.results.tsv.gz
 CD_Sigmoid_vs_Healthy_Rectum	CD Sigmoid vs Healthy Rectum	host/dge/CD_Sigmoid_vs_Healthy_Rectum.results.tsv.gz
 CD_Sigmoid_vs_Healthy_Sigmoid	CD Sigmoid vs Healthy Sigmoid	host/dge/CD_Sigmoid_vs_Healthy_Sigmoid.results.tsv.gz
 CD_Sigmoid_vs_UC_Cecum	CD Sigmoid vs UC Cecum	host/dge/CD_Sigmoid_vs_UC_Cecum.results.tsv.gz
 CD_Sigmoid_vs_UC_Colon	CD Sigmoid vs UC Colon	host/dge/CD_Sigmoid_vs_UC_Colon.results.tsv.gz
-CD_Sigmoid_vs_UC_Ileum_No	CD Sigmoid vs UC Ileum No	host/dge/CD_Sigmoid_vs_UC_Ileum_No.results.tsv.gz
 CD_Sigmoid_vs_UC_Ileum	CD Sigmoid vs UC Ileum	host/dge/CD_Sigmoid_vs_UC_Ileum.results.tsv.gz
 CD_Sigmoid_vs_UC_Rectum	CD Sigmoid vs UC Rectum	host/dge/CD_Sigmoid_vs_UC_Rectum.results.tsv.gz
 CD_Sigmoid_vs_UC_Sigmoid	CD Sigmoid vs UC Sigmoid	host/dge/CD_Sigmoid_vs_UC_Sigmoid.results.tsv.gz
 CD_Sigmoid_vs_UC_Transverse	CD Sigmoid vs UC Transverse	host/dge/CD_Sigmoid_vs_UC_Transverse.results.tsv.gz
-CD_Stool_Associated_vs_Healthy_Stool_Associated	CD Stool Associated vs Healthy Stool Associated	host/dge/CD_Stool_Associated_vs_Healthy_Stool_Associated.results.tsv.gz
 CD_Transverse_vs_CD_Ileum_No	CD Transverse vs CD Ileum No	host/dge/CD_Transverse_vs_CD_Ileum_No.results.tsv.gz
 CD_Transverse_vs_Healthy_Colon	CD Transverse vs Healthy Colon	host/dge/CD_Transverse_vs_Healthy_Colon.results.tsv.gz
 CD_Transverse_vs_Healthy_Ileum_No	CD Transverse vs Healthy Ileum No	host/dge/CD_Transverse_vs_Healthy_Ileum_No.results.tsv.gz
@@ -96,7 +96,6 @@ Healthy_Ileum_vs_CD_Ileum_No	Healthy Ileum vs CD Ileum No	host/dge/Healthy_Ileum
 Healthy_Ileum_vs_CD_Transverse	Healthy Ileum vs CD Transverse	host/dge/Healthy_Ileum_vs_CD_Transverse.results.tsv.gz
 Healthy_Ileum_vs_Healthy_Cecum	Healthy Ileum vs Healthy Cecum	host/dge/Healthy_Ileum_vs_Healthy_Cecum.results.tsv.gz
 Healthy_Ileum_vs_Healthy_Colon	Healthy Ileum vs Healthy Colon	host/dge/Healthy_Ileum_vs_Healthy_Colon.results.tsv.gz
-Healthy_Ileum_vs_Healthy_Ileum_No	Healthy Ileum vs Healthy Ileum No	host/dge/Healthy_Ileum_vs_Healthy_Ileum_No.results.tsv.gz
 Healthy_Ileum_vs_Healthy_Rectum	Healthy Ileum vs Healthy Rectum	host/dge/Healthy_Ileum_vs_Healthy_Rectum.results.tsv.gz
 Healthy_Ileum_vs_Healthy_Sigmoid	Healthy Ileum vs Healthy Sigmoid	host/dge/Healthy_Ileum_vs_Healthy_Sigmoid.results.tsv.gz
 Healthy_Ileum_vs_UC_Cecum	Healthy Ileum vs UC Cecum	host/dge/Healthy_Ileum_vs_UC_Cecum.results.tsv.gz
@@ -105,10 +104,12 @@ Healthy_Ileum_vs_UC_Ileum_No	Healthy Ileum vs UC Ileum No	host/dge/Healthy_Ileum
 Healthy_Ileum_vs_UC_Ileum	Healthy Ileum vs UC Ileum	host/dge/Healthy_Ileum_vs_UC_Ileum.results.tsv.gz
 Healthy_Ileum_vs_UC_Sigmoid	Healthy Ileum vs UC Sigmoid	host/dge/Healthy_Ileum_vs_UC_Sigmoid.results.tsv.gz
 Healthy_Ileum_vs_UC_Transverse	Healthy Ileum vs UC Transverse	host/dge/Healthy_Ileum_vs_UC_Transverse.results.tsv.gz
+Healthy_Rectum_vs_CD_Cecum	Healthy Rectum vs CD Cecum	host/dge/Healthy_Rectum_vs_CD_Cecum.results.tsv.gz
 Healthy_Rectum_vs_CD_Ileum_No	Healthy Rectum vs CD Ileum No	host/dge/Healthy_Rectum_vs_CD_Ileum_No.results.tsv.gz
 Healthy_Rectum_vs_CD_Transverse	Healthy Rectum vs CD Transverse	host/dge/Healthy_Rectum_vs_CD_Transverse.results.tsv.gz
 Healthy_Rectum_vs_Healthy_Cecum	Healthy Rectum vs Healthy Cecum	host/dge/Healthy_Rectum_vs_Healthy_Cecum.results.tsv.gz
 Healthy_Rectum_vs_Healthy_Colon	Healthy Rectum vs Healthy Colon	host/dge/Healthy_Rectum_vs_Healthy_Colon.results.tsv.gz
+Healthy_Rectum_vs_Healthy_Ileum_No	Healthy Rectum vs Healthy Ileum No	host/dge/Healthy_Rectum_vs_Healthy_Ileum_No.results.tsv.gz
 Healthy_Rectum_vs_Healthy_Sigmoid	Healthy Rectum vs Healthy Sigmoid	host/dge/Healthy_Rectum_vs_Healthy_Sigmoid.results.tsv.gz
 Healthy_Rectum_vs_UC_Cecum	Healthy Rectum vs UC Cecum	host/dge/Healthy_Rectum_vs_UC_Cecum.results.tsv.gz
 Healthy_Rectum_vs_UC_Colon	Healthy Rectum vs UC Colon	host/dge/Healthy_Rectum_vs_UC_Colon.results.tsv.gz
@@ -118,12 +119,11 @@ Healthy_Rectum_vs_UC_Transverse	Healthy Rectum vs UC Transverse	host/dge/Healthy
 Healthy_Sigmoid_vs_CD_Ileum_No	Healthy Sigmoid vs CD Ileum No	host/dge/Healthy_Sigmoid_vs_CD_Ileum_No.results.tsv.gz
 Healthy_Sigmoid_vs_Healthy_Ileum_No	Healthy Sigmoid vs Healthy Ileum No	host/dge/Healthy_Sigmoid_vs_Healthy_Ileum_No.results.tsv.gz
 Healthy_Sigmoid_vs_UC_Ileum_No	Healthy Sigmoid vs UC Ileum No	host/dge/Healthy_Sigmoid_vs_UC_Ileum_No.results.tsv.gz
-UC_Blood_vs_Healthy_Blood	UC Blood vs Healthy Blood	host/dge/UC_Blood_vs_Healthy_Blood.results.tsv.gz
 UC_Cecum_vs_CD_Ileum_No	UC Cecum vs CD Ileum No	host/dge/UC_Cecum_vs_CD_Ileum_No.results.tsv.gz
 UC_Cecum_vs_CD_Transverse	UC Cecum vs CD Transverse	host/dge/UC_Cecum_vs_CD_Transverse.results.tsv.gz
+UC_Cecum_vs_Healthy_Colon	UC Cecum vs Healthy Colon	host/dge/UC_Cecum_vs_Healthy_Colon.results.tsv.gz
 UC_Cecum_vs_Healthy_Ileum_No	UC Cecum vs Healthy Ileum No	host/dge/UC_Cecum_vs_Healthy_Ileum_No.results.tsv.gz
 UC_Cecum_vs_Healthy_Sigmoid	UC Cecum vs Healthy Sigmoid	host/dge/UC_Cecum_vs_Healthy_Sigmoid.results.tsv.gz
-UC_Cecum_vs_UC_Ileum_No	UC Cecum vs UC Ileum No	host/dge/UC_Cecum_vs_UC_Ileum_No.results.tsv.gz
 UC_Colon_vs_CD_Cecum	UC Colon vs CD Cecum	host/dge/UC_Colon_vs_CD_Cecum.results.tsv.gz
 UC_Colon_vs_CD_Ileum_No	UC Colon vs CD Ileum No	host/dge/UC_Colon_vs_CD_Ileum_No.results.tsv.gz
 UC_Colon_vs_CD_Transverse	UC Colon vs CD Transverse	host/dge/UC_Colon_vs_CD_Transverse.results.tsv.gz
@@ -132,7 +132,6 @@ UC_Colon_vs_Healthy_Colon	UC Colon vs Healthy Colon	host/dge/UC_Colon_vs_Healthy
 UC_Colon_vs_Healthy_Ileum_No	UC Colon vs Healthy Ileum No	host/dge/UC_Colon_vs_Healthy_Ileum_No.results.tsv.gz
 UC_Colon_vs_Healthy_Sigmoid	UC Colon vs Healthy Sigmoid	host/dge/UC_Colon_vs_Healthy_Sigmoid.results.tsv.gz
 UC_Colon_vs_UC_Cecum	UC Colon vs UC Cecum	host/dge/UC_Colon_vs_UC_Cecum.results.tsv.gz
-UC_Colon_vs_UC_Ileum_No	UC Colon vs UC Ileum No	host/dge/UC_Colon_vs_UC_Ileum_No.results.tsv.gz
 UC_Colon_vs_UC_Ileum	UC Colon vs UC Ileum	host/dge/UC_Colon_vs_UC_Ileum.results.tsv.gz
 UC_Colon_vs_UC_Sigmoid	UC Colon vs UC Sigmoid	host/dge/UC_Colon_vs_UC_Sigmoid.results.tsv.gz
 UC_Colon_vs_UC_Transverse	UC Colon vs UC Transverse	host/dge/UC_Colon_vs_UC_Transverse.results.tsv.gz
@@ -151,15 +150,17 @@ UC_Ileum_vs_UC_Transverse	UC Ileum vs UC Transverse	host/dge/UC_Ileum_vs_UC_Tran
 UC_Rectum_vs_CD_Cecum	UC Rectum vs CD Cecum	host/dge/UC_Rectum_vs_CD_Cecum.results.tsv.gz
 UC_Rectum_vs_CD_Colon	UC Rectum vs CD Colon	host/dge/UC_Rectum_vs_CD_Colon.results.tsv.gz
 UC_Rectum_vs_CD_Ileum_No	UC Rectum vs CD Ileum No	host/dge/UC_Rectum_vs_CD_Ileum_No.results.tsv.gz
+UC_Rectum_vs_CD_Transverse	UC Rectum vs CD Transverse	host/dge/UC_Rectum_vs_CD_Transverse.results.tsv.gz
+UC_Rectum_vs_Healthy_Cecum	UC Rectum vs Healthy Cecum	host/dge/UC_Rectum_vs_Healthy_Cecum.results.tsv.gz
 UC_Rectum_vs_Healthy_Colon	UC Rectum vs Healthy Colon	host/dge/UC_Rectum_vs_Healthy_Colon.results.tsv.gz
 UC_Rectum_vs_Healthy_Ileum_No	UC Rectum vs Healthy Ileum No	host/dge/UC_Rectum_vs_Healthy_Ileum_No.results.tsv.gz
 UC_Rectum_vs_Healthy_Ileum	UC Rectum vs Healthy Ileum	host/dge/UC_Rectum_vs_Healthy_Ileum.results.tsv.gz
-UC_Rectum_vs_Healthy_Rectum	UC Rectum vs Healthy Rectum	host/dge/UC_Rectum_vs_Healthy_Rectum.results.tsv.gz
 UC_Rectum_vs_Healthy_Sigmoid	UC Rectum vs Healthy Sigmoid	host/dge/UC_Rectum_vs_Healthy_Sigmoid.results.tsv.gz
 UC_Rectum_vs_UC_Cecum	UC Rectum vs UC Cecum	host/dge/UC_Rectum_vs_UC_Cecum.results.tsv.gz
+UC_Rectum_vs_UC_Colon	UC Rectum vs UC Colon	host/dge/UC_Rectum_vs_UC_Colon.results.tsv.gz
 UC_Rectum_vs_UC_Ileum_No	UC Rectum vs UC Ileum No	host/dge/UC_Rectum_vs_UC_Ileum_No.results.tsv.gz
-UC_Rectum_vs_UC_Ileum	UC Rectum vs UC Ileum	host/dge/UC_Rectum_vs_UC_Ileum.results.tsv.gz
 UC_Rectum_vs_UC_Sigmoid	UC Rectum vs UC Sigmoid	host/dge/UC_Rectum_vs_UC_Sigmoid.results.tsv.gz
+UC_Rectum_vs_UC_Transverse	UC Rectum vs UC Transverse	host/dge/UC_Rectum_vs_UC_Transverse.results.tsv.gz
 UC_Sigmoid_vs_CD_Transverse	UC Sigmoid vs CD Transverse	host/dge/UC_Sigmoid_vs_CD_Transverse.results.tsv.gz
 UC_Sigmoid_vs_Healthy_Cecum	UC Sigmoid vs Healthy Cecum	host/dge/UC_Sigmoid_vs_Healthy_Cecum.results.tsv.gz
 UC_Sigmoid_vs_Healthy_Colon	UC Sigmoid vs Healthy Colon	host/dge/UC_Sigmoid_vs_Healthy_Colon.results.tsv.gz
@@ -168,7 +169,6 @@ UC_Sigmoid_vs_Healthy_Sigmoid	UC Sigmoid vs Healthy Sigmoid	host/dge/UC_Sigmoid_
 UC_Sigmoid_vs_UC_Cecum	UC Sigmoid vs UC Cecum	host/dge/UC_Sigmoid_vs_UC_Cecum.results.tsv.gz
 UC_Sigmoid_vs_UC_Ileum_No	UC Sigmoid vs UC Ileum No	host/dge/UC_Sigmoid_vs_UC_Ileum_No.results.tsv.gz
 UC_Sigmoid_vs_UC_Transverse	UC Sigmoid vs UC Transverse	host/dge/UC_Sigmoid_vs_UC_Transverse.results.tsv.gz
-UC_Stool_Associated_vs_Healthy_Stool_Associated	UC Stool Associated vs Healthy Stool Associated	host/dge/UC_Stool_Associated_vs_Healthy_Stool_Associated.results.tsv.gz
 UC_Transverse_vs_CD_Ileum_No	UC Transverse vs CD Ileum No	host/dge/UC_Transverse_vs_CD_Ileum_No.results.tsv.gz
 UC_Transverse_vs_Healthy_Colon	UC Transverse vs Healthy Colon	host/dge/UC_Transverse_vs_Healthy_Colon.results.tsv.gz
 UC_Transverse_vs_Healthy_Ileum_No	UC Transverse vs Healthy Ileum No	host/dge/UC_Transverse_vs_Healthy_Ileum_No.results.tsv.gz
