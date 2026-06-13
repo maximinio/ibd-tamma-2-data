@@ -8,6 +8,7 @@ Current host layer layout:
 
 - `metadata/metadata.tsv.gz`
 - `host/umap/host_umap_coordinates.tsv.gz`
-- `host/dge/*.results.tsv.gz`
-- `host/pathways/*.go_bp.tsv.gz`
+- `host/rds/dge/*.rds`
+- `host/rds/pathways/*.rds`
 - `indices/host_contrasts.tsv`
+- `assets/branding/*`
