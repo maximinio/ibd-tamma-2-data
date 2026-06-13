@@ -11,3 +11,4 @@ host/pathways/
 host/rds/
 *.tmp
 *.bak
+visual_qa/
