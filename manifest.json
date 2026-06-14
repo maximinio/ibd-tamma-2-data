@@ -3225,6 +3225,14 @@
       "shard_pattern": "host/db/expression_shards/host_expression_shard_%02d.sqlite.gz",
       "db_table": "expression_gene",
       "transform": "log2(normalized_counts + 1)"
+    },
+    "opentargets": {
+      "name": "OpenTargets target prioritization",
+      "database": "host/db/opentargets/target_prioritization.sqlite.gz",
+      "target_table": "target_prioritization",
+      "drug_table": "drug_links",
+      "source": "/mnt/HDD2/ibd_tamma_2_e2e_test/results/opentargets",
+      "seed": "e2e_test"
     }
   }
 }
