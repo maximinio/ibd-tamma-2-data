@@ -4,6 +4,13 @@ Static data bundle for the plug-and-play RNA-seq Shiny web application.
 
 The app entry point is `manifest.json`. Paths in the manifest are relative so the same bundle can be served from GitHub raw URLs, local disk, or another static file host.
 
+Start here:
+
+- `HANDOFF.md`: project-specific data contract, publishing notes, branding memory, and QA rules.
+- `manifest.json`: bundle entry point consumed by the Shiny app.
+- `project.yaml`: local project metadata/config used to build or inspect the bundle.
+- `visual_qa/`: latest browser screenshots and metrics.
+
 Current host layer layout:
 
 - `metadata/metadata.tsv.gz`
