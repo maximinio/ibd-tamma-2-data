@@ -1,1 +1,3113 @@
-{"columns":["Design","Isolation","Source","Disease","Tissue","Cell Type","Treatment"],"sample_count":9897,"nodes":[{"id":"Design||Intestinal organoids","label":"Intestinal organoids","column":"Design","value":"Intestinal organoids","level":1,"count":430},{"id":"Isolation||polyA","label":"polyA","column":"Isolation","value":"polyA","level":2,"count":7418},{"id":"Source||GSE208684","label":"GSE208684","column":"Source","value":"GSE208684","level":3,"count":84},{"id":"Disease||UC","label":"UC","column":"Disease","value":"UC","level":4,"count":2891},{"id":"Tissue||Colon","label":"Colon","column":"Tissue","value":"Colon","level":5,"count":1826},{"id":"Cell Type||","label":"","column":"Cell Type","value":"","level":6,"count":8784},{"id":"Treatment||SARS-CoV-2","label":"SARS-CoV-2","column":"Treatment","value":"SARS-CoV-2","level":7,"count":45},{"id":"Disease||Healthy","label":"Healthy","column":"Disease","value":"Healthy","level":4,"count":1757},{"id":"Tissue||Ileum","label":"Ileum","column":"Tissue","value":"Ileum","level":5,"count":2987},{"id":"Disease||CD","label":"CD","column":"Disease","value":"CD","level":4,"count":4667},{"id":"Treatment||Control","label":"Control","column":"Treatment","value":"Control","level":7,"count":39},{"id":"Design||In vitro","label":"In vitro","column":"Design","value":"In vitro","level":1,"count":1096},{"id":"Source||GSE267465","label":"GSE267465","column":"Source","value":"GSE267465","level":3,"count":35},{"id":"Tissue||Ascending Colon","label":"Ascending Colon","column":"Tissue","value":"Ascending Colon","level":5,"count":79},{"id":"Cell Type||CD11b+ Phagocytes","label":"CD11b+ Phagocytes","column":"Cell Type","value":"CD11b+ Phagocytes","level":6,"count":35},{"id":"Treatment||","label":"","column":"Treatment","value":"","level":7,"count":6848},{"id":"Source||GSE135170","label":"GSE135170","column":"Source","value":"GSE135170","level":3,"count":20},{"id":"Disease||IBD","label":"IBD","column":"Disease","value":"IBD","level":4,"count":105},{"id":"Cell Type||Colonoid","label":"Colonoid","column":"Cell Type","value":"Colonoid","level":6,"count":14},{"id":"Tissue||Intestine","label":"Intestine","column":"Tissue","value":"Intestine","level":5,"count":86},{"id":"Cell Type||Epithelial Cells","label":"Epithelial Cells","column":"Cell Type","value":"Epithelial Cells","level":6,"count":6},{"id":"Design||In vivo","label":"In vivo","column":"Design","value":"In vivo","level":1,"count":8119},{"id":"Source||GSE152229","label":"GSE152229","column":"Source","value":"GSE152229","level":3,"count":13},{"id":"Treatment||Sham","label":"Sham","column":"Treatment","value":"Sham","level":7,"count":8},{"id":"Treatment||HBOT","label":"HBOT","column":"Treatment","value":"HBOT","level":7,"count":5},{"id":"Source||GSE183620","label":"GSE183620","column":"Source","value":"GSE183620","level":3,"count":116},{"id":"Cell Type||CD11b+","label":"CD11b+","column":"Cell Type","value":"CD11b+","level":6,"count":116},{"id":"Treatment||Anti-integrin","label":"Anti-integrin","column":"Treatment","value":"Anti-integrin","level":7,"count":24},{"id":"Treatment||No biologics","label":"No biologics","column":"Treatment","value":"No biologics","level":7,"count":54},{"id":"Treatment||Anti-TNF","label":"Anti-TNF","column":"Treatment","value":"Anti-TNF","level":7,"count":30},{"id":"Treatment||Anti-IL-12/23","label":"Anti-IL-12/23","column":"Treatment","value":"Anti-IL-12/23","level":7,"count":8},{"id":"Source||GSE186507","label":"GSE186507","column":"Source","value":"GSE186507","level":3,"count":1030},{"id":"Tissue||Blood","label":"Blood","column":"Tissue","value":"Blood","level":5,"count":1662},{"id":"Source||GSE191328","label":"GSE191328","column":"Source","value":"GSE191328","level":3,"count":201},{"id":"Treatment||Infliximab","label":"Infliximab","column":"Treatment","value":"Infliximab","level":7,"count":201},{"id":"Treatment||Vedolizumab","label":"Vedolizumab","column":"Treatment","value":"Vedolizumab","level":7,"count":72},{"id":"Treatment||Adalimumab","label":"Adalimumab","column":"Treatment","value":"Adalimumab","level":7,"count":11},{"id":"Source||GSE193677","label":"GSE193677","column":"Source","value":"GSE193677","level":3,"count":2489},{"id":"Tissue||Rectum","label":"Rectum","column":"Tissue","value":"Rectum","level":5,"count":1555},{"id":"Tissue||Transverse","label":"Transverse","column":"Tissue","value":"Transverse","level":5,"count":90},{"id":"Tissue||Sigmoid","label":"Sigmoid","column":"Tissue","value":"Sigmoid","level":5,"count":163},{"id":"Tissue||Cecum","label":"Cecum","column":"Tissue","value":"Cecum","level":5,"count":234},{"id":"Source||GSE197698","label":"GSE197698","column":"Source","value":"GSE197698","level":3,"count":211},{"id":"Source||GSE217352","label":"GSE217352","column":"Source","value":"GSE217352","level":3,"count":265},{"id":"Tissue||Intestinal Mucosa","label":"Intestinal Mucosa","column":"Tissue","value":"Intestinal Mucosa","level":5,"count":116},{"id":"Cell Type||CD3+","label":"CD3+","column":"Cell Type","value":"CD3+","level":6,"count":265},{"id":"Treatment||Surgery","label":"Surgery","column":"Treatment","value":"Surgery","level":7,"count":235},{"id":"Treatment||Post surgery","label":"Post surgery","column":"Treatment","value":"Post surgery","level":7,"count":30},{"id":"Source||GSE220815","label":"GSE220815","column":"Source","value":"GSE220815","level":3,"count":12},{"id":"Source||GSE228122","label":"GSE228122","column":"Source","value":"GSE228122","level":3,"count":115},{"id":"Isolation||Total","label":"Total","column":"Isolation","value":"Total","level":2,"count":2479},{"id":"Source||GSE243625","label":"GSE243625","column":"Source","value":"GSE243625","level":3,"count":45},{"id":"Source||GSE285449","label":"GSE285449","column":"Source","value":"GSE285449","level":3,"count":35},{"id":"Disease||","label":"","column":"Disease","value":"","level":4,"count":146},{"id":"Cell Type||CD14+ Monocytes","label":"CD14+ Monocytes","column":"Cell Type","value":"CD14+ Monocytes","level":6,"count":35},{"id":"Treatment||CTR 2H","label":"CTR 2H","column":"Treatment","value":"CTR 2H","level":7,"count":3},{"id":"Treatment||CTR 4H","label":"CTR 4H","column":"Treatment","value":"CTR 4H","level":7,"count":3},{"id":"Treatment||FP10 2H","label":"FP10 2H","column":"Treatment","value":"FP10 2H","level":7,"count":3},{"id":"Treatment||FP10 4H","label":"FP10 4H","column":"Treatment","value":"FP10 4H","level":7,"count":3},{"id":"Treatment||FP100 2H","label":"FP100 2H","column":"Treatment","value":"FP100 2H","level":7,"count":2},{"id":"Treatment||FP100 4H","label":"FP100 4H","column":"Treatment","value":"FP100 4H","level":7,"count":3},{"id":"Treatment||LPS 2H","label":"LPS 2H","column":"Treatment","value":"LPS 2H","level":7,"count":3},{"id":"Treatment||LPS 4H","label":"LPS 4H","column":"Treatment","value":"LPS 4H","level":7,"count":3},{"id":"Treatment||Cad 2H","label":"Cad 2H","column":"Treatment","value":"Cad 2H","level":7,"count":3},{"id":"Treatment||Cad 4H","label":"Cad 4H","column":"Treatment","value":"Cad 4H","level":7,"count":3},{"id":"Treatment||Cad.LPS 2H","label":"Cad.LPS 2H","column":"Treatment","value":"Cad.LPS 2H","level":7,"count":3},{"id":"Treatment||Cad.LPS 4H","label":"Cad.LPS 4H","column":"Treatment","value":"Cad.LPS 4H","level":7,"count":3},{"id":"Source||GSE165512","label":"GSE165512","column":"Source","value":"GSE165512","level":3,"count":170},{"id":"Source||GSE137344","label":"GSE137344","column":"Source","value":"GSE137344","level":3,"count":195},{"id":"Source||GSE138364","label":"GSE138364","column":"Source","value":"GSE138364","level":3,"count":22},{"id":"Cell Type||PBMCs","label":"PBMCs","column":"Cell Type","value":"PBMCs","level":6,"count":22},{"id":"Source||GSE139179","label":"GSE139179","column":"Source","value":"GSE139179","level":3,"count":158},{"id":"Treatment||HSCT post","label":"HSCT post","column":"Treatment","value":"HSCT post","level":7,"count":81},{"id":"Treatment||HSCT pre","label":"HSCT pre","column":"Treatment","value":"HSCT pre","level":7,"count":8},{"id":"Treatment||HSCT baseline","label":"HSCT baseline","column":"Treatment","value":"HSCT baseline","level":7,"count":18},{"id":"Treatment||Non-HSCT control","label":"Non-HSCT control","column":"Treatment","value":"Non-HSCT control","level":7,"count":51},{"id":"Source||GSE143507","label":"GSE143507","column":"Source","value":"GSE143507","level":3,"count":97},{"id":"Source||GSE156044","label":"GSE156044","column":"Source","value":"GSE156044","level":3,"count":8},{"id":"Tissue||Mesenteric Fat","label":"Mesenteric Fat","column":"Tissue","value":"Mesenteric Fat","level":5,"count":8},{"id":"Cell Type||Creeping Fat","label":"Creeping Fat","column":"Cell Type","value":"Creeping Fat","level":6,"count":8},{"id":"Source||GSE158952","label":"GSE158952","column":"Source","value":"GSE158952","level":3,"count":119},{"id":"Source||GSE159034","label":"GSE159034","column":"Source","value":"GSE159034","level":3,"count":24},{"id":"Source||GSE62207","label":"GSE62207","column":"Source","value":"GSE62207","level":3,"count":310},{"id":"Treatment||Treatment naive","label":"Treatment naive","column":"Treatment","value":"Treatment naive","level":7,"count":1606},{"id":"Source||GSE64801","label":"GSE64801","column":"Source","value":"GSE64801","level":3,"count":14},{"id":"Source||GSE57945","label":"GSE57945","column":"Source","value":"GSE57945","level":3,"count":322},{"id":"Source||GSE66207","label":"GSE66207","column":"Source","value":"GSE66207","level":3,"count":21},{"id":"Source||GSE67250","label":"GSE67250","column":"Source","value":"GSE67250","level":3,"count":6},{"id":"Cell Type||Fibroblasts","label":"Fibroblasts","column":"Cell Type","value":"Fibroblasts","level":6,"count":6},{"id":"Source||GSE69446","label":"GSE69446","column":"Source","value":"GSE69446","level":3,"count":14},{"id":"Cell Type||Monocytes","label":"Monocytes","column":"Cell Type","value":"Monocytes","level":6,"count":14},{"id":"Treatment||MDP-stimulated","label":"MDP-stimulated","column":"Treatment","value":"MDP-stimulated","level":7,"count":7},{"id":"Treatment||Unstimulated","label":"Unstimulated","column":"Treatment","value":"Unstimulated","level":7,"count":7},{"id":"Source||GSE72819","label":"GSE72819","column":"Source","value":"GSE72819","level":3,"count":73},{"id":"Treatment||Etrolizumab","label":"Etrolizumab","column":"Treatment","value":"Etrolizumab","level":7,"count":73},{"id":"Source||GSE81266","label":"GSE81266","column":"Source","value":"GSE81266","level":3,"count":73},{"id":"Treatment||Pouch biopsy 4mo","label":"Pouch biopsy 4mo","column":"Treatment","value":"Pouch biopsy 4mo","level":7,"count":29},{"id":"Treatment||Pouch biopsy 8mo","label":"Pouch biopsy 8mo","column":"Treatment","value":"Pouch biopsy 8mo","level":7,"count":20},{"id":"Treatment||Pouch biopsy 12mo","label":"Pouch biopsy 12mo","column":"Treatment","value":"Pouch biopsy 12mo","level":7,"count":18},{"id":"Treatment||Pouch biopsy >12mo","label":"Pouch biopsy >12mo","column":"Treatment","value":"Pouch biopsy >12mo","level":7,"count":4},{"id":"Treatment||Pouch control","label":"Pouch control","column":"Treatment","value":"Pouch control","level":7,"count":2},{"id":"Source||GSE83687","label":"GSE83687","column":"Source","value":"GSE83687","level":3,"count":131},{"id":"Source||GSE93624","label":"GSE93624","column":"Source","value":"GSE93624","level":3,"count":245},{"id":"Source||GSE101794","label":"GSE101794","column":"Source","value":"GSE101794","level":3,"count":304},{"id":"Source||SRP115494","label":"SRP115494","column":"Source","value":"SRP115494","level":3,"count":762},{"id":"Tissue||Stool Associated","label":"Stool Associated","column":"Tissue","value":"Stool Associated","level":5,"count":762},{"id":"Source||GSE109142","label":"GSE109142","column":"Source","value":"GSE109142","level":3,"count":226},{"id":"Source||GSE112057","label":"GSE112057","column":"Source","value":"GSE112057","level":3,"count":87},{"id":"Source||GSE117993","label":"GSE117993","column":"Source","value":"GSE117993","level":3,"count":190},{"id":"Source||GSE130038","label":"GSE130038","column":"Source","value":"GSE130038","level":3,"count":26},{"id":"Cell Type||Sigmoid","label":"Sigmoid","column":"Cell Type","value":"Sigmoid","level":6,"count":26},{"id":"Source||GSE134881","label":"GSE134881","column":"Source","value":"GSE134881","level":3,"count":199},{"id":"Source||GSE135223","label":"GSE135223","column":"Source","value":"GSE135223","level":3,"count":18},{"id":"Cell Type||Macrophages","label":"Macrophages","column":"Cell Type","value":"Macrophages","level":6,"count":46},{"id":"Source||GSE165636","label":"GSE165636","column":"Source","value":"GSE165636","level":3,"count":18},{"id":"Cell Type||Endothelium","label":"Endothelium","column":"Cell Type","value":"Endothelium","level":6,"count":18},{"id":"Treatment||Tofacitinib","label":"Tofacitinib","column":"Treatment","value":"Tofacitinib","level":7,"count":9},{"id":"Treatment||Untreated","label":"Untreated","column":"Treatment","value":"Untreated","level":7,"count":9},{"id":"Source||GSE123141","label":"GSE123141","column":"Source","value":"GSE123141","level":3,"count":28},{"id":"Treatment||Systemic immunosuppression","label":"Systemic immunosuppression","column":"Treatment","value":"Systemic immunosuppression","level":7,"count":10},{"id":"Treatment||No immunosuppression","label":"No immunosuppression","column":"Treatment","value":"No immunosuppression","level":7,"count":18},{"id":"Source||GSE124350","label":"GSE124350","column":"Source","value":"GSE124350","level":3,"count":60},{"id":"Cell Type||CD45+ CD64+ HLA-DR+ CD206-","label":"CD45+ CD64+ HLA-DR+ CD206-","column":"Cell Type","value":"CD45+ CD64+ HLA-DR+ CD206-","level":6,"count":32},{"id":"Cell Type||CD45+ CD64+ HLA-DR+ CD206+","label":"CD45+ CD64+ HLA-DR+ CD206+","column":"Cell Type","value":"CD45+ CD64+ HLA-DR+ CD206+","level":6,"count":28},{"id":"Source||GSE173642","label":"GSE173642","column":"Source","value":"GSE173642","level":3,"count":48},{"id":"Source||GSE234736","label":"GSE234736","column":"Source","value":"GSE234736","level":3,"count":96},{"id":"Treatment||Vedolizumab pre","label":"Vedolizumab pre","column":"Treatment","value":"Vedolizumab pre","level":7,"count":51},{"id":"Treatment||Vedolizumab on","label":"Vedolizumab on","column":"Treatment","value":"Vedolizumab on","level":7,"count":45},{"id":"Tissue||Jejunum","label":"Jejunum","column":"Tissue","value":"Jejunum","level":5,"count":34},{"id":"Source||GSE234981","label":"GSE234981","column":"Source","value":"GSE234981","level":3,"count":346},{"id":"Cell Type||Memory CD8","label":"Memory CD8","column":"Cell Type","value":"Memory CD8","level":6,"count":119},{"id":"Cell Type||Memory CD4","label":"Memory CD4","column":"Cell Type","value":"Memory CD4","level":6,"count":119},{"id":"Cell Type||\u03b3\u03b4 T Cells","label":"\u03b3\u03b4 T Cells","column":"Cell Type","value":"\u03b3\u03b4 T Cells","level":6,"count":108},{"id":"Source||GSE247146","label":"GSE247146","column":"Source","value":"GSE247146","level":3,"count":12},{"id":"Treatment||Anti-TNF baseline","label":"Anti-TNF baseline","column":"Treatment","value":"Anti-TNF baseline","level":7,"count":12},{"id":"Source||GSE247742","label":"GSE247742","column":"Source","value":"GSE247742","level":3,"count":84},{"id":"Cell Type||Sorted ILC3s","label":"Sorted ILC3s","column":"Cell Type","value":"Sorted ILC3s","level":6,"count":84},{"id":"Source||GSE266963","label":"GSE266963","column":"Source","value":"GSE266963","level":3,"count":38},{"id":"Treatment||TUDCA baseline","label":"TUDCA baseline","column":"Treatment","value":"TUDCA baseline","level":7,"count":21},{"id":"Treatment||TUDCA post week 6","label":"TUDCA post week 6","column":"Treatment","value":"TUDCA post week 6","level":7,"count":16},{"id":"Treatment||TUDCA post week 8","label":"TUDCA post week 8","column":"Treatment","value":"TUDCA post week 8","level":7,"count":1},{"id":"Source||GSE274965","label":"GSE274965","column":"Source","value":"GSE274965","level":3,"count":8},{"id":"Cell Type||Peripheral Blood Leukocytes","label":"Peripheral Blood Leukocytes","column":"Cell Type","value":"Peripheral Blood Leukocytes","level":6,"count":8},{"id":"Source||GSE282580","label":"GSE282580","column":"Source","value":"GSE282580","level":3,"count":60},{"id":"Treatment||Vedolizumab 0W","label":"Vedolizumab 0W","column":"Treatment","value":"Vedolizumab 0W","level":7,"count":22},{"id":"Treatment||Vedolizumab 14W","label":"Vedolizumab 14W","column":"Treatment","value":"Vedolizumab 14W","level":7,"count":20},{"id":"Treatment||Vedolizumab 54W","label":"Vedolizumab 54W","column":"Treatment","value":"Vedolizumab 54W","level":7,"count":18},{"id":"Source||GSE294501","label":"GSE294501","column":"Source","value":"GSE294501","level":3,"count":6},{"id":"Source||GSE67280","label":"GSE67280","column":"Source","value":"GSE67280","level":3,"count":4},{"id":"Cell Type||CD3+ LPMCs","label":"CD3+ LPMCs","column":"Cell Type","value":"CD3+ LPMCs","level":6,"count":2},{"id":"Cell Type||CD33+ LPMCs","label":"CD33+ LPMCs","column":"Cell Type","value":"CD33+ LPMCs","level":6,"count":2},{"id":"Source||GSE235236","label":"GSE235236","column":"Source","value":"GSE235236","level":3,"count":56},{"id":"Tissue||Sigmoid colon","label":"Sigmoid colon","column":"Tissue","value":"Sigmoid colon","level":5,"count":128},{"id":"Tissue||Ascending colon","label":"Ascending colon","column":"Tissue","value":"Ascending colon","level":5,"count":4},{"id":"Tissue||Descending colon","label":"Descending colon","column":"Tissue","value":"Descending colon","level":5,"count":66},{"id":"Tissue||Transverse colon","label":"Transverse colon","column":"Tissue","value":"Transverse colon","level":5,"count":16},{"id":"Source||GSE146853","label":"GSE146853","column":"Source","value":"GSE146853","level":3,"count":67},{"id":"Disease||IBS-C","label":"IBS-C","column":"Disease","value":"IBS-C","level":4,"count":42},{"id":"Disease||IBS-D","label":"IBS-D","column":"Disease","value":"IBS-D","level":4,"count":46},{"id":"Source||GSE168759","label":"GSE168759","column":"Source","value":"GSE168759","level":3,"count":16},{"id":"Disease||PI-IBS","label":"PI-IBS","column":"Disease","value":"PI-IBS","level":4,"count":16},{"id":"Treatment||High proteolytic activity","label":"High proteolytic activity","column":"Treatment","value":"High proteolytic activity","level":7,"count":6},{"id":"Treatment||Low proteolytic activity","label":"Low proteolytic activity","column":"Treatment","value":"Low proteolytic activity","level":7,"count":10},{"id":"Source||GSE166869","label":"GSE166869","column":"Source","value":"GSE166869","level":3,"count":68},{"id":"Tissue||Duodenum","label":"Duodenum","column":"Tissue","value":"Duodenum","level":5,"count":38},{"id":"Source||GSE111819","label":"GSE111819","column":"Source","value":"GSE111819","level":3,"count":26},{"id":"Disease||Diverticulitis","label":"Diverticulitis","column":"Disease","value":"Diverticulitis","level":4,"count":26},{"id":"Source||GSE270661","label":"GSE270661","column":"Source","value":"GSE270661","level":3,"count":119},{"id":"Treatment||Basal","label":"Basal","column":"Treatment","value":"Basal","level":7,"count":60},{"id":"Design||RNA-Seq","label":"RNA-Seq","column":"Design","value":"RNA-Seq","level":1,"count":252},{"id":"Source||phs001626","label":"phs001626","column":"Source","value":"phs001626","level":3,"count":252},{"id":"Disease||Inflammatory Bowel Diseases","label":"Inflammatory Bowel Diseases","column":"Disease","value":"Inflammatory Bowel Diseases","level":4,"count":201},{"id":"Tissue||Sigmoid Colon","label":"Sigmoid Colon","column":"Tissue","value":"Sigmoid Colon","level":5,"count":22},{"id":"Tissue||Descending (left-sided) colon","label":"Descending (left-sided) colon","column":"Tissue","value":"Descending (left-sided) colon","level":5,"count":9},{"id":"Tissue||Terminal ileum","label":"Terminal ileum","column":"Tissue","value":"Terminal ileum","level":5,"count":3},{"id":"Tissue||Ascending (right-sided) colon","label":"Ascending (right-sided) colon","column":"Tissue","value":"Ascending (right-sided) colon","level":5,"count":8},{"id":"Tissue||Non-inflamed","label":"Non-inflamed","column":"Tissue","value":"Non-inflamed","level":5,"count":1}],"links":[{"source":"Cell Type||","target":"Treatment||","value":6211},{"source":"Cell Type||","target":"Treatment||Adalimumab","value":11},{"source":"Cell Type||","target":"Treatment||Anti-TNF baseline","value":12},{"source":"Cell Type||","target":"Treatment||Basal","value":60},{"source":"Cell Type||","target":"Treatment||Control","value":39},{"source":"Cell Type||","target":"Treatment||Etrolizumab","value":73},{"source":"Cell Type||","target":"Treatment||HBOT","value":5},{"source":"Cell Type||","target":"Treatment||HSCT baseline","value":18},{"source":"Cell Type||","target":"Treatment||HSCT post","value":81},{"source":"Cell Type||","target":"Treatment||HSCT pre","value":8},{"source":"Cell Type||","target":"Treatment||High proteolytic activity","value":6},{"source":"Cell Type||","target":"Treatment||Infliximab","value":201},{"source":"Cell Type||","target":"Treatment||Low proteolytic activity","value":10},{"source":"Cell Type||","target":"Treatment||Non-HSCT control","value":51},{"source":"Cell Type||","target":"Treatment||Pouch biopsy 12mo","value":18},{"source":"Cell Type||","target":"Treatment||Pouch biopsy 4mo","value":29},{"source":"Cell Type||","target":"Treatment||Pouch biopsy 8mo","value":20},{"source":"Cell Type||","target":"Treatment||Pouch biopsy >12mo","value":4},{"source":"Cell Type||","target":"Treatment||Pouch control","value":2},{"source":"Cell Type||","target":"Treatment||SARS-CoV-2","value":45},{"source":"Cell Type||","target":"Treatment||Sham","value":8},{"source":"Cell Type||","target":"Treatment||TUDCA baseline","value":21},{"source":"Cell Type||","target":"Treatment||TUDCA post week 6","value":16},{"source":"Cell Type||","target":"Treatment||TUDCA post week 8","value":1},{"source":"Cell Type||","target":"Treatment||Treatment naive","value":1606},{"source":"Cell Type||","target":"Treatment||Vedolizumab","value":72},{"source":"Cell Type||","target":"Treatment||Vedolizumab 0W","value":22},{"source":"Cell Type||","target":"Treatment||Vedolizumab 14W","value":20},{"source":"Cell Type||","target":"Treatment||Vedolizumab 54W","value":18},{"source":"Cell Type||","target":"Treatment||Vedolizumab on","value":45},{"source":"Cell Type||","target":"Treatment||Vedolizumab pre","value":51},{"source":"Cell Type||CD11b+","target":"Treatment||Anti-IL-12/23","value":8},{"source":"Cell Type||CD11b+","target":"Treatment||Anti-TNF","value":30},{"source":"Cell Type||CD11b+","target":"Treatment||Anti-integrin","value":24},{"source":"Cell Type||CD11b+","target":"Treatment||No biologics","value":54},{"source":"Cell Type||CD11b+ Phagocytes","target":"Treatment||","value":35},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||CTR 2H","value":3},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||CTR 4H","value":3},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||Cad 2H","value":3},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||Cad 4H","value":3},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||Cad.LPS 2H","value":3},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||Cad.LPS 4H","value":3},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||FP10 2H","value":3},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||FP10 4H","value":3},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||FP100 2H","value":2},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||FP100 4H","value":3},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||LPS 2H","value":3},{"source":"Cell Type||CD14+ Monocytes","target":"Treatment||LPS 4H","value":3},{"source":"Cell Type||CD3+","target":"Treatment||Post surgery","value":30},{"source":"Cell Type||CD3+","target":"Treatment||Surgery","value":235},{"source":"Cell Type||CD3+ LPMCs","target":"Treatment||","value":2},{"source":"Cell Type||CD33+ LPMCs","target":"Treatment||","value":2},{"source":"Cell Type||CD45+ CD64+ HLA-DR+ CD206+","target":"Treatment||","value":28},{"source":"Cell Type||CD45+ CD64+ HLA-DR+ CD206-","target":"Treatment||","value":32},{"source":"Cell Type||Colonoid","target":"Treatment||","value":14},{"source":"Cell Type||Creeping Fat","target":"Treatment||","value":8},{"source":"Cell Type||Endothelium","target":"Treatment||Tofacitinib","value":9},{"source":"Cell Type||Endothelium","target":"Treatment||Untreated","value":9},{"source":"Cell Type||Epithelial Cells","target":"Treatment||","value":6},{"source":"Cell Type||Fibroblasts","target":"Treatment||","value":6},{"source":"Cell Type||Macrophages","target":"Treatment||","value":18},{"source":"Cell Type||Macrophages","target":"Treatment||No immunosuppression","value":18},{"source":"Cell Type||Macrophages","target":"Treatment||Systemic immunosuppression","value":10},{"source":"Cell Type||Memory CD4","target":"Treatment||","value":119},{"source":"Cell Type||Memory CD8","target":"Treatment||","value":119},{"source":"Cell Type||Monocytes","target":"Treatment||MDP-stimulated","value":7},{"source":"Cell Type||Monocytes","target":"Treatment||Unstimulated","value":7},{"source":"Cell Type||PBMCs","target":"Treatment||","value":22},{"source":"Cell Type||Peripheral Blood Leukocytes","target":"Treatment||","value":8},{"source":"Cell Type||Sigmoid","target":"Treatment||","value":26},{"source":"Cell Type||Sorted ILC3s","target":"Treatment||","value":84},{"source":"Cell Type||\u03b3\u03b4 T Cells","target":"Treatment||","value":108},{"source":"Design||In vitro","target":"Isolation||polyA","value":1096},{"source":"Design||In vivo","target":"Isolation||Total","value":2227},{"source":"Design||In vivo","target":"Isolation||polyA","value":5892},{"source":"Design||Intestinal organoids","target":"Isolation||polyA","value":430},{"source":"Design||RNA-Seq","target":"Isolation||Total","value":252},{"source":"Disease||","target":"Tissue||Ascending (right-sided) colon","value":1},{"source":"Disease||","target":"Tissue||Colon","value":60},{"source":"Disease||","target":"Tissue||Descending (left-sided) colon","value":1},{"source":"Disease||","target":"Tissue||Ileum","value":57},{"source":"Disease||","target":"Tissue||Rectum","value":23},{"source":"Disease||","target":"Tissue||Transverse colon","value":4},{"source":"Disease||CD","target":"Tissue||Ascending Colon","value":25},{"source":"Disease||CD","target":"Tissue||Ascending colon","value":3},{"source":"Disease||CD","target":"Tissue||Blood","value":806},{"source":"Disease||CD","target":"Tissue||Cecum","value":79},{"source":"Disease||CD","target":"Tissue||Colon","value":645},{"source":"Disease||CD","target":"Tissue||Descending colon","value":45},{"source":"Disease||CD","target":"Tissue||Ileum","value":1920},{"source":"Disease||CD","target":"Tissue||Intestinal Mucosa","value":99},{"source":"Disease||CD","target":"Tissue||Intestine","value":57},{"source":"Disease||CD","target":"Tissue||Jejunum","value":4},{"source":"Disease||CD","target":"Tissue||Mesenteric Fat","value":4},{"source":"Disease||CD","target":"Tissue||Rectum","value":499},{"source":"Disease||CD","target":"Tissue||Sigmoid","value":72},{"source":"Disease||CD","target":"Tissue||Sigmoid colon","value":7},{"source":"Disease||CD","target":"Tissue||Stool Associated","value":348},{"source":"Disease||CD","target":"Tissue||Transverse","value":52},{"source":"Disease||CD","target":"Tissue||Transverse colon","value":2},{"source":"Disease||Diverticulitis","target":"Tissue||Sigmoid colon","value":26},{"source":"Disease||Healthy","target":"Tissue||Ascending Colon","value":54},{"source":"Disease||Healthy","target":"Tissue||Blood","value":289},{"source":"Disease||Healthy","target":"Tissue||Cecum","value":84},{"source":"Disease||Healthy","target":"Tissue||Colon","value":195},{"source":"Disease||Healthy","target":"Tissue||Descending colon","value":20},{"source":"Disease||Healthy","target":"Tissue||Duodenum","value":13},{"source":"Disease||Healthy","target":"Tissue||Ileum","value":494},{"source":"Disease||Healthy","target":"Tissue||Intestinal Mucosa","value":17},{"source":"Disease||Healthy","target":"Tissue||Intestine","value":12},{"source":"Disease||Healthy","target":"Tissue||Jejunum","value":13},{"source":"Disease||Healthy","target":"Tissue||Mesenteric Fat","value":4},{"source":"Disease||Healthy","target":"Tissue||Rectum","value":332},{"source":"Disease||Healthy","target":"Tissue||Sigmoid","value":2},{"source":"Disease||Healthy","target":"Tissue||Sigmoid colon","value":29},{"source":"Disease||Healthy","target":"Tissue||Stool Associated","value":194},{"source":"Disease||Healthy","target":"Tissue||Transverse","value":5},{"source":"Disease||IBD","target":"Tissue||Blood","value":36},{"source":"Disease||IBD","target":"Tissue||Colon","value":7},{"source":"Disease||IBD","target":"Tissue||Ileum","value":26},{"source":"Disease||IBD","target":"Tissue||Intestine","value":5},{"source":"Disease||IBD","target":"Tissue||Rectum","value":31},{"source":"Disease||IBS-C","target":"Tissue||Duodenum","value":12},{"source":"Disease||IBS-C","target":"Tissue||Jejunum","value":7},{"source":"Disease||IBS-C","target":"Tissue||Sigmoid colon","value":23},{"source":"Disease||IBS-D","target":"Tissue||Duodenum","value":13},{"source":"Disease||IBS-D","target":"Tissue||Jejunum","value":10},{"source":"Disease||IBS-D","target":"Tissue||Sigmoid colon","value":23},{"source":"Disease||Inflammatory Bowel Diseases","target":"Tissue||Ascending (right-sided) colon","value":7},{"source":"Disease||Inflammatory Bowel Diseases","target":"Tissue||Cecum","value":5},{"source":"Disease||Inflammatory Bowel Diseases","target":"Tissue||Descending (left-sided) colon","value":8},{"source":"Disease||Inflammatory Bowel Diseases","target":"Tissue||Ileum","value":68},{"source":"Disease||Inflammatory Bowel Diseases","target":"Tissue||Non-inflamed","value":1},{"source":"Disease||Inflammatory Bowel Diseases","target":"Tissue||Rectum","value":77},{"source":"Disease||Inflammatory Bowel Diseases","target":"Tissue||Sigmoid Colon","value":22},{"source":"Disease||Inflammatory Bowel Diseases","target":"Tissue||Terminal ileum","value":3},{"source":"Disease||Inflammatory Bowel Diseases","target":"Tissue||Transverse colon","value":10},{"source":"Disease||PI-IBS","target":"Tissue||Colon","value":16},{"source":"Disease||UC","target":"Tissue||Ascending colon","value":1},{"source":"Disease||UC","target":"Tissue||Blood","value":531},{"source":"Disease||UC","target":"Tissue||Cecum","value":66},{"source":"Disease||UC","target":"Tissue||Colon","value":903},{"source":"Disease||UC","target":"Tissue||Descending colon","value":1},{"source":"Disease||UC","target":"Tissue||Ileum","value":422},{"source":"Disease||UC","target":"Tissue||Intestine","value":12},{"source":"Disease||UC","target":"Tissue||Rectum","value":593},{"source":"Disease||UC","target":"Tissue||Sigmoid","value":89},{"source":"Disease||UC","target":"Tissue||Sigmoid colon","value":20},{"source":"Disease||UC","target":"Tissue||Stool Associated","value":220},{"source":"Disease||UC","target":"Tissue||Transverse","value":33},{"source":"Isolation||Total","target":"Source||GSE138364","value":22},{"source":"Isolation||Total","target":"Source||GSE143507","value":97},{"source":"Isolation||Total","target":"Source||GSE156044","value":8},{"source":"Isolation||Total","target":"Source||GSE159034","value":24},{"source":"Isolation||Total","target":"Source||GSE165512","value":170},{"source":"Isolation||Total","target":"Source||GSE243625","value":45},{"source":"Isolation||Total","target":"Source||GSE247146","value":12},{"source":"Isolation||Total","target":"Source||GSE294501","value":6},{"source":"Isolation||Total","target":"Source||GSE57945","value":322},{"source":"Isolation||Total","target":"Source||GSE62207","value":310},{"source":"Isolation||Total","target":"Source||GSE81266","value":73},{"source":"Isolation||Total","target":"Source||GSE83687","value":131},{"source":"Isolation||Total","target":"Source||GSE93624","value":245},{"source":"Isolation||Total","target":"Source||SRP115494","value":762},{"source":"Isolation||Total","target":"Source||phs001626","value":252},{"source":"Isolation||polyA","target":"Source||GSE101794","value":304},{"source":"Isolation||polyA","target":"Source||GSE109142","value":226},{"source":"Isolation||polyA","target":"Source||GSE111819","value":26},{"source":"Isolation||polyA","target":"Source||GSE112057","value":87},{"source":"Isolation||polyA","target":"Source||GSE117993","value":190},{"source":"Isolation||polyA","target":"Source||GSE123141","value":28},{"source":"Isolation||polyA","target":"Source||GSE124350","value":60},{"source":"Isolation||polyA","target":"Source||GSE130038","value":26},{"source":"Isolation||polyA","target":"Source||GSE134881","value":199},{"source":"Isolation||polyA","target":"Source||GSE135170","value":20},{"source":"Isolation||polyA","target":"Source||GSE135223","value":18},{"source":"Isolation||polyA","target":"Source||GSE137344","value":195},{"source":"Isolation||polyA","target":"Source||GSE139179","value":158},{"source":"Isolation||polyA","target":"Source||GSE146853","value":67},{"source":"Isolation||polyA","target":"Source||GSE152229","value":13},{"source":"Isolation||polyA","target":"Source||GSE158952","value":119},{"source":"Isolation||polyA","target":"Source||GSE165636","value":18},{"source":"Isolation||polyA","target":"Source||GSE166869","value":68},{"source":"Isolation||polyA","target":"Source||GSE168759","value":16},{"source":"Isolation||polyA","target":"Source||GSE173642","value":48},{"source":"Isolation||polyA","target":"Source||GSE183620","value":116},{"source":"Isolation||polyA","target":"Source||GSE186507","value":1030},{"source":"Isolation||polyA","target":"Source||GSE191328","value":201},{"source":"Isolation||polyA","target":"Source||GSE193677","value":2489},{"source":"Isolation||polyA","target":"Source||GSE197698","value":211},{"source":"Isolation||polyA","target":"Source||GSE208684","value":84},{"source":"Isolation||polyA","target":"Source||GSE217352","value":265},{"source":"Isolation||polyA","target":"Source||GSE220815","value":12},{"source":"Isolation||polyA","target":"Source||GSE228122","value":115},{"source":"Isolation||polyA","target":"Source||GSE234736","value":96},{"source":"Isolation||polyA","target":"Source||GSE234981","value":346},{"source":"Isolation||polyA","target":"Source||GSE235236","value":56},{"source":"Isolation||polyA","target":"Source||GSE247742","value":84},{"source":"Isolation||polyA","target":"Source||GSE266963","value":38},{"source":"Isolation||polyA","target":"Source||GSE267465","value":35},{"source":"Isolation||polyA","target":"Source||GSE270661","value":119},{"source":"Isolation||polyA","target":"Source||GSE274965","value":8},{"source":"Isolation||polyA","target":"Source||GSE282580","value":60},{"source":"Isolation||polyA","target":"Source||GSE285449","value":35},{"source":"Isolation||polyA","target":"Source||GSE64801","value":14},{"source":"Isolation||polyA","target":"Source||GSE66207","value":21},{"source":"Isolation||polyA","target":"Source||GSE67250","value":6},{"source":"Isolation||polyA","target":"Source||GSE67280","value":4},{"source":"Isolation||polyA","target":"Source||GSE69446","value":14},{"source":"Isolation||polyA","target":"Source||GSE72819","value":73},{"source":"Source||GSE101794","target":"Disease||CD","value":254},{"source":"Source||GSE101794","target":"Disease||Healthy","value":50},{"source":"Source||GSE109142","target":"Disease||Healthy","value":20},{"source":"Source||GSE109142","target":"Disease||UC","value":206},{"source":"Source||GSE111819","target":"Disease||Diverticulitis","value":26},{"source":"Source||GSE112057","target":"Disease||CD","value":60},{"source":"Source||GSE112057","target":"Disease||Healthy","value":12},{"source":"Source||GSE112057","target":"Disease||UC","value":15},{"source":"Source||GSE117993","target":"Disease||CD","value":92},{"source":"Source||GSE117993","target":"Disease||Healthy","value":55},{"source":"Source||GSE117993","target":"Disease||UC","value":43},{"source":"Source||GSE123141","target":"Disease||CD","value":9},{"source":"Source||GSE123141","target":"Disease||Healthy","value":9},{"source":"Source||GSE123141","target":"Disease||UC","value":10},{"source":"Source||GSE124350","target":"Disease||","value":60},{"source":"Source||GSE130038","target":"Disease||UC","value":26},{"source":"Source||GSE134881","target":"Disease||CD","value":199},{"source":"Source||GSE135170","target":"Disease||Healthy","value":8},{"source":"Source||GSE135170","target":"Disease||IBD","value":12},{"source":"Source||GSE135223","target":"Disease||CD","value":5},{"source":"Source||GSE135223","target":"Disease||Healthy","value":8},{"source":"Source||GSE135223","target":"Disease||UC","value":5},{"source":"Source||GSE137344","target":"Disease||CD","value":112},{"source":"Source||GSE137344","target":"Disease||Healthy","value":39},{"source":"Source||GSE137344","target":"Disease||UC","value":44},{"source":"Source||GSE138364","target":"Disease||CD","value":12},{"source":"Source||GSE138364","target":"Disease||UC","value":10},{"source":"Source||GSE139179","target":"Disease||CD","value":107},{"source":"Source||GSE139179","target":"Disease||Healthy","value":51},{"source":"Source||GSE143507","target":"Disease||CD","value":59},{"source":"Source||GSE143507","target":"Disease||Healthy","value":38},{"source":"Source||GSE146853","target":"Disease||Healthy","value":21},{"source":"Source||GSE146853","target":"Disease||IBS-C","value":23},{"source":"Source||GSE146853","target":"Disease||IBS-D","value":23},{"source":"Source||GSE152229","target":"Disease||UC","value":13},{"source":"Source||GSE156044","target":"Disease||CD","value":4},{"source":"Source||GSE156044","target":"Disease||Healthy","value":4},{"source":"Source||GSE158952","target":"Disease||CD","value":65},{"source":"Source||GSE158952","target":"Disease||UC","value":54},{"source":"Source||GSE159034","target":"Disease||IBD","value":24},{"source":"Source||GSE165512","target":"Disease||CD","value":84},{"source":"Source||GSE165512","target":"Disease||Healthy","value":46},{"source":"Source||GSE165512","target":"Disease||UC","value":40},{"source":"Source||GSE165636","target":"Disease||UC","value":18},{"source":"Source||GSE166869","target":"Disease||Healthy","value":26},{"source":"Source||GSE166869","target":"Disease||IBS-C","value":19},{"source":"Source||GSE166869","target":"Disease||IBS-D","value":23},{"source":"Source||GSE168759","target":"Disease||PI-IBS","value":16},{"source":"Source||GSE173642","target":"Disease||CD","value":48},{"source":"Source||GSE183620","target":"Disease||CD","value":42},{"source":"Source||GSE183620","target":"Disease||UC","value":74},{"source":"Source||GSE186507","target":"Disease||CD","value":432},{"source":"Source||GSE186507","target":"Disease||Healthy","value":209},{"source":"Source||GSE186507","target":"Disease||UC","value":389},{"source":"Source||GSE191328","target":"Disease||CD","value":89},{"source":"Source||GSE191328","target":"Disease||UC","value":112},{"source":"Source||GSE193677","target":"Disease||CD","value":1157},{"source":"Source||GSE193677","target":"Disease||Healthy","value":460},{"source":"Source||GSE193677","target":"Disease||UC","value":872},{"source":"Source||GSE197698","target":"Disease||CD","value":76},{"source":"Source||GSE197698","target":"Disease||Healthy","value":81},{"source":"Source||GSE197698","target":"Disease||UC","value":54},{"source":"Source||GSE208684","target":"Disease||CD","value":20},{"source":"Source||GSE208684","target":"Disease||Healthy","value":45},{"source":"Source||GSE208684","target":"Disease||UC","value":19},{"source":"Source||GSE217352","target":"Disease||CD","value":230},{"source":"Source||GSE217352","target":"Disease||Healthy","value":35},{"source":"Source||GSE220815","target":"Disease||UC","value":12},{"source":"Source||GSE228122","target":"Disease||CD","value":1},{"source":"Source||GSE228122","target":"Disease||Healthy","value":57},{"source":"Source||GSE228122","target":"Disease||IBD","value":57},{"source":"Source||GSE234736","target":"Disease||CD","value":63},{"source":"Source||GSE234736","target":"Disease||UC","value":33},{"source":"Source||GSE234981","target":"Disease||CD","value":170},{"source":"Source||GSE234981","target":"Disease||UC","value":176},{"source":"Source||GSE235236","target":"Disease||CD","value":22},{"source":"Source||GSE235236","target":"Disease||Healthy","value":8},{"source":"Source||GSE235236","target":"Disease||UC","value":26},{"source":"Source||GSE243625","target":"Disease||Healthy","value":15},{"source":"Source||GSE243625","target":"Disease||UC","value":30},{"source":"Source||GSE247146","target":"Disease||IBD","value":12},{"source":"Source||GSE247742","target":"Disease||CD","value":36},{"source":"Source||GSE247742","target":"Disease||UC","value":48},{"source":"Source||GSE266963","target":"Disease||UC","value":38},{"source":"Source||GSE267465","target":"Disease||CD","value":21},{"source":"Source||GSE267465","target":"Disease||Healthy","value":14},{"source":"Source||GSE270661","target":"Disease||CD","value":79},{"source":"Source||GSE270661","target":"Disease||Healthy","value":40},{"source":"Source||GSE274965","target":"Disease||CD","value":8},{"source":"Source||GSE282580","target":"Disease||UC","value":60},{"source":"Source||GSE285449","target":"Disease||","value":35},{"source":"Source||GSE294501","target":"Disease||Healthy","value":3},{"source":"Source||GSE294501","target":"Disease||UC","value":3},{"source":"Source||GSE57945","target":"Disease||CD","value":218},{"source":"Source||GSE57945","target":"Disease||Healthy","value":42},{"source":"Source||GSE57945","target":"Disease||UC","value":62},{"source":"Source||GSE62207","target":"Disease||CD","value":259},{"source":"Source||GSE62207","target":"Disease||Healthy","value":51},{"source":"Source||GSE64801","target":"Disease||Healthy","value":14},{"source":"Source||GSE66207","target":"Disease||CD","value":20},{"source":"Source||GSE66207","target":"Disease||Healthy","value":1},{"source":"Source||GSE67250","target":"Disease||CD","value":3},{"source":"Source||GSE67250","target":"Disease||Healthy","value":3},{"source":"Source||GSE67280","target":"Disease||Healthy","value":2},{"source":"Source||GSE67280","target":"Disease||UC","value":2},{"source":"Source||GSE69446","target":"Disease||CD","value":10},{"source":"Source||GSE69446","target":"Disease||Healthy","value":4},{"source":"Source||GSE72819","target":"Disease||UC","value":73},{"source":"Source||GSE81266","target":"Disease||Healthy","value":2},{"source":"Source||GSE81266","target":"Disease||UC","value":71},{"source":"Source||GSE83687","target":"Disease||CD","value":43},{"source":"Source||GSE83687","target":"Disease||Healthy","value":55},{"source":"Source||GSE83687","target":"Disease||UC","value":33},{"source":"Source||GSE93624","target":"Disease||CD","value":210},{"source":"Source||GSE93624","target":"Disease||Healthy","value":35},{"source":"Source||SRP115494","target":"Disease||CD","value":348},{"source":"Source||SRP115494","target":"Disease||Healthy","value":194},{"source":"Source||SRP115494","target":"Disease||UC","value":220},{"source":"Source||phs001626","target":"Disease||","value":51},{"source":"Source||phs001626","target":"Disease||Inflammatory Bowel Diseases","value":201},{"source":"Tissue||Ascending (right-sided) colon","target":"Cell Type||","value":8},{"source":"Tissue||Ascending Colon","target":"Cell Type||","value":59},{"source":"Tissue||Ascending Colon","target":"Cell Type||CD11b+ Phagocytes","value":20},{"source":"Tissue||Ascending colon","target":"Cell Type||","value":4},{"source":"Tissue||Blood","target":"Cell Type||","value":1451},{"source":"Tissue||Blood","target":"Cell Type||CD3+","value":149},{"source":"Tissue||Blood","target":"Cell Type||Macrophages","value":18},{"source":"Tissue||Blood","target":"Cell Type||Monocytes","value":14},{"source":"Tissue||Blood","target":"Cell Type||PBMCs","value":22},{"source":"Tissue||Blood","target":"Cell Type||Peripheral Blood Leukocytes","value":8},{"source":"Tissue||Cecum","target":"Cell Type||","value":234},{"source":"Tissue||Colon","target":"Cell Type||","value":1208},{"source":"Tissue||Colon","target":"Cell Type||CD11b+","value":64},{"source":"Tissue||Colon","target":"Cell Type||CD45+ CD64+ HLA-DR+ CD206+","value":28},{"source":"Tissue||Colon","target":"Cell Type||CD45+ CD64+ HLA-DR+ CD206-","value":32},{"source":"Tissue||Colon","target":"Cell Type||Colonoid","value":14},{"source":"Tissue||Colon","target":"Cell Type||Endothelium","value":18},{"source":"Tissue||Colon","target":"Cell Type||Fibroblasts","value":6},{"source":"Tissue||Colon","target":"Cell Type||Memory CD4","value":119},{"source":"Tissue||Colon","target":"Cell Type||Memory CD8","value":119},{"source":"Tissue||Colon","target":"Cell Type||Sigmoid","value":26},{"source":"Tissue||Colon","target":"Cell Type||Sorted ILC3s","value":84},{"source":"Tissue||Colon","target":"Cell Type||\u03b3\u03b4 T Cells","value":108},{"source":"Tissue||Descending (left-sided) colon","target":"Cell Type||","value":9},{"source":"Tissue||Descending colon","target":"Cell Type||","value":66},{"source":"Tissue||Duodenum","target":"Cell Type||","value":38},{"source":"Tissue||Ileum","target":"Cell Type||","value":2885},{"source":"Tissue||Ileum","target":"Cell Type||CD11b+","value":52},{"source":"Tissue||Ileum","target":"Cell Type||CD11b+ Phagocytes","value":15},{"source":"Tissue||Ileum","target":"Cell Type||CD14+ Monocytes","value":35},{"source":"Tissue||Intestinal Mucosa","target":"Cell Type||CD3+","value":116},{"source":"Tissue||Intestine","target":"Cell Type||","value":48},{"source":"Tissue||Intestine","target":"Cell Type||CD3+ LPMCs","value":2},{"source":"Tissue||Intestine","target":"Cell Type||CD33+ LPMCs","value":2},{"source":"Tissue||Intestine","target":"Cell Type||Epithelial Cells","value":6},{"source":"Tissue||Intestine","target":"Cell Type||Macrophages","value":28},{"source":"Tissue||Jejunum","target":"Cell Type||","value":34},{"source":"Tissue||Mesenteric Fat","target":"Cell Type||Creeping Fat","value":8},{"source":"Tissue||Non-inflamed","target":"Cell Type||","value":1},{"source":"Tissue||Rectum","target":"Cell Type||","value":1555},{"source":"Tissue||Sigmoid","target":"Cell Type||","value":163},{"source":"Tissue||Sigmoid Colon","target":"Cell Type||","value":22},{"source":"Tissue||Sigmoid colon","target":"Cell Type||","value":128},{"source":"Tissue||Stool Associated","target":"Cell Type||","value":762},{"source":"Tissue||Terminal ileum","target":"Cell Type||","value":3},{"source":"Tissue||Transverse","target":"Cell Type||","value":90},{"source":"Tissue||Transverse colon","target":"Cell Type||","value":16}]}
+{
+  "columns": [
+    "Design",
+    "Isolation",
+    "Source",
+    "Disease",
+    "Tissue",
+    "Cell Type",
+    "Treatment"
+  ],
+  "sample_count": 9897,
+  "nodes": [
+    {
+      "id": "n1",
+      "column": "Design",
+      "label": "In vivo",
+      "value": "In vivo",
+      "count": 8371,
+      "level": 1
+    },
+    {
+      "id": "n2",
+      "column": "Design",
+      "label": "In vitro",
+      "value": "In vitro",
+      "count": 1096,
+      "level": 1
+    },
+    {
+      "id": "n3",
+      "column": "Design",
+      "label": "Intestinal organoids",
+      "value": "Intestinal organoids",
+      "count": 430,
+      "level": 1
+    },
+    {
+      "id": "n4",
+      "column": "Isolation",
+      "label": "polyA",
+      "value": "polyA",
+      "count": 7418,
+      "level": 2
+    },
+    {
+      "id": "n5",
+      "column": "Isolation",
+      "label": "Total",
+      "value": "Total",
+      "count": 2479,
+      "level": 2
+    },
+    {
+      "id": "n6",
+      "column": "Source",
+      "label": "GSE193677",
+      "value": "GSE193677",
+      "count": 2489,
+      "level": 3
+    },
+    {
+      "id": "n7",
+      "column": "Source",
+      "label": "GSE186507",
+      "value": "GSE186507",
+      "count": 1030,
+      "level": 3
+    },
+    {
+      "id": "n8",
+      "column": "Source",
+      "label": "SRP115494",
+      "value": "SRP115494",
+      "count": 762,
+      "level": 3
+    },
+    {
+      "id": "n9",
+      "column": "Source",
+      "label": "GSE234981",
+      "value": "GSE234981",
+      "count": 346,
+      "level": 3
+    },
+    {
+      "id": "n10",
+      "column": "Source",
+      "label": "GSE57945",
+      "value": "GSE57945",
+      "count": 322,
+      "level": 3
+    },
+    {
+      "id": "n11",
+      "column": "Source",
+      "label": "GSE62207",
+      "value": "GSE62207",
+      "count": 310,
+      "level": 3
+    },
+    {
+      "id": "n12",
+      "column": "Source",
+      "label": "GSE101794",
+      "value": "GSE101794",
+      "count": 304,
+      "level": 3
+    },
+    {
+      "id": "n13",
+      "column": "Source",
+      "label": "GSE217352",
+      "value": "GSE217352",
+      "count": 265,
+      "level": 3
+    },
+    {
+      "id": "n14",
+      "column": "Source",
+      "label": "phs001626",
+      "value": "phs001626",
+      "count": 252,
+      "level": 3
+    },
+    {
+      "id": "n15",
+      "column": "Source",
+      "label": "GSE93624",
+      "value": "GSE93624",
+      "count": 245,
+      "level": 3
+    },
+    {
+      "id": "n16",
+      "column": "Source",
+      "label": "GSE109142",
+      "value": "GSE109142",
+      "count": 226,
+      "level": 3
+    },
+    {
+      "id": "n17",
+      "column": "Source",
+      "label": "GSE197698",
+      "value": "GSE197698",
+      "count": 211,
+      "level": 3
+    },
+    {
+      "id": "n18",
+      "column": "Source",
+      "label": "GSE191328",
+      "value": "GSE191328",
+      "count": 201,
+      "level": 3
+    },
+    {
+      "id": "n19",
+      "column": "Source",
+      "label": "GSE134881",
+      "value": "GSE134881",
+      "count": 199,
+      "level": 3
+    },
+    {
+      "id": "n20",
+      "column": "Source",
+      "label": "GSE137344",
+      "value": "GSE137344",
+      "count": 195,
+      "level": 3
+    },
+    {
+      "id": "n21",
+      "column": "Source",
+      "label": "GSE117993",
+      "value": "GSE117993",
+      "count": 190,
+      "level": 3
+    },
+    {
+      "id": "n22",
+      "column": "Source",
+      "label": "GSE165512",
+      "value": "GSE165512",
+      "count": 170,
+      "level": 3
+    },
+    {
+      "id": "n23",
+      "column": "Source",
+      "label": "GSE139179",
+      "value": "GSE139179",
+      "count": 158,
+      "level": 3
+    },
+    {
+      "id": "n24",
+      "column": "Source",
+      "label": "GSE83687",
+      "value": "GSE83687",
+      "count": 131,
+      "level": 3
+    },
+    {
+      "id": "n25",
+      "column": "Source",
+      "label": "GSE158952",
+      "value": "GSE158952",
+      "count": 119,
+      "level": 3
+    },
+    {
+      "id": "n26",
+      "column": "Source",
+      "label": "GSE270661",
+      "value": "GSE270661",
+      "count": 119,
+      "level": 3
+    },
+    {
+      "id": "n27",
+      "column": "Source",
+      "label": "GSE183620",
+      "value": "GSE183620",
+      "count": 116,
+      "level": 3
+    },
+    {
+      "id": "n28",
+      "column": "Source",
+      "label": "GSE228122",
+      "value": "GSE228122",
+      "count": 115,
+      "level": 3
+    },
+    {
+      "id": "n29",
+      "column": "Source",
+      "label": "GSE143507",
+      "value": "GSE143507",
+      "count": 97,
+      "level": 3
+    },
+    {
+      "id": "n30",
+      "column": "Source",
+      "label": "GSE234736",
+      "value": "GSE234736",
+      "count": 96,
+      "level": 3
+    },
+    {
+      "id": "n31",
+      "column": "Source",
+      "label": "GSE112057",
+      "value": "GSE112057",
+      "count": 87,
+      "level": 3
+    },
+    {
+      "id": "n32",
+      "column": "Source",
+      "label": "GSE208684",
+      "value": "GSE208684",
+      "count": 84,
+      "level": 3
+    },
+    {
+      "id": "n33",
+      "column": "Source",
+      "label": "GSE247742",
+      "value": "GSE247742",
+      "count": 84,
+      "level": 3
+    },
+    {
+      "id": "n34",
+      "column": "Source",
+      "label": "GSE72819",
+      "value": "GSE72819",
+      "count": 73,
+      "level": 3
+    },
+    {
+      "id": "n35",
+      "column": "Source",
+      "label": "GSE81266",
+      "value": "GSE81266",
+      "count": 73,
+      "level": 3
+    },
+    {
+      "id": "n36",
+      "column": "Source",
+      "label": "GSE166869",
+      "value": "GSE166869",
+      "count": 68,
+      "level": 3
+    },
+    {
+      "id": "n37",
+      "column": "Source",
+      "label": "GSE146853",
+      "value": "GSE146853",
+      "count": 67,
+      "level": 3
+    },
+    {
+      "id": "n38",
+      "column": "Source",
+      "label": "GSE124350",
+      "value": "GSE124350",
+      "count": 60,
+      "level": 3
+    },
+    {
+      "id": "n39",
+      "column": "Source",
+      "label": "GSE282580",
+      "value": "GSE282580",
+      "count": 60,
+      "level": 3
+    },
+    {
+      "id": "n40",
+      "column": "Source",
+      "label": "GSE235236",
+      "value": "GSE235236",
+      "count": 56,
+      "level": 3
+    },
+    {
+      "id": "n41",
+      "column": "Source",
+      "label": "GSE173642",
+      "value": "GSE173642",
+      "count": 48,
+      "level": 3
+    },
+    {
+      "id": "n42",
+      "column": "Source",
+      "label": "GSE243625",
+      "value": "GSE243625",
+      "count": 45,
+      "level": 3
+    },
+    {
+      "id": "n43",
+      "column": "Source",
+      "label": "GSE266963",
+      "value": "GSE266963",
+      "count": 38,
+      "level": 3
+    },
+    {
+      "id": "n44",
+      "column": "Source",
+      "label": "GSE267465",
+      "value": "GSE267465",
+      "count": 35,
+      "level": 3
+    },
+    {
+      "id": "n45",
+      "column": "Source",
+      "label": "GSE285449",
+      "value": "GSE285449",
+      "count": 35,
+      "level": 3
+    },
+    {
+      "id": "n46",
+      "column": "Source",
+      "label": "GSE123141",
+      "value": "GSE123141",
+      "count": 28,
+      "level": 3
+    },
+    {
+      "id": "n47",
+      "column": "Source",
+      "label": "GSE111819",
+      "value": "GSE111819",
+      "count": 26,
+      "level": 3
+    },
+    {
+      "id": "n48",
+      "column": "Source",
+      "label": "GSE130038",
+      "value": "GSE130038",
+      "count": 26,
+      "level": 3
+    },
+    {
+      "id": "n49",
+      "column": "Source",
+      "label": "GSE159034",
+      "value": "GSE159034",
+      "count": 24,
+      "level": 3
+    },
+    {
+      "id": "n50",
+      "column": "Source",
+      "label": "GSE138364",
+      "value": "GSE138364",
+      "count": 22,
+      "level": 3
+    },
+    {
+      "id": "n51",
+      "column": "Source",
+      "label": "GSE66207",
+      "value": "GSE66207",
+      "count": 21,
+      "level": 3
+    },
+    {
+      "id": "n52",
+      "column": "Source",
+      "label": "GSE135170",
+      "value": "GSE135170",
+      "count": 20,
+      "level": 3
+    },
+    {
+      "id": "n53",
+      "column": "Source",
+      "label": "GSE135223",
+      "value": "GSE135223",
+      "count": 18,
+      "level": 3
+    },
+    {
+      "id": "n54",
+      "column": "Source",
+      "label": "GSE165636",
+      "value": "GSE165636",
+      "count": 18,
+      "level": 3
+    },
+    {
+      "id": "n55",
+      "column": "Source",
+      "label": "GSE168759",
+      "value": "GSE168759",
+      "count": 16,
+      "level": 3
+    },
+    {
+      "id": "n56",
+      "column": "Source",
+      "label": "GSE64801",
+      "value": "GSE64801",
+      "count": 14,
+      "level": 3
+    },
+    {
+      "id": "n57",
+      "column": "Source",
+      "label": "GSE69446",
+      "value": "GSE69446",
+      "count": 14,
+      "level": 3
+    },
+    {
+      "id": "n58",
+      "column": "Source",
+      "label": "GSE152229",
+      "value": "GSE152229",
+      "count": 13,
+      "level": 3
+    },
+    {
+      "id": "n59",
+      "column": "Source",
+      "label": "GSE220815",
+      "value": "GSE220815",
+      "count": 12,
+      "level": 3
+    },
+    {
+      "id": "n60",
+      "column": "Source",
+      "label": "GSE247146",
+      "value": "GSE247146",
+      "count": 12,
+      "level": 3
+    },
+    {
+      "id": "n61",
+      "column": "Source",
+      "label": "GSE156044",
+      "value": "GSE156044",
+      "count": 8,
+      "level": 3
+    },
+    {
+      "id": "n62",
+      "column": "Source",
+      "label": "GSE274965",
+      "value": "GSE274965",
+      "count": 8,
+      "level": 3
+    },
+    {
+      "id": "n63",
+      "column": "Source",
+      "label": "GSE294501",
+      "value": "GSE294501",
+      "count": 6,
+      "level": 3
+    },
+    {
+      "id": "n64",
+      "column": "Source",
+      "label": "GSE67250",
+      "value": "GSE67250",
+      "count": 6,
+      "level": 3
+    },
+    {
+      "id": "n65",
+      "column": "Source",
+      "label": "GSE67280",
+      "value": "GSE67280",
+      "count": 4,
+      "level": 3
+    },
+    {
+      "id": "n66",
+      "column": "Disease",
+      "label": "CD",
+      "value": "CD",
+      "count": 4667,
+      "level": 4
+    },
+    {
+      "id": "n67",
+      "column": "Disease",
+      "label": "UC",
+      "value": "UC",
+      "count": 2891,
+      "level": 4
+    },
+    {
+      "id": "n68",
+      "column": "Disease",
+      "label": "Healthy",
+      "value": "Healthy",
+      "count": 1757,
+      "level": 4
+    },
+    {
+      "id": "n69",
+      "column": "Disease",
+      "label": "IBD",
+      "value": "IBD",
+      "count": 306,
+      "level": 4
+    },
+    {
+      "id": "n70",
+      "column": "Disease",
+      "label": "",
+      "value": "",
+      "count": 146,
+      "level": 4
+    },
+    {
+      "id": "n71",
+      "column": "Disease",
+      "label": "IBS-D",
+      "value": "IBS-D",
+      "count": 46,
+      "level": 4
+    },
+    {
+      "id": "n72",
+      "column": "Disease",
+      "label": "IBS-C",
+      "value": "IBS-C",
+      "count": 42,
+      "level": 4
+    },
+    {
+      "id": "n73",
+      "column": "Disease",
+      "label": "Diverticulitis",
+      "value": "Diverticulitis",
+      "count": 26,
+      "level": 4
+    },
+    {
+      "id": "n74",
+      "column": "Disease",
+      "label": "PI-IBS",
+      "value": "PI-IBS",
+      "count": 16,
+      "level": 4
+    },
+    {
+      "id": "n75",
+      "column": "Tissue",
+      "label": "Ileum",
+      "value": "Ileum",
+      "count": 2990,
+      "level": 5
+    },
+    {
+      "id": "n76",
+      "column": "Tissue",
+      "label": "Colon",
+      "value": "Colon",
+      "count": 1800,
+      "level": 5
+    },
+    {
+      "id": "n77",
+      "column": "Tissue",
+      "label": "Blood",
+      "value": "Blood",
+      "count": 1662,
+      "level": 5
+    },
+    {
+      "id": "n78",
+      "column": "Tissue",
+      "label": "Rectum",
+      "value": "Rectum",
+      "count": 1555,
+      "level": 5
+    },
+    {
+      "id": "n79",
+      "column": "Tissue",
+      "label": "Stool Associated",
+      "value": "Stool Associated",
+      "count": 762,
+      "level": 5
+    },
+    {
+      "id": "n80",
+      "column": "Tissue",
+      "label": "Sigmoid",
+      "value": "Sigmoid",
+      "count": 339,
+      "level": 5
+    },
+    {
+      "id": "n81",
+      "column": "Tissue",
+      "label": "Cecum",
+      "value": "Cecum",
+      "count": 234,
+      "level": 5
+    },
+    {
+      "id": "n82",
+      "column": "Tissue",
+      "label": "Intestinal Mucosa",
+      "value": "Intestinal Mucosa",
+      "count": 116,
+      "level": 5
+    },
+    {
+      "id": "n83",
+      "column": "Tissue",
+      "label": "Transverse",
+      "value": "Transverse",
+      "count": 106,
+      "level": 5
+    },
+    {
+      "id": "n84",
+      "column": "Tissue",
+      "label": "Ascending",
+      "value": "Ascending",
+      "count": 91,
+      "level": 5
+    },
+    {
+      "id": "n85",
+      "column": "Tissue",
+      "label": "Intestine",
+      "value": "Intestine",
+      "count": 86,
+      "level": 5
+    },
+    {
+      "id": "n86",
+      "column": "Tissue",
+      "label": "Descending",
+      "value": "Descending",
+      "count": 75,
+      "level": 5
+    },
+    {
+      "id": "n87",
+      "column": "Tissue",
+      "label": "Duodenum",
+      "value": "Duodenum",
+      "count": 38,
+      "level": 5
+    },
+    {
+      "id": "n88",
+      "column": "Tissue",
+      "label": "Jejunum",
+      "value": "Jejunum",
+      "count": 34,
+      "level": 5
+    },
+    {
+      "id": "n89",
+      "column": "Tissue",
+      "label": "Mesenteric Fat",
+      "value": "Mesenteric Fat",
+      "count": 8,
+      "level": 5
+    },
+    {
+      "id": "n90",
+      "column": "Tissue",
+      "label": "Non-inflamed",
+      "value": "Non-inflamed",
+      "count": 1,
+      "level": 5
+    },
+    {
+      "id": "n91",
+      "column": "Cell Type",
+      "label": "",
+      "value": "",
+      "count": 8810,
+      "level": 6
+    },
+    {
+      "id": "n92",
+      "column": "Cell Type",
+      "label": "CD3+",
+      "value": "CD3+",
+      "count": 265,
+      "level": 6
+    },
+    {
+      "id": "n93",
+      "column": "Cell Type",
+      "label": "Memory CD4",
+      "value": "Memory CD4",
+      "count": 119,
+      "level": 6
+    },
+    {
+      "id": "n94",
+      "column": "Cell Type",
+      "label": "Memory CD8",
+      "value": "Memory CD8",
+      "count": 119,
+      "level": 6
+    },
+    {
+      "id": "n95",
+      "column": "Cell Type",
+      "label": "CD11b+",
+      "value": "CD11b+",
+      "count": 116,
+      "level": 6
+    },
+    {
+      "id": "n96",
+      "column": "Cell Type",
+      "label": "γδ T Cells",
+      "value": "γδ T Cells",
+      "count": 108,
+      "level": 6
+    },
+    {
+      "id": "n97",
+      "column": "Cell Type",
+      "label": "Sorted ILC3s",
+      "value": "Sorted ILC3s",
+      "count": 84,
+      "level": 6
+    },
+    {
+      "id": "n98",
+      "column": "Cell Type",
+      "label": "Macrophages",
+      "value": "Macrophages",
+      "count": 46,
+      "level": 6
+    },
+    {
+      "id": "n99",
+      "column": "Cell Type",
+      "label": "CD11b+ Phagocytes",
+      "value": "CD11b+ Phagocytes",
+      "count": 35,
+      "level": 6
+    },
+    {
+      "id": "n100",
+      "column": "Cell Type",
+      "label": "CD14+ Monocytes",
+      "value": "CD14+ Monocytes",
+      "count": 35,
+      "level": 6
+    },
+    {
+      "id": "n101",
+      "column": "Cell Type",
+      "label": "CD45+ CD64+ HLA-DR+ CD206-",
+      "value": "CD45+ CD64+ HLA-DR+ CD206-",
+      "count": 32,
+      "level": 6
+    },
+    {
+      "id": "n102",
+      "column": "Cell Type",
+      "label": "CD45+ CD64+ HLA-DR+ CD206+",
+      "value": "CD45+ CD64+ HLA-DR+ CD206+",
+      "count": 28,
+      "level": 6
+    },
+    {
+      "id": "n103",
+      "column": "Cell Type",
+      "label": "PBMCs",
+      "value": "PBMCs",
+      "count": 22,
+      "level": 6
+    },
+    {
+      "id": "n104",
+      "column": "Cell Type",
+      "label": "Endothelium",
+      "value": "Endothelium",
+      "count": 18,
+      "level": 6
+    },
+    {
+      "id": "n105",
+      "column": "Cell Type",
+      "label": "Colonoid",
+      "value": "Colonoid",
+      "count": 14,
+      "level": 6
+    },
+    {
+      "id": "n106",
+      "column": "Cell Type",
+      "label": "Monocytes",
+      "value": "Monocytes",
+      "count": 14,
+      "level": 6
+    },
+    {
+      "id": "n107",
+      "column": "Cell Type",
+      "label": "Creeping Fat",
+      "value": "Creeping Fat",
+      "count": 8,
+      "level": 6
+    },
+    {
+      "id": "n108",
+      "column": "Cell Type",
+      "label": "Peripheral Blood Leukocytes",
+      "value": "Peripheral Blood Leukocytes",
+      "count": 8,
+      "level": 6
+    },
+    {
+      "id": "n109",
+      "column": "Cell Type",
+      "label": "Epithelial Cells",
+      "value": "Epithelial Cells",
+      "count": 6,
+      "level": 6
+    },
+    {
+      "id": "n110",
+      "column": "Cell Type",
+      "label": "Fibroblasts",
+      "value": "Fibroblasts",
+      "count": 6,
+      "level": 6
+    },
+    {
+      "id": "n111",
+      "column": "Cell Type",
+      "label": "CD3+ LPMCs",
+      "value": "CD3+ LPMCs",
+      "count": 2,
+      "level": 6
+    },
+    {
+      "id": "n112",
+      "column": "Cell Type",
+      "label": "CD33+ LPMCs",
+      "value": "CD33+ LPMCs",
+      "count": 2,
+      "level": 6
+    },
+    {
+      "id": "n113",
+      "column": "Treatment",
+      "label": "",
+      "value": "",
+      "count": 7173,
+      "level": 7
+    },
+    {
+      "id": "n114",
+      "column": "Treatment",
+      "label": "Treatment naive",
+      "value": "Treatment naive",
+      "count": 1606,
+      "level": 7
+    },
+    {
+      "id": "n115",
+      "column": "Treatment",
+      "label": "Infliximab",
+      "value": "Infliximab",
+      "count": 201,
+      "level": 7
+    },
+    {
+      "id": "n116",
+      "column": "Treatment",
+      "label": "HSCT post",
+      "value": "HSCT post",
+      "count": 81,
+      "level": 7
+    },
+    {
+      "id": "n117",
+      "column": "Treatment",
+      "label": "Etrolizumab",
+      "value": "Etrolizumab",
+      "count": 73,
+      "level": 7
+    },
+    {
+      "id": "n118",
+      "column": "Treatment",
+      "label": "Vedolizumab",
+      "value": "Vedolizumab",
+      "count": 72,
+      "level": 7
+    },
+    {
+      "id": "n119",
+      "column": "Treatment",
+      "label": "No biologics",
+      "value": "No biologics",
+      "count": 54,
+      "level": 7
+    },
+    {
+      "id": "n120",
+      "column": "Treatment",
+      "label": "Non-HSCT control",
+      "value": "Non-HSCT control",
+      "count": 51,
+      "level": 7
+    },
+    {
+      "id": "n121",
+      "column": "Treatment",
+      "label": "Vedolizumab pre",
+      "value": "Vedolizumab pre",
+      "count": 51,
+      "level": 7
+    },
+    {
+      "id": "n122",
+      "column": "Treatment",
+      "label": "SARS-CoV-2",
+      "value": "SARS-CoV-2",
+      "count": 45,
+      "level": 7
+    },
+    {
+      "id": "n123",
+      "column": "Treatment",
+      "label": "Vedolizumab on",
+      "value": "Vedolizumab on",
+      "count": 45,
+      "level": 7
+    },
+    {
+      "id": "n124",
+      "column": "Treatment",
+      "label": "Control",
+      "value": "Control",
+      "count": 39,
+      "level": 7
+    },
+    {
+      "id": "n125",
+      "column": "Treatment",
+      "label": "Anti-TNF",
+      "value": "Anti-TNF",
+      "count": 30,
+      "level": 7
+    },
+    {
+      "id": "n126",
+      "column": "Treatment",
+      "label": "Pouch biopsy 4mo",
+      "value": "Pouch biopsy 4mo",
+      "count": 29,
+      "level": 7
+    },
+    {
+      "id": "n127",
+      "column": "Treatment",
+      "label": "Anti-integrin",
+      "value": "Anti-integrin",
+      "count": 24,
+      "level": 7
+    },
+    {
+      "id": "n128",
+      "column": "Treatment",
+      "label": "Vedolizumab 0W",
+      "value": "Vedolizumab 0W",
+      "count": 22,
+      "level": 7
+    },
+    {
+      "id": "n129",
+      "column": "Treatment",
+      "label": "TUDCA baseline",
+      "value": "TUDCA baseline",
+      "count": 21,
+      "level": 7
+    },
+    {
+      "id": "n130",
+      "column": "Treatment",
+      "label": "Pouch biopsy 8mo",
+      "value": "Pouch biopsy 8mo",
+      "count": 20,
+      "level": 7
+    },
+    {
+      "id": "n131",
+      "column": "Treatment",
+      "label": "Vedolizumab 14W",
+      "value": "Vedolizumab 14W",
+      "count": 20,
+      "level": 7
+    },
+    {
+      "id": "n132",
+      "column": "Treatment",
+      "label": "HSCT baseline",
+      "value": "HSCT baseline",
+      "count": 18,
+      "level": 7
+    },
+    {
+      "id": "n133",
+      "column": "Treatment",
+      "label": "No immunosuppression",
+      "value": "No immunosuppression",
+      "count": 18,
+      "level": 7
+    },
+    {
+      "id": "n134",
+      "column": "Treatment",
+      "label": "Pouch biopsy 12mo",
+      "value": "Pouch biopsy 12mo",
+      "count": 18,
+      "level": 7
+    },
+    {
+      "id": "n135",
+      "column": "Treatment",
+      "label": "Vedolizumab 54W",
+      "value": "Vedolizumab 54W",
+      "count": 18,
+      "level": 7
+    },
+    {
+      "id": "n136",
+      "column": "Treatment",
+      "label": "TUDCA post week 6",
+      "value": "TUDCA post week 6",
+      "count": 16,
+      "level": 7
+    },
+    {
+      "id": "n137",
+      "column": "Treatment",
+      "label": "Anti-TNF baseline",
+      "value": "Anti-TNF baseline",
+      "count": 12,
+      "level": 7
+    },
+    {
+      "id": "n138",
+      "column": "Treatment",
+      "label": "Adalimumab",
+      "value": "Adalimumab",
+      "count": 11,
+      "level": 7
+    },
+    {
+      "id": "n139",
+      "column": "Treatment",
+      "label": "Low proteolytic activity",
+      "value": "Low proteolytic activity",
+      "count": 10,
+      "level": 7
+    },
+    {
+      "id": "n140",
+      "column": "Treatment",
+      "label": "Systemic immunosuppression",
+      "value": "Systemic immunosuppression",
+      "count": 10,
+      "level": 7
+    },
+    {
+      "id": "n141",
+      "column": "Treatment",
+      "label": "Tofacitinib",
+      "value": "Tofacitinib",
+      "count": 9,
+      "level": 7
+    },
+    {
+      "id": "n142",
+      "column": "Treatment",
+      "label": "Untreated",
+      "value": "Untreated",
+      "count": 9,
+      "level": 7
+    },
+    {
+      "id": "n143",
+      "column": "Treatment",
+      "label": "Anti-IL-12/23",
+      "value": "Anti-IL-12/23",
+      "count": 8,
+      "level": 7
+    },
+    {
+      "id": "n144",
+      "column": "Treatment",
+      "label": "HSCT pre",
+      "value": "HSCT pre",
+      "count": 8,
+      "level": 7
+    },
+    {
+      "id": "n145",
+      "column": "Treatment",
+      "label": "Sham",
+      "value": "Sham",
+      "count": 8,
+      "level": 7
+    },
+    {
+      "id": "n146",
+      "column": "Treatment",
+      "label": "MDP-stimulated",
+      "value": "MDP-stimulated",
+      "count": 7,
+      "level": 7
+    },
+    {
+      "id": "n147",
+      "column": "Treatment",
+      "label": "Unstimulated",
+      "value": "Unstimulated",
+      "count": 7,
+      "level": 7
+    },
+    {
+      "id": "n148",
+      "column": "Treatment",
+      "label": "High proteolytic activity",
+      "value": "High proteolytic activity",
+      "count": 6,
+      "level": 7
+    },
+    {
+      "id": "n149",
+      "column": "Treatment",
+      "label": "HBOT",
+      "value": "HBOT",
+      "count": 5,
+      "level": 7
+    },
+    {
+      "id": "n150",
+      "column": "Treatment",
+      "label": "Pouch biopsy >12mo",
+      "value": "Pouch biopsy >12mo",
+      "count": 4,
+      "level": 7
+    },
+    {
+      "id": "n151",
+      "column": "Treatment",
+      "label": "CTR 2H",
+      "value": "CTR 2H",
+      "count": 3,
+      "level": 7
+    },
+    {
+      "id": "n152",
+      "column": "Treatment",
+      "label": "CTR 4H",
+      "value": "CTR 4H",
+      "count": 3,
+      "level": 7
+    },
+    {
+      "id": "n153",
+      "column": "Treatment",
+      "label": "Cad 2H",
+      "value": "Cad 2H",
+      "count": 3,
+      "level": 7
+    },
+    {
+      "id": "n154",
+      "column": "Treatment",
+      "label": "Cad 4H",
+      "value": "Cad 4H",
+      "count": 3,
+      "level": 7
+    },
+    {
+      "id": "n155",
+      "column": "Treatment",
+      "label": "Cad.LPS 2H",
+      "value": "Cad.LPS 2H",
+      "count": 3,
+      "level": 7
+    },
+    {
+      "id": "n156",
+      "column": "Treatment",
+      "label": "Cad.LPS 4H",
+      "value": "Cad.LPS 4H",
+      "count": 3,
+      "level": 7
+    },
+    {
+      "id": "n157",
+      "column": "Treatment",
+      "label": "FP10 2H",
+      "value": "FP10 2H",
+      "count": 3,
+      "level": 7
+    },
+    {
+      "id": "n158",
+      "column": "Treatment",
+      "label": "FP10 4H",
+      "value": "FP10 4H",
+      "count": 3,
+      "level": 7
+    },
+    {
+      "id": "n159",
+      "column": "Treatment",
+      "label": "FP100 4H",
+      "value": "FP100 4H",
+      "count": 3,
+      "level": 7
+    },
+    {
+      "id": "n160",
+      "column": "Treatment",
+      "label": "LPS 2H",
+      "value": "LPS 2H",
+      "count": 3,
+      "level": 7
+    },
+    {
+      "id": "n161",
+      "column": "Treatment",
+      "label": "LPS 4H",
+      "value": "LPS 4H",
+      "count": 3,
+      "level": 7
+    },
+    {
+      "id": "n162",
+      "column": "Treatment",
+      "label": "FP100 2H",
+      "value": "FP100 2H",
+      "count": 2,
+      "level": 7
+    },
+    {
+      "id": "n163",
+      "column": "Treatment",
+      "label": "Pouch control",
+      "value": "Pouch control",
+      "count": 2,
+      "level": 7
+    },
+    {
+      "id": "n164",
+      "column": "Treatment",
+      "label": "TUDCA post week 8",
+      "value": "TUDCA post week 8",
+      "count": 1,
+      "level": 7
+    }
+  ],
+  "links": [
+    {
+      "source": "n1",
+      "target": "n4",
+      "value": 5892
+    },
+    {
+      "source": "n1",
+      "target": "n5",
+      "value": 2479
+    },
+    {
+      "source": "n10",
+      "target": "n66",
+      "value": 218
+    },
+    {
+      "source": "n10",
+      "target": "n67",
+      "value": 62
+    },
+    {
+      "source": "n10",
+      "target": "n68",
+      "value": 42
+    },
+    {
+      "source": "n100",
+      "target": "n151",
+      "value": 3
+    },
+    {
+      "source": "n100",
+      "target": "n152",
+      "value": 3
+    },
+    {
+      "source": "n100",
+      "target": "n153",
+      "value": 3
+    },
+    {
+      "source": "n100",
+      "target": "n154",
+      "value": 3
+    },
+    {
+      "source": "n100",
+      "target": "n155",
+      "value": 3
+    },
+    {
+      "source": "n100",
+      "target": "n156",
+      "value": 3
+    },
+    {
+      "source": "n100",
+      "target": "n157",
+      "value": 3
+    },
+    {
+      "source": "n100",
+      "target": "n158",
+      "value": 3
+    },
+    {
+      "source": "n100",
+      "target": "n159",
+      "value": 3
+    },
+    {
+      "source": "n100",
+      "target": "n160",
+      "value": 3
+    },
+    {
+      "source": "n100",
+      "target": "n161",
+      "value": 3
+    },
+    {
+      "source": "n100",
+      "target": "n162",
+      "value": 2
+    },
+    {
+      "source": "n101",
+      "target": "n113",
+      "value": 32
+    },
+    {
+      "source": "n102",
+      "target": "n113",
+      "value": 28
+    },
+    {
+      "source": "n103",
+      "target": "n113",
+      "value": 22
+    },
+    {
+      "source": "n104",
+      "target": "n141",
+      "value": 9
+    },
+    {
+      "source": "n104",
+      "target": "n142",
+      "value": 9
+    },
+    {
+      "source": "n105",
+      "target": "n113",
+      "value": 14
+    },
+    {
+      "source": "n106",
+      "target": "n146",
+      "value": 7
+    },
+    {
+      "source": "n106",
+      "target": "n147",
+      "value": 7
+    },
+    {
+      "source": "n107",
+      "target": "n113",
+      "value": 8
+    },
+    {
+      "source": "n108",
+      "target": "n113",
+      "value": 8
+    },
+    {
+      "source": "n109",
+      "target": "n113",
+      "value": 6
+    },
+    {
+      "source": "n11",
+      "target": "n66",
+      "value": 259
+    },
+    {
+      "source": "n11",
+      "target": "n68",
+      "value": 51
+    },
+    {
+      "source": "n110",
+      "target": "n113",
+      "value": 6
+    },
+    {
+      "source": "n111",
+      "target": "n113",
+      "value": 2
+    },
+    {
+      "source": "n112",
+      "target": "n113",
+      "value": 2
+    },
+    {
+      "source": "n12",
+      "target": "n66",
+      "value": 254
+    },
+    {
+      "source": "n12",
+      "target": "n68",
+      "value": 50
+    },
+    {
+      "source": "n13",
+      "target": "n66",
+      "value": 230
+    },
+    {
+      "source": "n13",
+      "target": "n68",
+      "value": 35
+    },
+    {
+      "source": "n14",
+      "target": "n69",
+      "value": 201
+    },
+    {
+      "source": "n14",
+      "target": "n70",
+      "value": 51
+    },
+    {
+      "source": "n15",
+      "target": "n66",
+      "value": 210
+    },
+    {
+      "source": "n15",
+      "target": "n68",
+      "value": 35
+    },
+    {
+      "source": "n16",
+      "target": "n67",
+      "value": 206
+    },
+    {
+      "source": "n16",
+      "target": "n68",
+      "value": 20
+    },
+    {
+      "source": "n17",
+      "target": "n66",
+      "value": 76
+    },
+    {
+      "source": "n17",
+      "target": "n67",
+      "value": 54
+    },
+    {
+      "source": "n17",
+      "target": "n68",
+      "value": 81
+    },
+    {
+      "source": "n18",
+      "target": "n66",
+      "value": 89
+    },
+    {
+      "source": "n18",
+      "target": "n67",
+      "value": 112
+    },
+    {
+      "source": "n19",
+      "target": "n66",
+      "value": 199
+    },
+    {
+      "source": "n2",
+      "target": "n4",
+      "value": 1096
+    },
+    {
+      "source": "n20",
+      "target": "n66",
+      "value": 112
+    },
+    {
+      "source": "n20",
+      "target": "n67",
+      "value": 44
+    },
+    {
+      "source": "n20",
+      "target": "n68",
+      "value": 39
+    },
+    {
+      "source": "n21",
+      "target": "n66",
+      "value": 92
+    },
+    {
+      "source": "n21",
+      "target": "n67",
+      "value": 43
+    },
+    {
+      "source": "n21",
+      "target": "n68",
+      "value": 55
+    },
+    {
+      "source": "n22",
+      "target": "n66",
+      "value": 84
+    },
+    {
+      "source": "n22",
+      "target": "n67",
+      "value": 40
+    },
+    {
+      "source": "n22",
+      "target": "n68",
+      "value": 46
+    },
+    {
+      "source": "n23",
+      "target": "n66",
+      "value": 107
+    },
+    {
+      "source": "n23",
+      "target": "n68",
+      "value": 51
+    },
+    {
+      "source": "n24",
+      "target": "n66",
+      "value": 43
+    },
+    {
+      "source": "n24",
+      "target": "n67",
+      "value": 33
+    },
+    {
+      "source": "n24",
+      "target": "n68",
+      "value": 55
+    },
+    {
+      "source": "n25",
+      "target": "n66",
+      "value": 65
+    },
+    {
+      "source": "n25",
+      "target": "n67",
+      "value": 54
+    },
+    {
+      "source": "n26",
+      "target": "n66",
+      "value": 79
+    },
+    {
+      "source": "n26",
+      "target": "n68",
+      "value": 40
+    },
+    {
+      "source": "n27",
+      "target": "n66",
+      "value": 42
+    },
+    {
+      "source": "n27",
+      "target": "n67",
+      "value": 74
+    },
+    {
+      "source": "n28",
+      "target": "n66",
+      "value": 1
+    },
+    {
+      "source": "n28",
+      "target": "n68",
+      "value": 57
+    },
+    {
+      "source": "n28",
+      "target": "n69",
+      "value": 57
+    },
+    {
+      "source": "n29",
+      "target": "n66",
+      "value": 59
+    },
+    {
+      "source": "n29",
+      "target": "n68",
+      "value": 38
+    },
+    {
+      "source": "n3",
+      "target": "n4",
+      "value": 430
+    },
+    {
+      "source": "n30",
+      "target": "n66",
+      "value": 63
+    },
+    {
+      "source": "n30",
+      "target": "n67",
+      "value": 33
+    },
+    {
+      "source": "n31",
+      "target": "n66",
+      "value": 60
+    },
+    {
+      "source": "n31",
+      "target": "n67",
+      "value": 15
+    },
+    {
+      "source": "n31",
+      "target": "n68",
+      "value": 12
+    },
+    {
+      "source": "n32",
+      "target": "n66",
+      "value": 20
+    },
+    {
+      "source": "n32",
+      "target": "n67",
+      "value": 19
+    },
+    {
+      "source": "n32",
+      "target": "n68",
+      "value": 45
+    },
+    {
+      "source": "n33",
+      "target": "n66",
+      "value": 36
+    },
+    {
+      "source": "n33",
+      "target": "n67",
+      "value": 48
+    },
+    {
+      "source": "n34",
+      "target": "n67",
+      "value": 73
+    },
+    {
+      "source": "n35",
+      "target": "n67",
+      "value": 71
+    },
+    {
+      "source": "n35",
+      "target": "n68",
+      "value": 2
+    },
+    {
+      "source": "n36",
+      "target": "n68",
+      "value": 26
+    },
+    {
+      "source": "n36",
+      "target": "n71",
+      "value": 23
+    },
+    {
+      "source": "n36",
+      "target": "n72",
+      "value": 19
+    },
+    {
+      "source": "n37",
+      "target": "n68",
+      "value": 21
+    },
+    {
+      "source": "n37",
+      "target": "n71",
+      "value": 23
+    },
+    {
+      "source": "n37",
+      "target": "n72",
+      "value": 23
+    },
+    {
+      "source": "n38",
+      "target": "n70",
+      "value": 60
+    },
+    {
+      "source": "n39",
+      "target": "n67",
+      "value": 60
+    },
+    {
+      "source": "n4",
+      "target": "n12",
+      "value": 304
+    },
+    {
+      "source": "n4",
+      "target": "n13",
+      "value": 265
+    },
+    {
+      "source": "n4",
+      "target": "n16",
+      "value": 226
+    },
+    {
+      "source": "n4",
+      "target": "n17",
+      "value": 211
+    },
+    {
+      "source": "n4",
+      "target": "n18",
+      "value": 201
+    },
+    {
+      "source": "n4",
+      "target": "n19",
+      "value": 199
+    },
+    {
+      "source": "n4",
+      "target": "n20",
+      "value": 195
+    },
+    {
+      "source": "n4",
+      "target": "n21",
+      "value": 190
+    },
+    {
+      "source": "n4",
+      "target": "n23",
+      "value": 158
+    },
+    {
+      "source": "n4",
+      "target": "n25",
+      "value": 119
+    },
+    {
+      "source": "n4",
+      "target": "n26",
+      "value": 119
+    },
+    {
+      "source": "n4",
+      "target": "n27",
+      "value": 116
+    },
+    {
+      "source": "n4",
+      "target": "n28",
+      "value": 115
+    },
+    {
+      "source": "n4",
+      "target": "n30",
+      "value": 96
+    },
+    {
+      "source": "n4",
+      "target": "n31",
+      "value": 87
+    },
+    {
+      "source": "n4",
+      "target": "n32",
+      "value": 84
+    },
+    {
+      "source": "n4",
+      "target": "n33",
+      "value": 84
+    },
+    {
+      "source": "n4",
+      "target": "n34",
+      "value": 73
+    },
+    {
+      "source": "n4",
+      "target": "n36",
+      "value": 68
+    },
+    {
+      "source": "n4",
+      "target": "n37",
+      "value": 67
+    },
+    {
+      "source": "n4",
+      "target": "n38",
+      "value": 60
+    },
+    {
+      "source": "n4",
+      "target": "n39",
+      "value": 60
+    },
+    {
+      "source": "n4",
+      "target": "n40",
+      "value": 56
+    },
+    {
+      "source": "n4",
+      "target": "n41",
+      "value": 48
+    },
+    {
+      "source": "n4",
+      "target": "n43",
+      "value": 38
+    },
+    {
+      "source": "n4",
+      "target": "n44",
+      "value": 35
+    },
+    {
+      "source": "n4",
+      "target": "n45",
+      "value": 35
+    },
+    {
+      "source": "n4",
+      "target": "n46",
+      "value": 28
+    },
+    {
+      "source": "n4",
+      "target": "n47",
+      "value": 26
+    },
+    {
+      "source": "n4",
+      "target": "n48",
+      "value": 26
+    },
+    {
+      "source": "n4",
+      "target": "n51",
+      "value": 21
+    },
+    {
+      "source": "n4",
+      "target": "n52",
+      "value": 20
+    },
+    {
+      "source": "n4",
+      "target": "n53",
+      "value": 18
+    },
+    {
+      "source": "n4",
+      "target": "n54",
+      "value": 18
+    },
+    {
+      "source": "n4",
+      "target": "n55",
+      "value": 16
+    },
+    {
+      "source": "n4",
+      "target": "n56",
+      "value": 14
+    },
+    {
+      "source": "n4",
+      "target": "n57",
+      "value": 14
+    },
+    {
+      "source": "n4",
+      "target": "n58",
+      "value": 13
+    },
+    {
+      "source": "n4",
+      "target": "n59",
+      "value": 12
+    },
+    {
+      "source": "n4",
+      "target": "n6",
+      "value": 2489
+    },
+    {
+      "source": "n4",
+      "target": "n62",
+      "value": 8
+    },
+    {
+      "source": "n4",
+      "target": "n64",
+      "value": 6
+    },
+    {
+      "source": "n4",
+      "target": "n65",
+      "value": 4
+    },
+    {
+      "source": "n4",
+      "target": "n7",
+      "value": 1030
+    },
+    {
+      "source": "n4",
+      "target": "n9",
+      "value": 346
+    },
+    {
+      "source": "n40",
+      "target": "n66",
+      "value": 22
+    },
+    {
+      "source": "n40",
+      "target": "n67",
+      "value": 26
+    },
+    {
+      "source": "n40",
+      "target": "n68",
+      "value": 8
+    },
+    {
+      "source": "n41",
+      "target": "n66",
+      "value": 48
+    },
+    {
+      "source": "n42",
+      "target": "n67",
+      "value": 30
+    },
+    {
+      "source": "n42",
+      "target": "n68",
+      "value": 15
+    },
+    {
+      "source": "n43",
+      "target": "n67",
+      "value": 38
+    },
+    {
+      "source": "n44",
+      "target": "n66",
+      "value": 21
+    },
+    {
+      "source": "n44",
+      "target": "n68",
+      "value": 14
+    },
+    {
+      "source": "n45",
+      "target": "n70",
+      "value": 35
+    },
+    {
+      "source": "n46",
+      "target": "n66",
+      "value": 9
+    },
+    {
+      "source": "n46",
+      "target": "n67",
+      "value": 10
+    },
+    {
+      "source": "n46",
+      "target": "n68",
+      "value": 9
+    },
+    {
+      "source": "n47",
+      "target": "n73",
+      "value": 26
+    },
+    {
+      "source": "n48",
+      "target": "n67",
+      "value": 26
+    },
+    {
+      "source": "n49",
+      "target": "n69",
+      "value": 24
+    },
+    {
+      "source": "n5",
+      "target": "n10",
+      "value": 322
+    },
+    {
+      "source": "n5",
+      "target": "n11",
+      "value": 310
+    },
+    {
+      "source": "n5",
+      "target": "n14",
+      "value": 252
+    },
+    {
+      "source": "n5",
+      "target": "n15",
+      "value": 245
+    },
+    {
+      "source": "n5",
+      "target": "n22",
+      "value": 170
+    },
+    {
+      "source": "n5",
+      "target": "n24",
+      "value": 131
+    },
+    {
+      "source": "n5",
+      "target": "n29",
+      "value": 97
+    },
+    {
+      "source": "n5",
+      "target": "n35",
+      "value": 73
+    },
+    {
+      "source": "n5",
+      "target": "n42",
+      "value": 45
+    },
+    {
+      "source": "n5",
+      "target": "n49",
+      "value": 24
+    },
+    {
+      "source": "n5",
+      "target": "n50",
+      "value": 22
+    },
+    {
+      "source": "n5",
+      "target": "n60",
+      "value": 12
+    },
+    {
+      "source": "n5",
+      "target": "n61",
+      "value": 8
+    },
+    {
+      "source": "n5",
+      "target": "n63",
+      "value": 6
+    },
+    {
+      "source": "n5",
+      "target": "n8",
+      "value": 762
+    },
+    {
+      "source": "n50",
+      "target": "n66",
+      "value": 12
+    },
+    {
+      "source": "n50",
+      "target": "n67",
+      "value": 10
+    },
+    {
+      "source": "n51",
+      "target": "n66",
+      "value": 20
+    },
+    {
+      "source": "n51",
+      "target": "n68",
+      "value": 1
+    },
+    {
+      "source": "n52",
+      "target": "n68",
+      "value": 8
+    },
+    {
+      "source": "n52",
+      "target": "n69",
+      "value": 12
+    },
+    {
+      "source": "n53",
+      "target": "n66",
+      "value": 5
+    },
+    {
+      "source": "n53",
+      "target": "n67",
+      "value": 5
+    },
+    {
+      "source": "n53",
+      "target": "n68",
+      "value": 8
+    },
+    {
+      "source": "n54",
+      "target": "n67",
+      "value": 18
+    },
+    {
+      "source": "n55",
+      "target": "n74",
+      "value": 16
+    },
+    {
+      "source": "n56",
+      "target": "n68",
+      "value": 14
+    },
+    {
+      "source": "n57",
+      "target": "n66",
+      "value": 10
+    },
+    {
+      "source": "n57",
+      "target": "n68",
+      "value": 4
+    },
+    {
+      "source": "n58",
+      "target": "n67",
+      "value": 13
+    },
+    {
+      "source": "n59",
+      "target": "n67",
+      "value": 12
+    },
+    {
+      "source": "n6",
+      "target": "n66",
+      "value": 1157
+    },
+    {
+      "source": "n6",
+      "target": "n67",
+      "value": 872
+    },
+    {
+      "source": "n6",
+      "target": "n68",
+      "value": 460
+    },
+    {
+      "source": "n60",
+      "target": "n69",
+      "value": 12
+    },
+    {
+      "source": "n61",
+      "target": "n66",
+      "value": 4
+    },
+    {
+      "source": "n61",
+      "target": "n68",
+      "value": 4
+    },
+    {
+      "source": "n62",
+      "target": "n66",
+      "value": 8
+    },
+    {
+      "source": "n63",
+      "target": "n67",
+      "value": 3
+    },
+    {
+      "source": "n63",
+      "target": "n68",
+      "value": 3
+    },
+    {
+      "source": "n64",
+      "target": "n66",
+      "value": 3
+    },
+    {
+      "source": "n64",
+      "target": "n68",
+      "value": 3
+    },
+    {
+      "source": "n65",
+      "target": "n67",
+      "value": 2
+    },
+    {
+      "source": "n65",
+      "target": "n68",
+      "value": 2
+    },
+    {
+      "source": "n66",
+      "target": "n75",
+      "value": 1920
+    },
+    {
+      "source": "n66",
+      "target": "n76",
+      "value": 645
+    },
+    {
+      "source": "n66",
+      "target": "n77",
+      "value": 806
+    },
+    {
+      "source": "n66",
+      "target": "n78",
+      "value": 499
+    },
+    {
+      "source": "n66",
+      "target": "n79",
+      "value": 348
+    },
+    {
+      "source": "n66",
+      "target": "n80",
+      "value": 79
+    },
+    {
+      "source": "n66",
+      "target": "n81",
+      "value": 79
+    },
+    {
+      "source": "n66",
+      "target": "n82",
+      "value": 99
+    },
+    {
+      "source": "n66",
+      "target": "n83",
+      "value": 54
+    },
+    {
+      "source": "n66",
+      "target": "n84",
+      "value": 28
+    },
+    {
+      "source": "n66",
+      "target": "n85",
+      "value": 57
+    },
+    {
+      "source": "n66",
+      "target": "n86",
+      "value": 45
+    },
+    {
+      "source": "n66",
+      "target": "n88",
+      "value": 4
+    },
+    {
+      "source": "n66",
+      "target": "n89",
+      "value": 4
+    },
+    {
+      "source": "n67",
+      "target": "n75",
+      "value": 422
+    },
+    {
+      "source": "n67",
+      "target": "n76",
+      "value": 877
+    },
+    {
+      "source": "n67",
+      "target": "n77",
+      "value": 531
+    },
+    {
+      "source": "n67",
+      "target": "n78",
+      "value": 593
+    },
+    {
+      "source": "n67",
+      "target": "n79",
+      "value": 220
+    },
+    {
+      "source": "n67",
+      "target": "n80",
+      "value": 135
+    },
+    {
+      "source": "n67",
+      "target": "n81",
+      "value": 66
+    },
+    {
+      "source": "n67",
+      "target": "n83",
+      "value": 33
+    },
+    {
+      "source": "n67",
+      "target": "n84",
+      "value": 1
+    },
+    {
+      "source": "n67",
+      "target": "n85",
+      "value": 12
+    },
+    {
+      "source": "n67",
+      "target": "n86",
+      "value": 1
+    },
+    {
+      "source": "n68",
+      "target": "n75",
+      "value": 494
+    },
+    {
+      "source": "n68",
+      "target": "n76",
+      "value": 195
+    },
+    {
+      "source": "n68",
+      "target": "n77",
+      "value": 289
+    },
+    {
+      "source": "n68",
+      "target": "n78",
+      "value": 332
+    },
+    {
+      "source": "n68",
+      "target": "n79",
+      "value": 194
+    },
+    {
+      "source": "n68",
+      "target": "n80",
+      "value": 31
+    },
+    {
+      "source": "n68",
+      "target": "n81",
+      "value": 84
+    },
+    {
+      "source": "n68",
+      "target": "n82",
+      "value": 17
+    },
+    {
+      "source": "n68",
+      "target": "n83",
+      "value": 5
+    },
+    {
+      "source": "n68",
+      "target": "n84",
+      "value": 54
+    },
+    {
+      "source": "n68",
+      "target": "n85",
+      "value": 12
+    },
+    {
+      "source": "n68",
+      "target": "n86",
+      "value": 20
+    },
+    {
+      "source": "n68",
+      "target": "n87",
+      "value": 13
+    },
+    {
+      "source": "n68",
+      "target": "n88",
+      "value": 13
+    },
+    {
+      "source": "n68",
+      "target": "n89",
+      "value": 4
+    },
+    {
+      "source": "n69",
+      "target": "n75",
+      "value": 97
+    },
+    {
+      "source": "n69",
+      "target": "n76",
+      "value": 7
+    },
+    {
+      "source": "n69",
+      "target": "n77",
+      "value": 36
+    },
+    {
+      "source": "n69",
+      "target": "n78",
+      "value": 108
+    },
+    {
+      "source": "n69",
+      "target": "n80",
+      "value": 22
+    },
+    {
+      "source": "n69",
+      "target": "n81",
+      "value": 5
+    },
+    {
+      "source": "n69",
+      "target": "n83",
+      "value": 10
+    },
+    {
+      "source": "n69",
+      "target": "n84",
+      "value": 7
+    },
+    {
+      "source": "n69",
+      "target": "n85",
+      "value": 5
+    },
+    {
+      "source": "n69",
+      "target": "n86",
+      "value": 8
+    },
+    {
+      "source": "n69",
+      "target": "n90",
+      "value": 1
+    },
+    {
+      "source": "n7",
+      "target": "n66",
+      "value": 432
+    },
+    {
+      "source": "n7",
+      "target": "n67",
+      "value": 389
+    },
+    {
+      "source": "n7",
+      "target": "n68",
+      "value": 209
+    },
+    {
+      "source": "n70",
+      "target": "n75",
+      "value": 57
+    },
+    {
+      "source": "n70",
+      "target": "n76",
+      "value": 60
+    },
+    {
+      "source": "n70",
+      "target": "n78",
+      "value": 23
+    },
+    {
+      "source": "n70",
+      "target": "n83",
+      "value": 4
+    },
+    {
+      "source": "n70",
+      "target": "n84",
+      "value": 1
+    },
+    {
+      "source": "n70",
+      "target": "n86",
+      "value": 1
+    },
+    {
+      "source": "n71",
+      "target": "n80",
+      "value": 23
+    },
+    {
+      "source": "n71",
+      "target": "n87",
+      "value": 13
+    },
+    {
+      "source": "n71",
+      "target": "n88",
+      "value": 10
+    },
+    {
+      "source": "n72",
+      "target": "n80",
+      "value": 23
+    },
+    {
+      "source": "n72",
+      "target": "n87",
+      "value": 12
+    },
+    {
+      "source": "n72",
+      "target": "n88",
+      "value": 7
+    },
+    {
+      "source": "n73",
+      "target": "n80",
+      "value": 26
+    },
+    {
+      "source": "n74",
+      "target": "n76",
+      "value": 16
+    },
+    {
+      "source": "n75",
+      "target": "n100",
+      "value": 35
+    },
+    {
+      "source": "n75",
+      "target": "n91",
+      "value": 2888
+    },
+    {
+      "source": "n75",
+      "target": "n95",
+      "value": 52
+    },
+    {
+      "source": "n75",
+      "target": "n99",
+      "value": 15
+    },
+    {
+      "source": "n76",
+      "target": "n101",
+      "value": 32
+    },
+    {
+      "source": "n76",
+      "target": "n102",
+      "value": 28
+    },
+    {
+      "source": "n76",
+      "target": "n104",
+      "value": 18
+    },
+    {
+      "source": "n76",
+      "target": "n105",
+      "value": 14
+    },
+    {
+      "source": "n76",
+      "target": "n110",
+      "value": 6
+    },
+    {
+      "source": "n76",
+      "target": "n91",
+      "value": 1208
+    },
+    {
+      "source": "n76",
+      "target": "n93",
+      "value": 119
+    },
+    {
+      "source": "n76",
+      "target": "n94",
+      "value": 119
+    },
+    {
+      "source": "n76",
+      "target": "n95",
+      "value": 64
+    },
+    {
+      "source": "n76",
+      "target": "n96",
+      "value": 108
+    },
+    {
+      "source": "n76",
+      "target": "n97",
+      "value": 84
+    },
+    {
+      "source": "n77",
+      "target": "n103",
+      "value": 22
+    },
+    {
+      "source": "n77",
+      "target": "n106",
+      "value": 14
+    },
+    {
+      "source": "n77",
+      "target": "n108",
+      "value": 8
+    },
+    {
+      "source": "n77",
+      "target": "n91",
+      "value": 1451
+    },
+    {
+      "source": "n77",
+      "target": "n92",
+      "value": 149
+    },
+    {
+      "source": "n77",
+      "target": "n98",
+      "value": 18
+    },
+    {
+      "source": "n78",
+      "target": "n91",
+      "value": 1555
+    },
+    {
+      "source": "n79",
+      "target": "n91",
+      "value": 762
+    },
+    {
+      "source": "n8",
+      "target": "n66",
+      "value": 348
+    },
+    {
+      "source": "n8",
+      "target": "n67",
+      "value": 220
+    },
+    {
+      "source": "n8",
+      "target": "n68",
+      "value": 194
+    },
+    {
+      "source": "n80",
+      "target": "n91",
+      "value": 339
+    },
+    {
+      "source": "n81",
+      "target": "n91",
+      "value": 234
+    },
+    {
+      "source": "n82",
+      "target": "n92",
+      "value": 116
+    },
+    {
+      "source": "n83",
+      "target": "n91",
+      "value": 106
+    },
+    {
+      "source": "n84",
+      "target": "n91",
+      "value": 71
+    },
+    {
+      "source": "n84",
+      "target": "n99",
+      "value": 20
+    },
+    {
+      "source": "n85",
+      "target": "n109",
+      "value": 6
+    },
+    {
+      "source": "n85",
+      "target": "n111",
+      "value": 2
+    },
+    {
+      "source": "n85",
+      "target": "n112",
+      "value": 2
+    },
+    {
+      "source": "n85",
+      "target": "n91",
+      "value": 48
+    },
+    {
+      "source": "n85",
+      "target": "n98",
+      "value": 28
+    },
+    {
+      "source": "n86",
+      "target": "n91",
+      "value": 75
+    },
+    {
+      "source": "n87",
+      "target": "n91",
+      "value": 38
+    },
+    {
+      "source": "n88",
+      "target": "n91",
+      "value": 34
+    },
+    {
+      "source": "n89",
+      "target": "n107",
+      "value": 8
+    },
+    {
+      "source": "n9",
+      "target": "n66",
+      "value": 170
+    },
+    {
+      "source": "n9",
+      "target": "n67",
+      "value": 176
+    },
+    {
+      "source": "n90",
+      "target": "n91",
+      "value": 1
+    },
+    {
+      "source": "n91",
+      "target": "n113",
+      "value": 6297
+    },
+    {
+      "source": "n91",
+      "target": "n114",
+      "value": 1606
+    },
+    {
+      "source": "n91",
+      "target": "n115",
+      "value": 201
+    },
+    {
+      "source": "n91",
+      "target": "n116",
+      "value": 81
+    },
+    {
+      "source": "n91",
+      "target": "n117",
+      "value": 73
+    },
+    {
+      "source": "n91",
+      "target": "n118",
+      "value": 72
+    },
+    {
+      "source": "n91",
+      "target": "n120",
+      "value": 51
+    },
+    {
+      "source": "n91",
+      "target": "n121",
+      "value": 51
+    },
+    {
+      "source": "n91",
+      "target": "n122",
+      "value": 45
+    },
+    {
+      "source": "n91",
+      "target": "n123",
+      "value": 45
+    },
+    {
+      "source": "n91",
+      "target": "n124",
+      "value": 39
+    },
+    {
+      "source": "n91",
+      "target": "n126",
+      "value": 29
+    },
+    {
+      "source": "n91",
+      "target": "n128",
+      "value": 22
+    },
+    {
+      "source": "n91",
+      "target": "n129",
+      "value": 21
+    },
+    {
+      "source": "n91",
+      "target": "n130",
+      "value": 20
+    },
+    {
+      "source": "n91",
+      "target": "n131",
+      "value": 20
+    },
+    {
+      "source": "n91",
+      "target": "n132",
+      "value": 18
+    },
+    {
+      "source": "n91",
+      "target": "n134",
+      "value": 18
+    },
+    {
+      "source": "n91",
+      "target": "n135",
+      "value": 18
+    },
+    {
+      "source": "n91",
+      "target": "n136",
+      "value": 16
+    },
+    {
+      "source": "n91",
+      "target": "n137",
+      "value": 12
+    },
+    {
+      "source": "n91",
+      "target": "n138",
+      "value": 11
+    },
+    {
+      "source": "n91",
+      "target": "n139",
+      "value": 10
+    },
+    {
+      "source": "n91",
+      "target": "n144",
+      "value": 8
+    },
+    {
+      "source": "n91",
+      "target": "n145",
+      "value": 8
+    },
+    {
+      "source": "n91",
+      "target": "n148",
+      "value": 6
+    },
+    {
+      "source": "n91",
+      "target": "n149",
+      "value": 5
+    },
+    {
+      "source": "n91",
+      "target": "n150",
+      "value": 4
+    },
+    {
+      "source": "n91",
+      "target": "n163",
+      "value": 2
+    },
+    {
+      "source": "n91",
+      "target": "n164",
+      "value": 1
+    },
+    {
+      "source": "n92",
+      "target": "n113",
+      "value": 265
+    },
+    {
+      "source": "n93",
+      "target": "n113",
+      "value": 119
+    },
+    {
+      "source": "n94",
+      "target": "n113",
+      "value": 119
+    },
+    {
+      "source": "n95",
+      "target": "n119",
+      "value": 54
+    },
+    {
+      "source": "n95",
+      "target": "n125",
+      "value": 30
+    },
+    {
+      "source": "n95",
+      "target": "n127",
+      "value": 24
+    },
+    {
+      "source": "n95",
+      "target": "n143",
+      "value": 8
+    },
+    {
+      "source": "n96",
+      "target": "n113",
+      "value": 108
+    },
+    {
+      "source": "n97",
+      "target": "n113",
+      "value": 84
+    },
+    {
+      "source": "n98",
+      "target": "n113",
+      "value": 18
+    },
+    {
+      "source": "n98",
+      "target": "n133",
+      "value": 18
+    },
+    {
+      "source": "n98",
+      "target": "n140",
+      "value": 10
+    },
+    {
+      "source": "n99",
+      "target": "n113",
+      "value": 35
+    }
+  ]
+}
