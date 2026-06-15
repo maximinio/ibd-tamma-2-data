@@ -6,7 +6,7 @@
   },
   "generated_at": "2026-06-14T16:53:01+0200",
   "metadata": {
-    "table": "metadata/metadata.tsv.gz",
+    "table": "metadata/metadata_sankey_table.tsv.gz",
     "sankey": "metadata/metadata_sankey.json"
   },
   "host": {
