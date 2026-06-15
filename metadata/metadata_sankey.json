@@ -615,7 +615,7 @@
       "column": "Tissue",
       "label": "Colon",
       "value": "Colon",
-      "count": 1800,
+      "count": 1801,
       "level": 5
     },
     {
@@ -724,14 +724,6 @@
     },
     {
       "id": "n90",
-      "column": "Tissue",
-      "label": "",
-      "value": "",
-      "count": 1,
-      "level": 5
-    },
-    {
-      "id": "n91",
       "column": "Cell Type",
       "label": "",
       "value": "",
@@ -739,7 +731,7 @@
       "level": 6
     },
     {
-      "id": "n92",
+      "id": "n91",
       "column": "Cell Type",
       "label": "CD3+",
       "value": "CD3+",
@@ -747,7 +739,7 @@
       "level": 6
     },
     {
-      "id": "n93",
+      "id": "n92",
       "column": "Cell Type",
       "label": "Memory CD4",
       "value": "Memory CD4",
@@ -755,7 +747,7 @@
       "level": 6
     },
     {
-      "id": "n94",
+      "id": "n93",
       "column": "Cell Type",
       "label": "Memory CD8",
       "value": "Memory CD8",
@@ -763,7 +755,7 @@
       "level": 6
     },
     {
-      "id": "n95",
+      "id": "n94",
       "column": "Cell Type",
       "label": "CD11b+",
       "value": "CD11b+",
@@ -771,7 +763,7 @@
       "level": 6
     },
     {
-      "id": "n96",
+      "id": "n95",
       "column": "Cell Type",
       "label": "γδ T Cells",
       "value": "γδ T Cells",
@@ -779,7 +771,7 @@
       "level": 6
     },
     {
-      "id": "n97",
+      "id": "n96",
       "column": "Cell Type",
       "label": "Sorted ILC3s",
       "value": "Sorted ILC3s",
@@ -787,7 +779,7 @@
       "level": 6
     },
     {
-      "id": "n98",
+      "id": "n97",
       "column": "Cell Type",
       "label": "Macrophages",
       "value": "Macrophages",
@@ -795,7 +787,7 @@
       "level": 6
     },
     {
-      "id": "n99",
+      "id": "n98",
       "column": "Cell Type",
       "label": "CD11b+ Phagocytes",
       "value": "CD11b+ Phagocytes",
@@ -803,7 +795,7 @@
       "level": 6
     },
     {
-      "id": "n100",
+      "id": "n99",
       "column": "Cell Type",
       "label": "CD14+ Monocytes",
       "value": "CD14+ Monocytes",
@@ -811,7 +803,7 @@
       "level": 6
     },
     {
-      "id": "n101",
+      "id": "n100",
       "column": "Cell Type",
       "label": "CD45+ CD64+ HLA-DR+ CD206-",
       "value": "CD45+ CD64+ HLA-DR+ CD206-",
@@ -819,7 +811,7 @@
       "level": 6
     },
     {
-      "id": "n102",
+      "id": "n101",
       "column": "Cell Type",
       "label": "CD45+ CD64+ HLA-DR+ CD206+",
       "value": "CD45+ CD64+ HLA-DR+ CD206+",
@@ -827,7 +819,7 @@
       "level": 6
     },
     {
-      "id": "n103",
+      "id": "n102",
       "column": "Cell Type",
       "label": "PBMCs",
       "value": "PBMCs",
@@ -835,7 +827,7 @@
       "level": 6
     },
     {
-      "id": "n104",
+      "id": "n103",
       "column": "Cell Type",
       "label": "Endothelium",
       "value": "Endothelium",
@@ -843,7 +835,7 @@
       "level": 6
     },
     {
-      "id": "n105",
+      "id": "n104",
       "column": "Cell Type",
       "label": "Monocytes",
       "value": "Monocytes",
@@ -851,7 +843,7 @@
       "level": 6
     },
     {
-      "id": "n106",
+      "id": "n105",
       "column": "Cell Type",
       "label": "Creeping Fat",
       "value": "Creeping Fat",
@@ -859,7 +851,7 @@
       "level": 6
     },
     {
-      "id": "n107",
+      "id": "n106",
       "column": "Cell Type",
       "label": "Leukocytes",
       "value": "Leukocytes",
@@ -867,7 +859,7 @@
       "level": 6
     },
     {
-      "id": "n108",
+      "id": "n107",
       "column": "Cell Type",
       "label": "Epithelial Cells",
       "value": "Epithelial Cells",
@@ -875,7 +867,7 @@
       "level": 6
     },
     {
-      "id": "n109",
+      "id": "n108",
       "column": "Cell Type",
       "label": "Fibroblasts",
       "value": "Fibroblasts",
@@ -883,7 +875,7 @@
       "level": 6
     },
     {
-      "id": "n110",
+      "id": "n109",
       "column": "Cell Type",
       "label": "CD3+ LPMCs",
       "value": "CD3+ LPMCs",
@@ -891,7 +883,7 @@
       "level": 6
     },
     {
-      "id": "n111",
+      "id": "n110",
       "column": "Cell Type",
       "label": "CD33+ LPMCs",
       "value": "CD33+ LPMCs",
@@ -899,15 +891,15 @@
       "level": 6
     },
     {
-      "id": "n112",
+      "id": "n111",
       "column": "Treatment",
       "label": "",
       "value": "",
-      "count": 7366,
+      "count": 7405,
       "level": 7
     },
     {
-      "id": "n113",
+      "id": "n112",
       "column": "Treatment",
       "label": "Treatment naive",
       "value": "Treatment naive",
@@ -915,7 +907,7 @@
       "level": 7
     },
     {
-      "id": "n114",
+      "id": "n113",
       "column": "Treatment",
       "label": "Anti-TNF",
       "value": "Anti-TNF",
@@ -923,7 +915,7 @@
       "level": 7
     },
     {
-      "id": "n115",
+      "id": "n114",
       "column": "Treatment",
       "label": "Vedolizumab",
       "value": "Vedolizumab",
@@ -931,7 +923,7 @@
       "level": 7
     },
     {
-      "id": "n116",
+      "id": "n115",
       "column": "Treatment",
       "label": "HSCT post",
       "value": "HSCT post",
@@ -939,7 +931,7 @@
       "level": 7
     },
     {
-      "id": "n117",
+      "id": "n116",
       "column": "Treatment",
       "label": "Etrolizumab",
       "value": "Etrolizumab",
@@ -947,7 +939,7 @@
       "level": 7
     },
     {
-      "id": "n118",
+      "id": "n117",
       "column": "Treatment",
       "label": "No biologics",
       "value": "No biologics",
@@ -955,7 +947,7 @@
       "level": 7
     },
     {
-      "id": "n119",
+      "id": "n118",
       "column": "Treatment",
       "label": "SARS-CoV-2",
       "value": "SARS-CoV-2",
@@ -963,7 +955,7 @@
       "level": 7
     },
     {
-      "id": "n120",
+      "id": "n119",
       "column": "Treatment",
       "label": "Anti-integrin",
       "value": "Anti-integrin",
@@ -971,31 +963,15 @@
       "level": 7
     },
     {
+      "id": "n120",
+      "column": "Treatment",
+      "label": "TUDCA",
+      "value": "TUDCA",
+      "count": 17,
+      "level": 7
+    },
+    {
       "id": "n121",
-      "column": "Treatment",
-      "label": "TUDCA baseline",
-      "value": "TUDCA baseline",
-      "count": 21,
-      "level": 7
-    },
-    {
-      "id": "n122",
-      "column": "Treatment",
-      "label": "HSCT baseline",
-      "value": "HSCT baseline",
-      "count": 18,
-      "level": 7
-    },
-    {
-      "id": "n123",
-      "column": "Treatment",
-      "label": "TUDCA post week 6",
-      "value": "TUDCA post week 6",
-      "count": 16,
-      "level": 7
-    },
-    {
-      "id": "n124",
       "column": "Treatment",
       "label": "LPS",
       "value": "LPS",
@@ -1003,7 +979,7 @@
       "level": 7
     },
     {
-      "id": "n125",
+      "id": "n122",
       "column": "Treatment",
       "label": "Immunosuppression",
       "value": "Immunosuppression",
@@ -1011,7 +987,7 @@
       "level": 7
     },
     {
-      "id": "n126",
+      "id": "n123",
       "column": "Treatment",
       "label": "Low proteolytic activity",
       "value": "Low proteolytic activity",
@@ -1019,7 +995,7 @@
       "level": 7
     },
     {
-      "id": "n127",
+      "id": "n124",
       "column": "Treatment",
       "label": "Tofacitinib",
       "value": "Tofacitinib",
@@ -1027,7 +1003,7 @@
       "level": 7
     },
     {
-      "id": "n128",
+      "id": "n125",
       "column": "Treatment",
       "label": "Anti-IL-12/23",
       "value": "Anti-IL-12/23",
@@ -1035,7 +1011,7 @@
       "level": 7
     },
     {
-      "id": "n129",
+      "id": "n126",
       "column": "Treatment",
       "label": "HSCT pre",
       "value": "HSCT pre",
@@ -1043,15 +1019,15 @@
       "level": 7
     },
     {
-      "id": "n130",
+      "id": "n127",
       "column": "Treatment",
-      "label": "MDP-stimulated",
-      "value": "MDP-stimulated",
+      "label": "MDP",
+      "value": "MDP",
       "count": 7,
       "level": 7
     },
     {
-      "id": "n131",
+      "id": "n128",
       "column": "Treatment",
       "label": "Cad",
       "value": "Cad",
@@ -1059,7 +1035,7 @@
       "level": 7
     },
     {
-      "id": "n132",
+      "id": "n129",
       "column": "Treatment",
       "label": "FP10",
       "value": "FP10",
@@ -1067,7 +1043,7 @@
       "level": 7
     },
     {
-      "id": "n133",
+      "id": "n130",
       "column": "Treatment",
       "label": "High proteolytic activity",
       "value": "High proteolytic activity",
@@ -1075,7 +1051,7 @@
       "level": 7
     },
     {
-      "id": "n134",
+      "id": "n131",
       "column": "Treatment",
       "label": "FP100",
       "value": "FP100",
@@ -1083,19 +1059,11 @@
       "level": 7
     },
     {
-      "id": "n135",
+      "id": "n132",
       "column": "Treatment",
       "label": "HBOT",
       "value": "HBOT",
       "count": 5,
-      "level": 7
-    },
-    {
-      "id": "n136",
-      "column": "Treatment",
-      "label": "TUDCA post week 8",
-      "value": "TUDCA post week 8",
-      "count": 1,
       "level": 7
     }
   ],
@@ -1127,83 +1095,63 @@
     },
     {
       "source": "n100",
-      "target": "n112",
-      "value": 6
-    },
-    {
-      "source": "n100",
-      "target": "n124",
-      "value": 12
-    },
-    {
-      "source": "n100",
-      "target": "n131",
-      "value": 6
-    },
-    {
-      "source": "n100",
-      "target": "n132",
-      "value": 6
-    },
-    {
-      "source": "n100",
-      "target": "n134",
-      "value": 5
-    },
-    {
-      "source": "n101",
-      "target": "n112",
+      "target": "n111",
       "value": 32
     },
     {
-      "source": "n102",
-      "target": "n112",
+      "source": "n101",
+      "target": "n111",
       "value": 28
     },
     {
-      "source": "n103",
-      "target": "n112",
+      "source": "n102",
+      "target": "n111",
       "value": 22
     },
     {
-      "source": "n104",
-      "target": "n112",
+      "source": "n103",
+      "target": "n111",
       "value": 9
+    },
+    {
+      "source": "n103",
+      "target": "n124",
+      "value": 9
+    },
+    {
+      "source": "n104",
+      "target": "n111",
+      "value": 7
     },
     {
       "source": "n104",
       "target": "n127",
-      "value": 9
-    },
-    {
-      "source": "n105",
-      "target": "n112",
       "value": 7
     },
     {
       "source": "n105",
-      "target": "n130",
-      "value": 7
+      "target": "n111",
+      "value": 8
     },
     {
       "source": "n106",
-      "target": "n112",
+      "target": "n111",
       "value": 8
     },
     {
       "source": "n107",
-      "target": "n112",
-      "value": 8
+      "target": "n111",
+      "value": 6
     },
     {
       "source": "n108",
-      "target": "n112",
+      "target": "n111",
       "value": 6
     },
     {
       "source": "n109",
-      "target": "n112",
-      "value": 6
+      "target": "n111",
+      "value": 2
     },
     {
       "source": "n11",
@@ -1217,12 +1165,7 @@
     },
     {
       "source": "n110",
-      "target": "n112",
-      "value": 2
-    },
-    {
-      "source": "n111",
-      "target": "n112",
+      "target": "n111",
       "value": 2
     },
     {
@@ -2278,7 +2221,7 @@
     {
       "source": "n69",
       "target": "n76",
-      "value": 7
+      "value": 8
     },
     {
       "source": "n69",
@@ -2319,11 +2262,6 @@
       "source": "n69",
       "target": "n86",
       "value": 8
-    },
-    {
-      "source": "n69",
-      "target": "n90",
-      "value": 1
     },
     {
       "source": "n7",
@@ -2412,48 +2350,53 @@
     },
     {
       "source": "n75",
-      "target": "n100",
-      "value": 35
-    },
-    {
-      "source": "n75",
-      "target": "n91",
+      "target": "n90",
       "value": 2888
     },
     {
       "source": "n75",
-      "target": "n95",
+      "target": "n94",
       "value": 52
     },
     {
       "source": "n75",
-      "target": "n99",
+      "target": "n98",
       "value": 15
     },
     {
+      "source": "n75",
+      "target": "n99",
+      "value": 35
+    },
+    {
       "source": "n76",
-      "target": "n101",
+      "target": "n100",
       "value": 32
     },
     {
       "source": "n76",
-      "target": "n102",
+      "target": "n101",
       "value": 28
     },
     {
       "source": "n76",
-      "target": "n104",
+      "target": "n103",
       "value": 18
     },
     {
       "source": "n76",
-      "target": "n109",
+      "target": "n108",
       "value": 6
     },
     {
       "source": "n76",
-      "target": "n91",
-      "value": 1222
+      "target": "n90",
+      "value": 1223
+    },
+    {
+      "source": "n76",
+      "target": "n92",
+      "value": 119
     },
     {
       "source": "n76",
@@ -2463,61 +2406,56 @@
     {
       "source": "n76",
       "target": "n94",
-      "value": 119
-    },
-    {
-      "source": "n76",
-      "target": "n95",
       "value": 64
     },
     {
       "source": "n76",
-      "target": "n96",
+      "target": "n95",
       "value": 108
     },
     {
       "source": "n76",
-      "target": "n97",
+      "target": "n96",
       "value": 84
     },
     {
       "source": "n77",
-      "target": "n103",
+      "target": "n102",
       "value": 22
     },
     {
       "source": "n77",
-      "target": "n105",
+      "target": "n104",
       "value": 14
     },
     {
       "source": "n77",
-      "target": "n107",
+      "target": "n106",
       "value": 8
     },
     {
       "source": "n77",
-      "target": "n91",
+      "target": "n90",
       "value": 1451
     },
     {
       "source": "n77",
-      "target": "n92",
+      "target": "n91",
       "value": 149
     },
     {
       "source": "n77",
-      "target": "n98",
+      "target": "n97",
       "value": 18
     },
     {
       "source": "n78",
-      "target": "n91",
+      "target": "n90",
       "value": 1555
     },
     {
       "source": "n79",
-      "target": "n91",
+      "target": "n90",
       "value": 762
     },
     {
@@ -2537,38 +2475,43 @@
     },
     {
       "source": "n80",
-      "target": "n91",
+      "target": "n90",
       "value": 339
     },
     {
       "source": "n81",
-      "target": "n91",
+      "target": "n90",
       "value": 234
     },
     {
       "source": "n82",
-      "target": "n92",
+      "target": "n91",
       "value": 116
     },
     {
       "source": "n83",
-      "target": "n91",
+      "target": "n90",
       "value": 106
     },
     {
       "source": "n84",
-      "target": "n91",
+      "target": "n90",
       "value": 71
     },
     {
       "source": "n84",
-      "target": "n99",
+      "target": "n98",
       "value": 20
     },
     {
       "source": "n85",
-      "target": "n108",
+      "target": "n107",
       "value": 6
+    },
+    {
+      "source": "n85",
+      "target": "n109",
+      "value": 2
     },
     {
       "source": "n85",
@@ -2577,37 +2520,32 @@
     },
     {
       "source": "n85",
-      "target": "n111",
-      "value": 2
-    },
-    {
-      "source": "n85",
-      "target": "n91",
+      "target": "n90",
       "value": 48
     },
     {
       "source": "n85",
-      "target": "n98",
+      "target": "n97",
       "value": 28
     },
     {
       "source": "n86",
-      "target": "n91",
+      "target": "n90",
       "value": 75
     },
     {
       "source": "n87",
-      "target": "n91",
+      "target": "n90",
       "value": 38
     },
     {
       "source": "n88",
-      "target": "n91",
+      "target": "n90",
       "value": 34
     },
     {
       "source": "n89",
-      "target": "n106",
+      "target": "n105",
       "value": 8
     },
     {
@@ -2622,148 +2560,153 @@
     },
     {
       "source": "n90",
-      "target": "n91",
-      "value": 1
+      "target": "n111",
+      "value": 6521
     },
     {
-      "source": "n91",
+      "source": "n90",
       "target": "n112",
-      "value": 6482
-    },
-    {
-      "source": "n91",
-      "target": "n113",
       "value": 1606
     },
     {
-      "source": "n91",
-      "target": "n114",
+      "source": "n90",
+      "target": "n113",
       "value": 224
     },
     {
-      "source": "n91",
-      "target": "n115",
+      "source": "n90",
+      "target": "n114",
       "value": 228
     },
     {
-      "source": "n91",
-      "target": "n116",
+      "source": "n90",
+      "target": "n115",
       "value": 81
     },
     {
-      "source": "n91",
-      "target": "n117",
+      "source": "n90",
+      "target": "n116",
       "value": 73
     },
     {
-      "source": "n91",
-      "target": "n119",
+      "source": "n90",
+      "target": "n118",
       "value": 45
     },
     {
-      "source": "n91",
-      "target": "n121",
-      "value": 21
+      "source": "n90",
+      "target": "n120",
+      "value": 17
     },
     {
-      "source": "n91",
-      "target": "n122",
-      "value": 18
-    },
-    {
-      "source": "n91",
+      "source": "n90",
       "target": "n123",
-      "value": 16
-    },
-    {
-      "source": "n91",
-      "target": "n126",
       "value": 10
     },
     {
-      "source": "n91",
-      "target": "n129",
+      "source": "n90",
+      "target": "n126",
       "value": 8
     },
     {
-      "source": "n91",
-      "target": "n133",
+      "source": "n90",
+      "target": "n130",
       "value": 6
     },
     {
-      "source": "n91",
-      "target": "n135",
+      "source": "n90",
+      "target": "n132",
       "value": 5
     },
     {
       "source": "n91",
-      "target": "n136",
-      "value": 1
-    },
-    {
-      "source": "n92",
-      "target": "n112",
+      "target": "n111",
       "value": 265
     },
     {
+      "source": "n92",
+      "target": "n111",
+      "value": 119
+    },
+    {
       "source": "n93",
-      "target": "n112",
+      "target": "n111",
       "value": 119
     },
     {
       "source": "n94",
-      "target": "n112",
-      "value": 119
-    },
-    {
-      "source": "n95",
-      "target": "n114",
+      "target": "n113",
       "value": 30
     },
     {
-      "source": "n95",
-      "target": "n118",
+      "source": "n94",
+      "target": "n117",
       "value": 54
     },
     {
-      "source": "n95",
-      "target": "n120",
+      "source": "n94",
+      "target": "n119",
       "value": 24
     },
     {
-      "source": "n95",
-      "target": "n128",
+      "source": "n94",
+      "target": "n125",
       "value": 8
     },
     {
-      "source": "n96",
-      "target": "n112",
+      "source": "n95",
+      "target": "n111",
       "value": 108
+    },
+    {
+      "source": "n96",
+      "target": "n111",
+      "value": 84
+    },
+    {
+      "source": "n97",
+      "target": "n111",
+      "value": 18
     },
     {
       "source": "n97",
       "target": "n112",
-      "value": 84
-    },
-    {
-      "source": "n98",
-      "target": "n112",
       "value": 18
     },
     {
-      "source": "n98",
-      "target": "n113",
-      "value": 18
-    },
-    {
-      "source": "n98",
-      "target": "n125",
+      "source": "n97",
+      "target": "n122",
       "value": 10
     },
     {
-      "source": "n99",
-      "target": "n112",
+      "source": "n98",
+      "target": "n111",
       "value": 35
+    },
+    {
+      "source": "n99",
+      "target": "n111",
+      "value": 6
+    },
+    {
+      "source": "n99",
+      "target": "n121",
+      "value": 12
+    },
+    {
+      "source": "n99",
+      "target": "n128",
+      "value": 6
+    },
+    {
+      "source": "n99",
+      "target": "n129",
+      "value": 6
+    },
+    {
+      "source": "n99",
+      "target": "n131",
+      "value": 5
     }
   ]
 }
