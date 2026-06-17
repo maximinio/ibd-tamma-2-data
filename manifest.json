@@ -3673,5 +3673,8 @@
       "db_table": "expression_gene",
       "transform": "log2(normalized_counts + 1)"
     }
+  },
+  "first_screen": {
+    "bundle": "assets/first_screen/first_screen.json"
   }
 }
