@@ -12,3 +12,4 @@ host/rds/
 *.tmp
 *.bak
 visual_qa/
+visual_qa_*/
