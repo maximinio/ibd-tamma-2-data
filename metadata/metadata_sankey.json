@@ -896,15 +896,7 @@
       "column": "Disease",
       "value": "IBD",
       "level": 4,
-      "count": 871
-    },
-    {
-      "id": "Disease||__missing__",
-      "label": "",
-      "column": "Disease",
-      "value": "__missing__",
-      "level": 4,
-      "count": 101
+      "count": 972
     },
     {
       "id": "Disease||IBS-D",
@@ -2038,6 +2030,11 @@
       "value": 254
     },
     {
+      "source": "Source||phs001626",
+      "target": "Disease||IBD",
+      "value": 252
+    },
+    {
       "source": "Source||GSE217352",
       "target": "Disease||CD",
       "value": 230
@@ -2066,11 +2063,6 @@
       "source": "Source||GSE109142",
       "target": "Disease||UC",
       "value": 206
-    },
-    {
-      "source": "Source||phs001626",
-      "target": "Disease||IBD",
-      "value": 201
     },
     {
       "source": "Source||GSE134881",
@@ -2233,11 +2225,6 @@
       "value": 54
     },
     {
-      "source": "Source||phs001626",
-      "target": "Disease||__missing__",
-      "value": 51
-    },
-    {
       "source": "Source||GSE62207",
       "target": "Disease||Healthy",
       "value": 51
@@ -2364,7 +2351,7 @@
     },
     {
       "source": "Source||GSE285449",
-      "target": "Disease||__missing__",
+      "target": "Disease||IBD",
       "value": 35
     },
     {
@@ -2604,7 +2591,7 @@
     },
     {
       "source": "Source||GSE124350",
-      "target": "Disease||__missing__",
+      "target": "Disease||IBD",
       "value": 15
     },
     {
@@ -2905,7 +2892,7 @@
     {
       "source": "Disease||IBD",
       "target": "Tissue||Colon",
-      "value": 449
+      "value": 464
     },
     {
       "source": "Disease||CD",
@@ -2944,13 +2931,18 @@
     },
     {
       "source": "Disease||IBD",
+      "target": "Tissue||Ileum",
+      "value": 145
+    },
+    {
+      "source": "Disease||IBD",
       "target": "Tissue||Intestine",
       "value": 137
     },
     {
       "source": "Disease||IBD",
       "target": "Tissue||Rectum",
-      "value": 106
+      "value": 129
     },
     {
       "source": "Disease||CD",
@@ -2961,11 +2953,6 @@
       "source": "Disease||CD",
       "target": "Tissue||Intestine",
       "value": 89
-    },
-    {
-      "source": "Disease||IBD",
-      "target": "Tissue||Ileum",
-      "value": 88
     },
     {
       "source": "Disease||CD",
@@ -2986,11 +2973,6 @@
       "source": "Disease||UC",
       "target": "Tissue||Cecum",
       "value": 66
-    },
-    {
-      "source": "Disease||__missing__",
-      "target": "Tissue||Ileum",
-      "value": 57
     },
     {
       "source": "Disease||Healthy",
@@ -3043,11 +3025,6 @@
       "value": 25
     },
     {
-      "source": "Disease||__missing__",
-      "target": "Tissue||Rectum",
-      "value": 23
-    },
-    {
       "source": "Disease||IBS-C",
       "target": "Tissue||Sigmoid",
       "value": 23
@@ -3073,9 +3050,9 @@
       "value": 17
     },
     {
-      "source": "Disease||__missing__",
-      "target": "Tissue||Colon",
-      "value": 15
+      "source": "Disease||IBD",
+      "target": "Tissue||Transverse",
+      "value": 14
     },
     {
       "source": "Disease||Healthy",
@@ -3113,11 +3090,6 @@
       "value": 11
     },
     {
-      "source": "Disease||IBD",
-      "target": "Tissue||Transverse",
-      "value": 10
-    },
-    {
       "source": "Disease||UC",
       "target": "Tissue||Mesenteric lymph node",
       "value": 10
@@ -3128,19 +3100,19 @@
       "value": 10
     },
     {
+      "source": "Disease||IBD",
+      "target": "Tissue||Descending",
+      "value": 9
+    },
+    {
       "source": "Disease||NEC",
       "target": "Tissue||Ileum",
       "value": 9
     },
     {
       "source": "Disease||IBD",
-      "target": "Tissue||Descending",
-      "value": 8
-    },
-    {
-      "source": "Disease||IBD",
       "target": "Tissue||Ascending",
-      "value": 7
+      "value": 8
     },
     {
       "source": "Disease||IBS-C",
@@ -3173,11 +3145,6 @@
       "value": 4
     },
     {
-      "source": "Disease||__missing__",
-      "target": "Tissue||Transverse",
-      "value": 4
-    },
-    {
       "source": "Disease||Colitis",
       "target": "Tissue||Intestine",
       "value": 4
@@ -3190,16 +3157,6 @@
     {
       "source": "Disease||UC",
       "target": "Tissue||Ascending",
-      "value": 1
-    },
-    {
-      "source": "Disease||__missing__",
-      "target": "Tissue||Ascending",
-      "value": 1
-    },
-    {
-      "source": "Disease||__missing__",
-      "target": "Tissue||Descending",
       "value": 1
     },
     {
