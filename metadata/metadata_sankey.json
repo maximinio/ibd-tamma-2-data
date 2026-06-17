@@ -5,8 +5,8 @@
     "Source",
     "Disease",
     "Tissue",
-    "Cell Type",
     "Therapy",
+    "Cell Type",
     "Treatment"
   ],
   "nodes": [
@@ -475,6 +475,14 @@
       "count": 36
     },
     {
+      "id": "Source||E-MTAB-10395",
+      "label": "E-MTAB-10395",
+      "column": "Source",
+      "value": "E-MTAB-10395",
+      "level": 3,
+      "count": 35
+    },
+    {
       "id": "Source||GSE267465",
       "label": "GSE267465",
       "column": "Source",
@@ -487,14 +495,6 @@
       "label": "GSE285449",
       "column": "Source",
       "value": "GSE285449",
-      "level": 3,
-      "count": 35
-    },
-    {
-      "id": "Source||E-MTAB-10395",
-      "label": "E-MTAB-10395",
-      "column": "Source",
-      "value": "E-MTAB-10395",
       "level": 3,
       "count": 35
     },
@@ -715,6 +715,14 @@
       "count": 15
     },
     {
+      "id": "Source||GSE247742",
+      "label": "GSE247742",
+      "column": "Source",
+      "value": "GSE247742",
+      "level": 3,
+      "count": 14
+    },
+    {
       "id": "Source||GSE64801",
       "label": "GSE64801",
       "column": "Source",
@@ -727,14 +735,6 @@
       "label": "GSE69446",
       "column": "Source",
       "value": "GSE69446",
-      "level": 3,
-      "count": 14
-    },
-    {
-      "id": "Source||GSE247742",
-      "label": "GSE247742",
-      "column": "Source",
-      "value": "GSE247742",
       "level": 3,
       "count": 14
     },
@@ -827,18 +827,18 @@
       "count": 8
     },
     {
-      "id": "Source||GSE67250",
-      "label": "GSE67250",
-      "column": "Source",
-      "value": "GSE67250",
-      "level": 3,
-      "count": 6
-    },
-    {
       "id": "Source||GSE294501",
       "label": "GSE294501",
       "column": "Source",
       "value": "GSE294501",
+      "level": 3,
+      "count": 6
+    },
+    {
+      "id": "Source||GSE67250",
+      "label": "GSE67250",
+      "column": "Source",
+      "value": "GSE67250",
       "level": 3,
       "count": 6
     },
@@ -915,18 +915,18 @@
       "count": 42
     },
     {
-      "id": "Disease||Diverticulitis",
-      "label": "Diverticulitis",
-      "column": "Disease",
-      "value": "Diverticulitis",
-      "level": 4,
-      "count": 26
-    },
-    {
       "id": "Disease||Colitis",
       "label": "Colitis",
       "column": "Disease",
       "value": "Colitis",
+      "level": 4,
+      "count": 26
+    },
+    {
+      "id": "Disease||Diverticulitis",
+      "label": "Diverticulitis",
+      "column": "Disease",
+      "value": "Diverticulitis",
       "level": 4,
       "count": 26
     },
@@ -1075,179 +1075,11 @@
       "count": 8
     },
     {
-      "id": "Cell Type||__missing__",
-      "label": "",
-      "column": "Cell Type",
-      "value": "__missing__",
-      "level": 6,
-      "count": 11183
-    },
-    {
-      "id": "Cell Type||CD3+",
-      "label": "CD3+",
-      "column": "Cell Type",
-      "value": "CD3+",
-      "level": 6,
-      "count": 265
-    },
-    {
-      "id": "Cell Type||Memory CD8",
-      "label": "Memory CD8",
-      "column": "Cell Type",
-      "value": "Memory CD8",
-      "level": 6,
-      "count": 119
-    },
-    {
-      "id": "Cell Type||Memory CD4",
-      "label": "Memory CD4",
-      "column": "Cell Type",
-      "value": "Memory CD4",
-      "level": 6,
-      "count": 119
-    },
-    {
-      "id": "Cell Type||\u03b3\u03b4 T Cells",
-      "label": "\u03b3\u03b4 T Cells",
-      "column": "Cell Type",
-      "value": "\u03b3\u03b4 T Cells",
-      "level": 6,
-      "count": 108
-    },
-    {
-      "id": "Cell Type||CD11b+",
-      "label": "CD11b+",
-      "column": "Cell Type",
-      "value": "CD11b+",
-      "level": 6,
-      "count": 58
-    },
-    {
-      "id": "Cell Type||Macrophages",
-      "label": "Macrophages",
-      "column": "Cell Type",
-      "value": "Macrophages",
-      "level": 6,
-      "count": 46
-    },
-    {
-      "id": "Cell Type||CD11b+ Phagocytes",
-      "label": "CD11b+ Phagocytes",
-      "column": "Cell Type",
-      "value": "CD11b+ Phagocytes",
-      "level": 6,
-      "count": 35
-    },
-    {
-      "id": "Cell Type||CD14+ Monocytes",
-      "label": "CD14+ Monocytes",
-      "column": "Cell Type",
-      "value": "CD14+ Monocytes",
-      "level": 6,
-      "count": 35
-    },
-    {
-      "id": "Cell Type||Endothelium",
-      "label": "Endothelium",
-      "column": "Cell Type",
-      "value": "Endothelium",
-      "level": 6,
-      "count": 18
-    },
-    {
-      "id": "Cell Type||Monocytes",
-      "label": "Monocytes",
-      "column": "Cell Type",
-      "value": "Monocytes",
-      "level": 6,
-      "count": 14
-    },
-    {
-      "id": "Cell Type||Sorted ILC3s",
-      "label": "Sorted ILC3s",
-      "column": "Cell Type",
-      "value": "Sorted ILC3s",
-      "level": 6,
-      "count": 14
-    },
-    {
-      "id": "Cell Type||CD14- CD64- CD163- MNPs",
-      "label": "CD14- CD64- CD163- MNPs",
-      "column": "Cell Type",
-      "value": "CD14- CD64- CD163- MNPs",
-      "level": 6,
-      "count": 12
-    },
-    {
-      "id": "Cell Type||CD14+ CD64+ CD163+ MNPs",
-      "label": "CD14+ CD64+ CD163+ MNPs",
-      "column": "Cell Type",
-      "value": "CD14+ CD64+ CD163+ MNPs",
-      "level": 6,
-      "count": 10
-    },
-    {
-      "id": "Cell Type||CD45+ CD64+ HLA-DR+ CD206-",
-      "label": "CD45+ CD64+ HLA-DR+ CD206-",
-      "column": "Cell Type",
-      "value": "CD45+ CD64+ HLA-DR+ CD206-",
-      "level": 6,
-      "count": 8
-    },
-    {
-      "id": "Cell Type||Leukocytes",
-      "label": "Leukocytes",
-      "column": "Cell Type",
-      "value": "Leukocytes",
-      "level": 6,
-      "count": 8
-    },
-    {
-      "id": "Cell Type||CD45+ CD64+ HLA-DR+ CD206+",
-      "label": "CD45+ CD64+ HLA-DR+ CD206+",
-      "column": "Cell Type",
-      "value": "CD45+ CD64+ HLA-DR+ CD206+",
-      "level": 6,
-      "count": 7
-    },
-    {
-      "id": "Cell Type||Fibroblasts",
-      "label": "Fibroblasts",
-      "column": "Cell Type",
-      "value": "Fibroblasts",
-      "level": 6,
-      "count": 6
-    },
-    {
-      "id": "Cell Type||Epithelial Cells",
-      "label": "Epithelial Cells",
-      "column": "Cell Type",
-      "value": "Epithelial Cells",
-      "level": 6,
-      "count": 6
-    },
-    {
-      "id": "Cell Type||CD3+ LPMCs",
-      "label": "CD3+ LPMCs",
-      "column": "Cell Type",
-      "value": "CD3+ LPMCs",
-      "level": 6,
-      "count": 2
-    },
-    {
-      "id": "Cell Type||CD33+ LPMCs",
-      "label": "CD33+ LPMCs",
-      "column": "Cell Type",
-      "value": "CD33+ LPMCs",
-      "level": 6,
-      "count": 2
-    },
-    {
       "id": "Therapy||__missing__",
       "label": "",
       "column": "Therapy",
       "value": "__missing__",
-      "level": 7,
+      "level": 6,
       "count": 9780
     },
     {
@@ -1255,7 +1087,7 @@
       "label": "Treatment naive",
       "column": "Therapy",
       "value": "Treatment naive",
-      "level": 7,
+      "level": 6,
       "count": 1636
     },
     {
@@ -1263,7 +1095,7 @@
       "label": "Vedolizumab",
       "column": "Therapy",
       "value": "Vedolizumab",
-      "level": 7,
+      "level": 6,
       "count": 219
     },
     {
@@ -1271,7 +1103,7 @@
       "label": "Anti-TNF",
       "column": "Therapy",
       "value": "Anti-TNF",
-      "level": 7,
+      "level": 6,
       "count": 203
     },
     {
@@ -1279,7 +1111,7 @@
       "label": "HSCT post",
       "column": "Therapy",
       "value": "HSCT post",
-      "level": 7,
+      "level": 6,
       "count": 81
     },
     {
@@ -1287,7 +1119,7 @@
       "label": "Etrolizumab",
       "column": "Therapy",
       "value": "Etrolizumab",
-      "level": 7,
+      "level": 6,
       "count": 73
     },
     {
@@ -1295,7 +1127,7 @@
       "label": "No biologics",
       "column": "Therapy",
       "value": "No biologics",
-      "level": 7,
+      "level": 6,
       "count": 27
     },
     {
@@ -1303,7 +1135,7 @@
       "label": "TUDCA",
       "column": "Therapy",
       "value": "TUDCA",
-      "level": 7,
+      "level": 6,
       "count": 17
     },
     {
@@ -1311,7 +1143,7 @@
       "label": "Anti-integrin",
       "column": "Therapy",
       "value": "Anti-integrin",
-      "level": 7,
+      "level": 6,
       "count": 12
     },
     {
@@ -1319,7 +1151,7 @@
       "label": "Immunosuppression",
       "column": "Therapy",
       "value": "Immunosuppression",
-      "level": 7,
+      "level": 6,
       "count": 10
     },
     {
@@ -1327,7 +1159,7 @@
       "label": "HSCT pre",
       "column": "Therapy",
       "value": "HSCT pre",
-      "level": 7,
+      "level": 6,
       "count": 8
     },
     {
@@ -1335,7 +1167,7 @@
       "label": "HBOT",
       "column": "Therapy",
       "value": "HBOT",
-      "level": 7,
+      "level": 6,
       "count": 5
     },
     {
@@ -1343,8 +1175,176 @@
       "label": "Anti-IL-12/23",
       "column": "Therapy",
       "value": "Anti-IL-12/23",
-      "level": 7,
+      "level": 6,
       "count": 4
+    },
+    {
+      "id": "Cell Type||__missing__",
+      "label": "",
+      "column": "Cell Type",
+      "value": "__missing__",
+      "level": 7,
+      "count": 11183
+    },
+    {
+      "id": "Cell Type||CD3+",
+      "label": "CD3+",
+      "column": "Cell Type",
+      "value": "CD3+",
+      "level": 7,
+      "count": 265
+    },
+    {
+      "id": "Cell Type||Memory CD4",
+      "label": "Memory CD4",
+      "column": "Cell Type",
+      "value": "Memory CD4",
+      "level": 7,
+      "count": 119
+    },
+    {
+      "id": "Cell Type||Memory CD8",
+      "label": "Memory CD8",
+      "column": "Cell Type",
+      "value": "Memory CD8",
+      "level": 7,
+      "count": 119
+    },
+    {
+      "id": "Cell Type||\u03b3\u03b4 T Cells",
+      "label": "\u03b3\u03b4 T Cells",
+      "column": "Cell Type",
+      "value": "\u03b3\u03b4 T Cells",
+      "level": 7,
+      "count": 108
+    },
+    {
+      "id": "Cell Type||CD11b+",
+      "label": "CD11b+",
+      "column": "Cell Type",
+      "value": "CD11b+",
+      "level": 7,
+      "count": 58
+    },
+    {
+      "id": "Cell Type||Macrophages",
+      "label": "Macrophages",
+      "column": "Cell Type",
+      "value": "Macrophages",
+      "level": 7,
+      "count": 46
+    },
+    {
+      "id": "Cell Type||CD11b+ Phagocytes",
+      "label": "CD11b+ Phagocytes",
+      "column": "Cell Type",
+      "value": "CD11b+ Phagocytes",
+      "level": 7,
+      "count": 35
+    },
+    {
+      "id": "Cell Type||CD14+ Monocytes",
+      "label": "CD14+ Monocytes",
+      "column": "Cell Type",
+      "value": "CD14+ Monocytes",
+      "level": 7,
+      "count": 35
+    },
+    {
+      "id": "Cell Type||Endothelium",
+      "label": "Endothelium",
+      "column": "Cell Type",
+      "value": "Endothelium",
+      "level": 7,
+      "count": 18
+    },
+    {
+      "id": "Cell Type||Monocytes",
+      "label": "Monocytes",
+      "column": "Cell Type",
+      "value": "Monocytes",
+      "level": 7,
+      "count": 14
+    },
+    {
+      "id": "Cell Type||Sorted ILC3s",
+      "label": "Sorted ILC3s",
+      "column": "Cell Type",
+      "value": "Sorted ILC3s",
+      "level": 7,
+      "count": 14
+    },
+    {
+      "id": "Cell Type||CD14- CD64- CD163- MNPs",
+      "label": "CD14- CD64- CD163- MNPs",
+      "column": "Cell Type",
+      "value": "CD14- CD64- CD163- MNPs",
+      "level": 7,
+      "count": 12
+    },
+    {
+      "id": "Cell Type||CD14+ CD64+ CD163+ MNPs",
+      "label": "CD14+ CD64+ CD163+ MNPs",
+      "column": "Cell Type",
+      "value": "CD14+ CD64+ CD163+ MNPs",
+      "level": 7,
+      "count": 10
+    },
+    {
+      "id": "Cell Type||CD45+ CD64+ HLA-DR+ CD206-",
+      "label": "CD45+ CD64+ HLA-DR+ CD206-",
+      "column": "Cell Type",
+      "value": "CD45+ CD64+ HLA-DR+ CD206-",
+      "level": 7,
+      "count": 8
+    },
+    {
+      "id": "Cell Type||Leukocytes",
+      "label": "Leukocytes",
+      "column": "Cell Type",
+      "value": "Leukocytes",
+      "level": 7,
+      "count": 8
+    },
+    {
+      "id": "Cell Type||CD45+ CD64+ HLA-DR+ CD206+",
+      "label": "CD45+ CD64+ HLA-DR+ CD206+",
+      "column": "Cell Type",
+      "value": "CD45+ CD64+ HLA-DR+ CD206+",
+      "level": 7,
+      "count": 7
+    },
+    {
+      "id": "Cell Type||Epithelial Cells",
+      "label": "Epithelial Cells",
+      "column": "Cell Type",
+      "value": "Epithelial Cells",
+      "level": 7,
+      "count": 6
+    },
+    {
+      "id": "Cell Type||Fibroblasts",
+      "label": "Fibroblasts",
+      "column": "Cell Type",
+      "value": "Fibroblasts",
+      "level": 7,
+      "count": 6
+    },
+    {
+      "id": "Cell Type||CD3+ LPMCs",
+      "label": "CD3+ LPMCs",
+      "column": "Cell Type",
+      "value": "CD3+ LPMCs",
+      "level": 7,
+      "count": 2
+    },
+    {
+      "id": "Cell Type||CD33+ LPMCs",
+      "label": "CD33+ LPMCs",
+      "column": "Cell Type",
+      "value": "CD33+ LPMCs",
+      "level": 7,
+      "count": 2
     },
     {
       "id": "Treatment||__missing__",
@@ -1395,14 +1395,6 @@
       "count": 7
     },
     {
-      "id": "Treatment||FP10",
-      "label": "FP10",
-      "column": "Treatment",
-      "value": "FP10",
-      "level": 8,
-      "count": 6
-    },
-    {
       "id": "Treatment||Cad",
       "label": "Cad",
       "column": "Treatment",
@@ -1411,10 +1403,26 @@
       "count": 6
     },
     {
+      "id": "Treatment||FP10",
+      "label": "FP10",
+      "column": "Treatment",
+      "value": "FP10",
+      "level": 8,
+      "count": 6
+    },
+    {
       "id": "Treatment||CD VLP",
       "label": "CD VLP",
       "column": "Treatment",
       "value": "CD VLP",
+      "level": 8,
+      "count": 5
+    },
+    {
+      "id": "Treatment||FP100",
+      "label": "FP100",
+      "column": "Treatment",
+      "value": "FP100",
       "level": 8,
       "count": 5
     },
@@ -1433,17 +1441,19 @@
       "value": "UC VLP",
       "level": 8,
       "count": 5
-    },
-    {
-      "id": "Treatment||FP100",
-      "label": "FP100",
-      "column": "Treatment",
-      "value": "FP100",
-      "level": 8,
-      "count": 5
     }
   ],
   "links": [
+    {
+      "source": "Cell Type||__missing__",
+      "target": "Treatment||__missing__",
+      "value": 11081
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||__missing__",
+      "value": 8982
+    },
     {
       "source": "Design||In vivo",
       "target": "Isolation||polyA",
@@ -1455,1394 +1465,9 @@
       "value": 2798
     },
     {
-      "source": "Design||In vitro",
-      "target": "Isolation||polyA",
-      "value": 999
-    },
-    {
-      "source": "Design||Intestinal organoids",
-      "target": "Isolation||polyA",
-      "value": 363
-    },
-    {
-      "source": "Design||In vitro",
-      "target": "Isolation||Total",
-      "value": 22
-    },
-    {
       "source": "Isolation||polyA",
       "target": "Source||GSE193677",
       "value": 2489
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE186507",
-      "value": 1030
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||SRP115494",
-      "value": 762
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE150961",
-      "value": 418
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA634153",
-      "value": 418
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE234981",
-      "value": 346
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE57945",
-      "value": 322
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE62207",
-      "value": 310
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE101794",
-      "value": 304
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE217352",
-      "value": 265
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||phs001626",
-      "value": 252
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE93624",
-      "value": 245
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE109142",
-      "value": 226
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE197698",
-      "value": 211
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE191328",
-      "value": 201
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE134881",
-      "value": 199
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE137344",
-      "value": 195
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE117993",
-      "value": 190
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||PRJNA1206237",
-      "value": 190
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE165512",
-      "value": 170
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE139179",
-      "value": 158
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE83687",
-      "value": 127
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||SRP343308",
-      "value": 127
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE158952",
-      "value": 119
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE270661",
-      "value": 119
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE270662",
-      "value": 119
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE228122",
-      "value": 115
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE143507",
-      "value": 97
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE234736",
-      "value": 96
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE112057",
-      "value": 87
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE208684",
-      "value": 81
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE72819",
-      "value": 73
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE81266",
-      "value": 73
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE166869",
-      "value": 68
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJEB21050",
-      "value": 68
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE146853",
-      "value": 67
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE282580",
-      "value": 60
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE183620",
-      "value": 58
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE235236",
-      "value": 56
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJEB61154",
-      "value": 56
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE191234",
-      "value": 54
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA790653",
-      "value": 54
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA1030353",
-      "value": 51
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||SRP541786",
-      "value": 48
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJEB32016",
-      "value": 47
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE243625",
-      "value": 45
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJEB30904",
-      "value": 44
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE199906",
-      "value": 43
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||SRP352918",
-      "value": 40
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA728646",
-      "value": 39
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE266963",
-      "value": 38
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE164918",
-      "value": 36
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||PRJNA1251616",
-      "value": 36
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE267465",
-      "value": 35
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE285449",
-      "value": 35
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||E-MTAB-10395",
-      "value": 35
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||PRJEB44664",
-      "value": 35
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE151686",
-      "value": 34
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA636953",
-      "value": 34
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA396640",
-      "value": 31
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE157020",
-      "value": 30
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||PRJEB32359",
-      "value": 30
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA759006",
-      "value": 30
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE123141",
-      "value": 28
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJEB41022",
-      "value": 27
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE111819",
-      "value": 26
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE130038",
-      "value": 26
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA670418",
-      "value": 26
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE159034",
-      "value": 24
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA1106762",
-      "value": 23
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE138364",
-      "value": 22
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA1029930",
-      "value": 22
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA932428",
-      "value": 22
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE66207",
-      "value": 21
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE135170",
-      "value": 20
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE171244",
-      "value": 20
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA478832",
-      "value": 20
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||PRJEB98848",
-      "value": 19
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE135223",
-      "value": 18
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE165636",
-      "value": 18
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE168759",
-      "value": 16
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE124350",
-      "value": 15
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE227747",
-      "value": 15
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE64801",
-      "value": 14
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE69446",
-      "value": 14
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE247742",
-      "value": 14
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA741807",
-      "value": 14
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE152229",
-      "value": 13
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE220815",
-      "value": 12
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE247146",
-      "value": 12
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE334803",
-      "value": 12
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA876940",
-      "value": 10
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||E-MTAB-9746",
-      "value": 9
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJEB41167",
-      "value": 9
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE156044",
-      "value": 8
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE274965",
-      "value": 8
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||SRP390233",
-      "value": 8
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE67250",
-      "value": 6
-    },
-    {
-      "source": "Isolation||Total",
-      "target": "Source||GSE294501",
-      "value": 6
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||GSE67280",
-      "value": 4
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA593867",
-      "value": 2
-    },
-    {
-      "source": "Isolation||polyA",
-      "target": "Source||PRJNA319301",
-      "value": 1
-    },
-    {
-      "source": "Source||GSE193677",
-      "target": "Disease||CD",
-      "value": 1157
-    },
-    {
-      "source": "Source||GSE193677",
-      "target": "Disease||UC",
-      "value": 872
-    },
-    {
-      "source": "Source||GSE193677",
-      "target": "Disease||Healthy",
-      "value": 460
-    },
-    {
-      "source": "Source||GSE186507",
-      "target": "Disease||CD",
-      "value": 432
-    },
-    {
-      "source": "Source||GSE150961",
-      "target": "Disease||UC",
-      "value": 418
-    },
-    {
-      "source": "Source||PRJNA634153",
-      "target": "Disease||UC",
-      "value": 418
-    },
-    {
-      "source": "Source||GSE186507",
-      "target": "Disease||UC",
-      "value": 389
-    },
-    {
-      "source": "Source||SRP115494",
-      "target": "Disease||CD",
-      "value": 348
-    },
-    {
-      "source": "Source||GSE62207",
-      "target": "Disease||CD",
-      "value": 259
-    },
-    {
-      "source": "Source||GSE101794",
-      "target": "Disease||CD",
-      "value": 254
-    },
-    {
-      "source": "Source||phs001626",
-      "target": "Disease||IBD",
-      "value": 252
-    },
-    {
-      "source": "Source||GSE217352",
-      "target": "Disease||CD",
-      "value": 230
-    },
-    {
-      "source": "Source||SRP115494",
-      "target": "Disease||UC",
-      "value": 220
-    },
-    {
-      "source": "Source||GSE57945",
-      "target": "Disease||CD",
-      "value": 218
-    },
-    {
-      "source": "Source||GSE93624",
-      "target": "Disease||CD",
-      "value": 210
-    },
-    {
-      "source": "Source||GSE186507",
-      "target": "Disease||Healthy",
-      "value": 209
-    },
-    {
-      "source": "Source||GSE109142",
-      "target": "Disease||UC",
-      "value": 206
-    },
-    {
-      "source": "Source||GSE134881",
-      "target": "Disease||CD",
-      "value": 199
-    },
-    {
-      "source": "Source||SRP115494",
-      "target": "Disease||Healthy",
-      "value": 194
-    },
-    {
-      "source": "Source||PRJNA1206237",
-      "target": "Disease||IBD",
-      "value": 190
-    },
-    {
-      "source": "Source||GSE234981",
-      "target": "Disease||UC",
-      "value": 176
-    },
-    {
-      "source": "Source||GSE234981",
-      "target": "Disease||CD",
-      "value": 170
-    },
-    {
-      "source": "Source||SRP343308",
-      "target": "Disease||IBD",
-      "value": 127
-    },
-    {
-      "source": "Source||GSE137344",
-      "target": "Disease||CD",
-      "value": 112
-    },
-    {
-      "source": "Source||GSE191328",
-      "target": "Disease||UC",
-      "value": 112
-    },
-    {
-      "source": "Source||GSE139179",
-      "target": "Disease||CD",
-      "value": 107
-    },
-    {
-      "source": "Source||GSE117993",
-      "target": "Disease||CD",
-      "value": 92
-    },
-    {
-      "source": "Source||GSE191328",
-      "target": "Disease||CD",
-      "value": 89
-    },
-    {
-      "source": "Source||GSE165512",
-      "target": "Disease||CD",
-      "value": 84
-    },
-    {
-      "source": "Source||GSE197698",
-      "target": "Disease||Healthy",
-      "value": 81
-    },
-    {
-      "source": "Source||GSE270661",
-      "target": "Disease||CD",
-      "value": 79
-    },
-    {
-      "source": "Source||GSE270662",
-      "target": "Disease||CD",
-      "value": 79
-    },
-    {
-      "source": "Source||GSE197698",
-      "target": "Disease||CD",
-      "value": 76
-    },
-    {
-      "source": "Source||GSE72819",
-      "target": "Disease||UC",
-      "value": 73
-    },
-    {
-      "source": "Source||GSE81266",
-      "target": "Disease||UC",
-      "value": 71
-    },
-    {
-      "source": "Source||PRJEB21050",
-      "target": "Disease||CD",
-      "value": 68
-    },
-    {
-      "source": "Source||GSE158952",
-      "target": "Disease||CD",
-      "value": 65
-    },
-    {
-      "source": "Source||GSE234736",
-      "target": "Disease||CD",
-      "value": 63
-    },
-    {
-      "source": "Source||GSE57945",
-      "target": "Disease||UC",
-      "value": 62
-    },
-    {
-      "source": "Source||GSE112057",
-      "target": "Disease||CD",
-      "value": 60
-    },
-    {
-      "source": "Source||GSE282580",
-      "target": "Disease||UC",
-      "value": 60
-    },
-    {
-      "source": "Source||GSE143507",
-      "target": "Disease||CD",
-      "value": 59
-    },
-    {
-      "source": "Source||GSE228122",
-      "target": "Disease||Healthy",
-      "value": 57
-    },
-    {
-      "source": "Source||PRJEB61154",
-      "target": "Disease||UC",
-      "value": 56
-    },
-    {
-      "source": "Source||GSE117993",
-      "target": "Disease||Healthy",
-      "value": 55
-    },
-    {
-      "source": "Source||GSE83687",
-      "target": "Disease||Healthy",
-      "value": 54
-    },
-    {
-      "source": "Source||GSE158952",
-      "target": "Disease||UC",
-      "value": 54
-    },
-    {
-      "source": "Source||GSE197698",
-      "target": "Disease||UC",
-      "value": 54
-    },
-    {
-      "source": "Source||PRJNA790653",
-      "target": "Disease||IBD",
-      "value": 54
-    },
-    {
-      "source": "Source||GSE62207",
-      "target": "Disease||Healthy",
-      "value": 51
-    },
-    {
-      "source": "Source||GSE139179",
-      "target": "Disease||Healthy",
-      "value": 51
-    },
-    {
-      "source": "Source||PRJNA1030353",
-      "target": "Disease||UC",
-      "value": 51
-    },
-    {
-      "source": "Source||GSE101794",
-      "target": "Disease||Healthy",
-      "value": 50
-    },
-    {
-      "source": "Source||SRP541786",
-      "target": "Disease||IBD",
-      "value": 48
-    },
-    {
-      "source": "Source||PRJEB32016",
-      "target": "Disease||UC",
-      "value": 47
-    },
-    {
-      "source": "Source||GSE165512",
-      "target": "Disease||Healthy",
-      "value": 46
-    },
-    {
-      "source": "Source||GSE137344",
-      "target": "Disease||UC",
-      "value": 44
-    },
-    {
-      "source": "Source||GSE208684",
-      "target": "Disease||Healthy",
-      "value": 44
-    },
-    {
-      "source": "Source||PRJEB30904",
-      "target": "Disease||IBD",
-      "value": 44
-    },
-    {
-      "source": "Source||GSE117993",
-      "target": "Disease||UC",
-      "value": 43
-    },
-    {
-      "source": "Source||GSE57945",
-      "target": "Disease||Healthy",
-      "value": 42
-    },
-    {
-      "source": "Source||GSE83687",
-      "target": "Disease||CD",
-      "value": 42
-    },
-    {
-      "source": "Source||GSE165512",
-      "target": "Disease||UC",
-      "value": 40
-    },
-    {
-      "source": "Source||GSE270661",
-      "target": "Disease||Healthy",
-      "value": 40
-    },
-    {
-      "source": "Source||GSE270662",
-      "target": "Disease||Healthy",
-      "value": 40
-    },
-    {
-      "source": "Source||SRP352918",
-      "target": "Disease||CD",
-      "value": 40
-    },
-    {
-      "source": "Source||GSE137344",
-      "target": "Disease||Healthy",
-      "value": 39
-    },
-    {
-      "source": "Source||PRJNA728646",
-      "target": "Disease||IBD",
-      "value": 39
-    },
-    {
-      "source": "Source||GSE143507",
-      "target": "Disease||Healthy",
-      "value": 38
-    },
-    {
-      "source": "Source||GSE266963",
-      "target": "Disease||UC",
-      "value": 38
-    },
-    {
-      "source": "Source||GSE183620",
-      "target": "Disease||UC",
-      "value": 37
-    },
-    {
-      "source": "Source||PRJNA1251616",
-      "target": "Disease||CD",
-      "value": 36
-    },
-    {
-      "source": "Source||GSE93624",
-      "target": "Disease||Healthy",
-      "value": 35
-    },
-    {
-      "source": "Source||GSE217352",
-      "target": "Disease||Healthy",
-      "value": 35
-    },
-    {
-      "source": "Source||GSE285449",
-      "target": "Disease||IBD",
-      "value": 35
-    },
-    {
-      "source": "Source||PRJEB44664",
-      "target": "Disease||CD",
-      "value": 35
-    },
-    {
-      "source": "Source||GSE151686",
-      "target": "Disease||CD",
-      "value": 34
-    },
-    {
-      "source": "Source||PRJNA636953",
-      "target": "Disease||CD",
-      "value": 34
-    },
-    {
-      "source": "Source||GSE234736",
-      "target": "Disease||UC",
-      "value": 33
-    },
-    {
-      "source": "Source||GSE83687",
-      "target": "Disease||UC",
-      "value": 31
-    },
-    {
-      "source": "Source||PRJNA396640",
-      "target": "Disease||CD",
-      "value": 31
-    },
-    {
-      "source": "Source||GSE243625",
-      "target": "Disease||UC",
-      "value": 30
-    },
-    {
-      "source": "Source||GSE157020",
-      "target": "Disease||CD",
-      "value": 30
-    },
-    {
-      "source": "Source||PRJEB32359",
-      "target": "Disease||IBD",
-      "value": 30
-    },
-    {
-      "source": "Source||PRJNA759006",
-      "target": "Disease||IBD",
-      "value": 30
-    },
-    {
-      "source": "Source||PRJEB41022",
-      "target": "Disease||CD",
-      "value": 27
-    },
-    {
-      "source": "Source||GSE111819",
-      "target": "Disease||Diverticulitis",
-      "value": 26
-    },
-    {
-      "source": "Source||GSE130038",
-      "target": "Disease||UC",
-      "value": 26
-    },
-    {
-      "source": "Source||GSE166869",
-      "target": "Disease||Healthy",
-      "value": 26
-    },
-    {
-      "source": "Source||GSE235236",
-      "target": "Disease||UC",
-      "value": 26
-    },
-    {
-      "source": "Source||PRJNA670418",
-      "target": "Disease||CD",
-      "value": 26
-    },
-    {
-      "source": "Source||GSE228122",
-      "target": "Disease||CD",
-      "value": 25
-    },
-    {
-      "source": "Source||GSE199906",
-      "target": "Disease||Healthy",
-      "value": 25
-    },
-    {
-      "source": "Source||GSE159034",
-      "target": "Disease||IBD",
-      "value": 24
-    },
-    {
-      "source": "Source||GSE146853",
-      "target": "Disease||IBS-C",
-      "value": 23
-    },
-    {
-      "source": "Source||GSE146853",
-      "target": "Disease||IBS-D",
-      "value": 23
-    },
-    {
-      "source": "Source||GSE166869",
-      "target": "Disease||IBS-D",
-      "value": 23
-    },
-    {
-      "source": "Source||PRJNA1106762",
-      "target": "Disease||IBD",
-      "value": 23
-    },
-    {
-      "source": "Source||GSE235236",
-      "target": "Disease||CD",
-      "value": 22
-    },
-    {
-      "source": "Source||PRJNA1029930",
-      "target": "Disease||Colitis",
-      "value": 22
-    },
-    {
-      "source": "Source||PRJNA932428",
-      "target": "Disease||UC",
-      "value": 22
-    },
-    {
-      "source": "Source||GSE146853",
-      "target": "Disease||Healthy",
-      "value": 21
-    },
-    {
-      "source": "Source||GSE183620",
-      "target": "Disease||CD",
-      "value": 21
-    },
-    {
-      "source": "Source||GSE228122",
-      "target": "Disease||UC",
-      "value": 21
-    },
-    {
-      "source": "Source||GSE267465",
-      "target": "Disease||CD",
-      "value": 21
-    },
-    {
-      "source": "Source||GSE66207",
-      "target": "Disease||CD",
-      "value": 20
-    },
-    {
-      "source": "Source||GSE109142",
-      "target": "Disease||Healthy",
-      "value": 20
-    },
-    {
-      "source": "Source||GSE208684",
-      "target": "Disease||CD",
-      "value": 20
-    },
-    {
-      "source": "Source||E-MTAB-10395",
-      "target": "Disease||CD",
-      "value": 20
-    },
-    {
-      "source": "Source||GSE171244",
-      "target": "Disease||CD",
-      "value": 20
-    },
-    {
-      "source": "Source||GSE191234",
-      "target": "Disease||CD",
-      "value": 20
-    },
-    {
-      "source": "Source||PRJNA478832",
-      "target": "Disease||IBD",
-      "value": 20
-    },
-    {
-      "source": "Source||GSE166869",
-      "target": "Disease||IBS-C",
-      "value": 19
-    },
-    {
-      "source": "Source||GSE135223",
-      "target": "Disease||Healthy",
-      "value": 18
-    },
-    {
-      "source": "Source||GSE165636",
-      "target": "Disease||UC",
-      "value": 18
-    },
-    {
-      "source": "Source||GSE164918",
-      "target": "Disease||Healthy",
-      "value": 18
-    },
-    {
-      "source": "Source||GSE164918",
-      "target": "Disease||UC",
-      "value": 18
-    },
-    {
-      "source": "Source||GSE191234",
-      "target": "Disease||Healthy",
-      "value": 18
-    },
-    {
-      "source": "Source||GSE199906",
-      "target": "Disease||CD",
-      "value": 18
-    },
-    {
-      "source": "Source||GSE208684",
-      "target": "Disease||UC",
-      "value": 17
-    },
-    {
-      "source": "Source||GSE191234",
-      "target": "Disease||UC",
-      "value": 16
-    },
-    {
-      "source": "Source||GSE112057",
-      "target": "Disease||UC",
-      "value": 15
-    },
-    {
-      "source": "Source||GSE124350",
-      "target": "Disease||IBD",
-      "value": 15
-    },
-    {
-      "source": "Source||GSE243625",
-      "target": "Disease||Healthy",
-      "value": 15
-    },
-    {
-      "source": "Source||E-MTAB-10395",
-      "target": "Disease||Healthy",
-      "value": 15
-    },
-    {
-      "source": "Source||GSE267465",
-      "target": "Disease||Healthy",
-      "value": 14
-    },
-    {
-      "source": "Source||PRJNA741807",
-      "target": "Disease||CD",
-      "value": 14
-    },
-    {
-      "source": "Source||GSE152229",
-      "target": "Disease||UC",
-      "value": 13
-    },
-    {
-      "source": "Source||GSE112057",
-      "target": "Disease||Healthy",
-      "value": 12
-    },
-    {
-      "source": "Source||GSE135170",
-      "target": "Disease||IBD",
-      "value": 12
-    },
-    {
-      "source": "Source||GSE138364",
-      "target": "Disease||CD",
-      "value": 12
-    },
-    {
-      "source": "Source||GSE220815",
-      "target": "Disease||UC",
-      "value": 12
-    },
-    {
-      "source": "Source||GSE228122",
-      "target": "Disease||IBD",
-      "value": 12
-    },
-    {
-      "source": "Source||GSE247146",
-      "target": "Disease||IBD",
-      "value": 12
-    },
-    {
-      "source": "Source||PRJEB98848",
-      "target": "Disease||Healthy",
-      "value": 12
-    },
-    {
-      "source": "Source||GSE168759",
-      "target": "Disease||PI-IBS",
-      "value": 11
-    },
-    {
-      "source": "Source||GSE69446",
-      "target": "Disease||CD",
-      "value": 10
-    },
-    {
-      "source": "Source||GSE123141",
-      "target": "Disease||UC",
-      "value": 10
-    },
-    {
-      "source": "Source||GSE138364",
-      "target": "Disease||UC",
-      "value": 10
-    },
-    {
-      "source": "Source||PRJNA876940",
-      "target": "Disease||Healthy",
-      "value": 10
-    },
-    {
-      "source": "Source||GSE64801",
-      "target": "Disease||NEC",
-      "value": 9
-    },
-    {
-      "source": "Source||GSE123141",
-      "target": "Disease||CD",
-      "value": 9
-    },
-    {
-      "source": "Source||GSE123141",
-      "target": "Disease||Healthy",
-      "value": 9
-    },
-    {
-      "source": "Source||E-MTAB-9746",
-      "target": "Disease||CD",
-      "value": 9
-    },
-    {
-      "source": "Source||PRJEB41167",
-      "target": "Disease||CD",
-      "value": 9
-    },
-    {
-      "source": "Source||GSE135170",
-      "target": "Disease||Healthy",
-      "value": 8
-    },
-    {
-      "source": "Source||GSE235236",
-      "target": "Disease||Healthy",
-      "value": 8
-    },
-    {
-      "source": "Source||GSE247742",
-      "target": "Disease||UC",
-      "value": 8
-    },
-    {
-      "source": "Source||GSE274965",
-      "target": "Disease||CD",
-      "value": 8
-    },
-    {
-      "source": "Source||PRJEB98848",
-      "target": "Disease||CD",
-      "value": 7
-    },
-    {
-      "source": "Source||GSE247742",
-      "target": "Disease||CD",
-      "value": 6
-    },
-    {
-      "source": "Source||GSE334803",
-      "target": "Disease||Healthy",
-      "value": 6
-    },
-    {
-      "source": "Source||GSE334803",
-      "target": "Disease||UC",
-      "value": 6
-    },
-    {
-      "source": "Source||GSE64801",
-      "target": "Disease||Healthy",
-      "value": 5
-    },
-    {
-      "source": "Source||GSE168759",
-      "target": "Disease||Healthy",
-      "value": 5
-    },
-    {
-      "source": "Source||GSE227747",
-      "target": "Disease||CD",
-      "value": 5
-    },
-    {
-      "source": "Source||GSE227747",
-      "target": "Disease||IBD",
-      "value": 5
-    },
-    {
-      "source": "Source||GSE227747",
-      "target": "Disease||UC",
-      "value": 5
-    },
-    {
-      "source": "Source||GSE69446",
-      "target": "Disease||Healthy",
-      "value": 4
-    },
-    {
-      "source": "Source||GSE156044",
-      "target": "Disease||CD",
-      "value": 4
-    },
-    {
-      "source": "Source||GSE156044",
-      "target": "Disease||Healthy",
-      "value": 4
-    },
-    {
-      "source": "Source||SRP390233",
-      "target": "Disease||Healthy",
-      "value": 4
-    },
-    {
-      "source": "Source||SRP390233",
-      "target": "Disease||Colitis",
-      "value": 4
-    },
-    {
-      "source": "Source||GSE67250",
-      "target": "Disease||Healthy",
-      "value": 3
-    },
-    {
-      "source": "Source||GSE67250",
-      "target": "Disease||CD",
-      "value": 3
-    },
-    {
-      "source": "Source||GSE294501",
-      "target": "Disease||Healthy",
-      "value": 3
-    },
-    {
-      "source": "Source||GSE294501",
-      "target": "Disease||UC",
-      "value": 3
-    },
-    {
-      "source": "Source||GSE67280",
-      "target": "Disease||Healthy",
-      "value": 2
-    },
-    {
-      "source": "Source||GSE67280",
-      "target": "Disease||UC",
-      "value": 2
-    },
-    {
-      "source": "Source||GSE81266",
-      "target": "Disease||Healthy",
-      "value": 2
-    },
-    {
-      "source": "Source||PRJNA593867",
-      "target": "Disease||CD",
-      "value": 2
-    },
-    {
-      "source": "Source||GSE66207",
-      "target": "Disease||Healthy",
-      "value": 1
-    },
-    {
-      "source": "Source||PRJNA319301",
-      "target": "Disease||UC",
-      "value": 1
     },
     {
       "source": "Disease||CD",
@@ -2850,9 +1475,54 @@
       "value": 2258
     },
     {
+      "source": "Tissue||Rectum",
+      "target": "Therapy||__missing__",
+      "value": 2239
+    },
+    {
+      "source": "Tissue||Colon",
+      "target": "Therapy||__missing__",
+      "value": 2037
+    },
+    {
+      "source": "Tissue||Ileum",
+      "target": "Therapy||__missing__",
+      "value": 1949
+    },
+    {
+      "source": "Therapy||Treatment naive",
+      "target": "Cell Type||__missing__",
+      "value": 1618
+    },
+    {
       "source": "Disease||UC",
       "target": "Tissue||Rectum",
       "value": 1492
+    },
+    {
+      "source": "Tissue||Blood",
+      "target": "Therapy||__missing__",
+      "value": 1448
+    },
+    {
+      "source": "Tissue||Ileum",
+      "target": "Therapy||Treatment naive",
+      "value": 1380
+    },
+    {
+      "source": "Source||GSE193677",
+      "target": "Disease||CD",
+      "value": 1157
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE186507",
+      "value": 1030
+    },
+    {
+      "source": "Design||In vitro",
+      "target": "Isolation||polyA",
+      "value": 999
     },
     {
       "source": "Disease||UC",
@@ -2860,9 +1530,24 @@
       "value": 906
     },
     {
+      "source": "Source||GSE193677",
+      "target": "Disease||UC",
+      "value": 872
+    },
+    {
       "source": "Disease||CD",
       "target": "Tissue||Blood",
       "value": 789
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||SRP115494",
+      "value": 762
+    },
+    {
+      "source": "Tissue||Stool Associated",
+      "target": "Therapy||__missing__",
+      "value": 762
     },
     {
       "source": "Disease||CD",
@@ -2895,9 +1580,64 @@
       "value": 464
     },
     {
+      "source": "Source||GSE193677",
+      "target": "Disease||Healthy",
+      "value": 460
+    },
+    {
+      "source": "Source||GSE186507",
+      "target": "Disease||CD",
+      "value": 432
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE150961",
+      "value": 418
+    },
+    {
+      "source": "Source||GSE150961",
+      "target": "Disease||UC",
+      "value": 418
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA634153",
+      "value": 418
+    },
+    {
+      "source": "Source||PRJNA634153",
+      "target": "Disease||UC",
+      "value": 418
+    },
+    {
+      "source": "Source||GSE186507",
+      "target": "Disease||UC",
+      "value": 389
+    },
+    {
+      "source": "Tissue||Sigmoid",
+      "target": "Therapy||__missing__",
+      "value": 385
+    },
+    {
+      "source": "Design||Intestinal organoids",
+      "target": "Isolation||polyA",
+      "value": 363
+    },
+    {
+      "source": "Source||SRP115494",
+      "target": "Disease||CD",
+      "value": 348
+    },
+    {
       "source": "Disease||CD",
       "target": "Tissue||Stool Associated",
       "value": 348
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE234981",
+      "value": 346
     },
     {
       "source": "Disease||Healthy",
@@ -2905,9 +1645,59 @@
       "value": 332
     },
     {
+      "source": "Isolation||Total",
+      "target": "Source||GSE57945",
+      "value": 322
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||GSE62207",
+      "value": 310
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE101794",
+      "value": 304
+    },
+    {
       "source": "Disease||Healthy",
       "target": "Tissue||Blood",
       "value": 299
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE217352",
+      "value": 265
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||CD3+",
+      "value": 265
+    },
+    {
+      "source": "Cell Type||CD3+",
+      "target": "Treatment||__missing__",
+      "value": 265
+    },
+    {
+      "source": "Source||GSE62207",
+      "target": "Disease||CD",
+      "value": 259
+    },
+    {
+      "source": "Source||GSE101794",
+      "target": "Disease||CD",
+      "value": 254
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||phs001626",
+      "value": 252
+    },
+    {
+      "source": "Source||phs001626",
+      "target": "Disease||IBD",
+      "value": 252
     },
     {
       "source": "Disease||Healthy",
@@ -2915,14 +1705,144 @@
       "value": 251
     },
     {
+      "source": "Isolation||Total",
+      "target": "Source||GSE93624",
+      "value": 245
+    },
+    {
+      "source": "Tissue||Intestine",
+      "target": "Therapy||__missing__",
+      "value": 240
+    },
+    {
+      "source": "Tissue||Cecum",
+      "target": "Therapy||__missing__",
+      "value": 234
+    },
+    {
+      "source": "Source||GSE217352",
+      "target": "Disease||CD",
+      "value": 230
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE109142",
+      "value": 226
+    },
+    {
+      "source": "Tissue||Rectum",
+      "target": "Therapy||Treatment naive",
+      "value": 226
+    },
+    {
+      "source": "Source||SRP115494",
+      "target": "Disease||UC",
+      "value": 220
+    },
+    {
       "source": "Disease||UC",
       "target": "Tissue||Stool Associated",
       "value": 220
     },
     {
+      "source": "Source||GSE57945",
+      "target": "Disease||CD",
+      "value": 218
+    },
+    {
+      "source": "Therapy||Vedolizumab",
+      "target": "Cell Type||__missing__",
+      "value": 211
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE197698",
+      "value": 211
+    },
+    {
+      "source": "Source||GSE93624",
+      "target": "Disease||CD",
+      "value": 210
+    },
+    {
+      "source": "Source||GSE186507",
+      "target": "Disease||Healthy",
+      "value": 209
+    },
+    {
+      "source": "Source||GSE109142",
+      "target": "Disease||UC",
+      "value": 206
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE191328",
+      "value": 201
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE134881",
+      "value": 199
+    },
+    {
+      "source": "Source||GSE134881",
+      "target": "Disease||CD",
+      "value": 199
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE137344",
+      "value": 195
+    },
+    {
+      "source": "Source||SRP115494",
+      "target": "Disease||Healthy",
+      "value": 194
+    },
+    {
       "source": "Disease||Healthy",
       "target": "Tissue||Stool Associated",
       "value": 194
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE117993",
+      "value": 190
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||PRJNA1206237",
+      "value": 190
+    },
+    {
+      "source": "Source||PRJNA1206237",
+      "target": "Disease||IBD",
+      "value": 190
+    },
+    {
+      "source": "Therapy||Anti-TNF",
+      "target": "Cell Type||__missing__",
+      "value": 188
+    },
+    {
+      "source": "Source||GSE234981",
+      "target": "Disease||UC",
+      "value": 176
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||GSE165512",
+      "value": 170
+    },
+    {
+      "source": "Source||GSE234981",
+      "target": "Disease||CD",
+      "value": 170
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE139179",
+      "value": 158
     },
     {
       "source": "Disease||UC",
@@ -2940,9 +1860,109 @@
       "value": 137
     },
     {
+      "source": "Tissue||Colon",
+      "target": "Therapy||Vedolizumab",
+      "value": 131
+    },
+    {
       "source": "Disease||IBD",
       "target": "Tissue||Rectum",
       "value": 129
+    },
+    {
+      "source": "Tissue||Blood",
+      "target": "Therapy||Anti-TNF",
+      "value": 129
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||GSE83687",
+      "value": 127
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||SRP343308",
+      "value": 127
+    },
+    {
+      "source": "Source||SRP343308",
+      "target": "Disease||IBD",
+      "value": 127
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE158952",
+      "value": 119
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||Memory CD8",
+      "value": 119
+    },
+    {
+      "source": "Cell Type||Memory CD8",
+      "target": "Treatment||__missing__",
+      "value": 119
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||Memory CD4",
+      "value": 119
+    },
+    {
+      "source": "Cell Type||Memory CD4",
+      "target": "Treatment||__missing__",
+      "value": 119
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE270661",
+      "value": 119
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE270662",
+      "value": 119
+    },
+    {
+      "source": "Tissue||Intestinal Mucosa",
+      "target": "Therapy||__missing__",
+      "value": 116
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE228122",
+      "value": 115
+    },
+    {
+      "source": "Source||GSE137344",
+      "target": "Disease||CD",
+      "value": 112
+    },
+    {
+      "source": "Source||GSE191328",
+      "target": "Disease||UC",
+      "value": 112
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||\u03b3\u03b4 T Cells",
+      "value": 108
+    },
+    {
+      "source": "Cell Type||\u03b3\u03b4 T Cells",
+      "target": "Treatment||__missing__",
+      "value": 108
+    },
+    {
+      "source": "Source||GSE139179",
+      "target": "Disease||CD",
+      "value": 107
+    },
+    {
+      "source": "Tissue||Transverse",
+      "target": "Therapy||__missing__",
+      "value": 106
     },
     {
       "source": "Disease||CD",
@@ -2950,9 +1970,39 @@
       "value": 99
     },
     {
+      "source": "Isolation||Total",
+      "target": "Source||GSE143507",
+      "value": 97
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE234736",
+      "value": 96
+    },
+    {
+      "source": "Source||GSE117993",
+      "target": "Disease||CD",
+      "value": 92
+    },
+    {
+      "source": "Tissue||Ascending",
+      "target": "Therapy||__missing__",
+      "value": 91
+    },
+    {
       "source": "Disease||CD",
       "target": "Tissue||Intestine",
       "value": 89
+    },
+    {
+      "source": "Source||GSE191328",
+      "target": "Disease||CD",
+      "value": 89
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE112057",
+      "value": 87
     },
     {
       "source": "Disease||CD",
@@ -2960,9 +2010,29 @@
       "value": 86
     },
     {
+      "source": "Source||GSE165512",
+      "target": "Disease||CD",
+      "value": 84
+    },
+    {
       "source": "Disease||Healthy",
       "target": "Tissue||Cecum",
       "value": 84
+    },
+    {
+      "source": "Therapy||HSCT post",
+      "target": "Cell Type||__missing__",
+      "value": 81
+    },
+    {
+      "source": "Source||GSE197698",
+      "target": "Disease||Healthy",
+      "value": 81
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE208684",
+      "value": 81
     },
     {
       "source": "Disease||CD",
@@ -2970,9 +2040,169 @@
       "value": 79
     },
     {
+      "source": "Source||GSE270661",
+      "target": "Disease||CD",
+      "value": 79
+    },
+    {
+      "source": "Source||GSE270662",
+      "target": "Disease||CD",
+      "value": 79
+    },
+    {
+      "source": "Source||GSE197698",
+      "target": "Disease||CD",
+      "value": 76
+    },
+    {
+      "source": "Tissue||Descending",
+      "target": "Therapy||__missing__",
+      "value": 75
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE72819",
+      "value": 73
+    },
+    {
+      "source": "Source||GSE72819",
+      "target": "Disease||UC",
+      "value": 73
+    },
+    {
+      "source": "Tissue||Colon",
+      "target": "Therapy||Etrolizumab",
+      "value": 73
+    },
+    {
+      "source": "Therapy||Etrolizumab",
+      "target": "Cell Type||__missing__",
+      "value": 73
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||GSE81266",
+      "value": 73
+    },
+    {
+      "source": "Source||GSE81266",
+      "target": "Disease||UC",
+      "value": 71
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE166869",
+      "value": 68
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJEB21050",
+      "value": 68
+    },
+    {
+      "source": "Source||PRJEB21050",
+      "target": "Disease||CD",
+      "value": 68
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE146853",
+      "value": 67
+    },
+    {
       "source": "Disease||UC",
       "target": "Tissue||Cecum",
       "value": 66
+    },
+    {
+      "source": "Source||GSE158952",
+      "target": "Disease||CD",
+      "value": 65
+    },
+    {
+      "source": "Tissue||Blood",
+      "target": "Therapy||Vedolizumab",
+      "value": 63
+    },
+    {
+      "source": "Source||GSE234736",
+      "target": "Disease||CD",
+      "value": 63
+    },
+    {
+      "source": "Source||GSE57945",
+      "target": "Disease||UC",
+      "value": 62
+    },
+    {
+      "source": "Source||GSE112057",
+      "target": "Disease||CD",
+      "value": 60
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE282580",
+      "value": 60
+    },
+    {
+      "source": "Source||GSE282580",
+      "target": "Disease||UC",
+      "value": 60
+    },
+    {
+      "source": "Source||GSE143507",
+      "target": "Disease||CD",
+      "value": 59
+    },
+    {
+      "source": "Cell Type||__missing__",
+      "target": "Treatment||Anti-TNF",
+      "value": 59
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE183620",
+      "value": 58
+    },
+    {
+      "source": "Cell Type||CD11b+",
+      "target": "Treatment||__missing__",
+      "value": 58
+    },
+    {
+      "source": "Source||GSE228122",
+      "target": "Disease||Healthy",
+      "value": 57
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE235236",
+      "value": 56
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJEB61154",
+      "value": 56
+    },
+    {
+      "source": "Source||PRJEB61154",
+      "target": "Disease||UC",
+      "value": 56
+    },
+    {
+      "source": "Source||GSE117993",
+      "target": "Disease||Healthy",
+      "value": 55
+    },
+    {
+      "source": "Source||GSE83687",
+      "target": "Disease||Healthy",
+      "value": 54
+    },
+    {
+      "source": "Source||GSE158952",
+      "target": "Disease||UC",
+      "value": 54
     },
     {
       "source": "Disease||Healthy",
@@ -2980,9 +2210,59 @@
       "value": 54
     },
     {
+      "source": "Source||GSE197698",
+      "target": "Disease||UC",
+      "value": 54
+    },
+    {
       "source": "Disease||CD",
       "target": "Tissue||Transverse",
       "value": 54
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE191234",
+      "value": 54
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA790653",
+      "value": 54
+    },
+    {
+      "source": "Source||PRJNA790653",
+      "target": "Disease||IBD",
+      "value": 54
+    },
+    {
+      "source": "Tissue||Colon",
+      "target": "Therapy||HSCT post",
+      "value": 53
+    },
+    {
+      "source": "Source||GSE62207",
+      "target": "Disease||Healthy",
+      "value": 51
+    },
+    {
+      "source": "Source||GSE139179",
+      "target": "Disease||Healthy",
+      "value": 51
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA1030353",
+      "value": 51
+    },
+    {
+      "source": "Source||PRJNA1030353",
+      "target": "Disease||UC",
+      "value": 51
+    },
+    {
+      "source": "Source||GSE101794",
+      "target": "Disease||Healthy",
+      "value": 50
     },
     {
       "source": "Disease||Healthy",
@@ -2990,9 +2270,159 @@
       "value": 49
     },
     {
+      "source": "Isolation||polyA",
+      "target": "Source||SRP541786",
+      "value": 48
+    },
+    {
+      "source": "Source||SRP541786",
+      "target": "Disease||IBD",
+      "value": 48
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJEB32016",
+      "value": 47
+    },
+    {
+      "source": "Source||PRJEB32016",
+      "target": "Disease||UC",
+      "value": 47
+    },
+    {
+      "source": "Source||GSE165512",
+      "target": "Disease||Healthy",
+      "value": 46
+    },
+    {
       "source": "Disease||CD",
       "target": "Tissue||Descending",
       "value": 45
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||GSE243625",
+      "value": 45
+    },
+    {
+      "source": "Source||GSE137344",
+      "target": "Disease||UC",
+      "value": 44
+    },
+    {
+      "source": "Source||GSE208684",
+      "target": "Disease||Healthy",
+      "value": 44
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJEB30904",
+      "value": 44
+    },
+    {
+      "source": "Source||PRJEB30904",
+      "target": "Disease||IBD",
+      "value": 44
+    },
+    {
+      "source": "Source||GSE117993",
+      "target": "Disease||UC",
+      "value": 43
+    },
+    {
+      "source": "Cell Type||__missing__",
+      "target": "Treatment||SARS-CoV-2",
+      "value": 43
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE199906",
+      "value": 43
+    },
+    {
+      "source": "Source||GSE57945",
+      "target": "Disease||Healthy",
+      "value": 42
+    },
+    {
+      "source": "Source||GSE83687",
+      "target": "Disease||CD",
+      "value": 42
+    },
+    {
+      "source": "Source||GSE165512",
+      "target": "Disease||UC",
+      "value": 40
+    },
+    {
+      "source": "Source||GSE270661",
+      "target": "Disease||Healthy",
+      "value": 40
+    },
+    {
+      "source": "Source||GSE270662",
+      "target": "Disease||Healthy",
+      "value": 40
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||SRP352918",
+      "value": 40
+    },
+    {
+      "source": "Source||SRP352918",
+      "target": "Disease||CD",
+      "value": 40
+    },
+    {
+      "source": "Source||GSE137344",
+      "target": "Disease||Healthy",
+      "value": 39
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA728646",
+      "value": 39
+    },
+    {
+      "source": "Source||PRJNA728646",
+      "target": "Disease||IBD",
+      "value": 39
+    },
+    {
+      "source": "Source||GSE143507",
+      "target": "Disease||Healthy",
+      "value": 38
+    },
+    {
+      "source": "Tissue||Duodenum",
+      "target": "Therapy||__missing__",
+      "value": 38
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE266963",
+      "value": 38
+    },
+    {
+      "source": "Source||GSE266963",
+      "target": "Disease||UC",
+      "value": 38
+    },
+    {
+      "source": "Source||GSE183620",
+      "target": "Disease||UC",
+      "value": 37
+    },
+    {
+      "source": "Tissue||Ileum",
+      "target": "Therapy||Anti-TNF",
+      "value": 37
+    },
+    {
+      "source": "Tissue||Colon",
+      "target": "Therapy||Anti-TNF",
+      "value": 37
     },
     {
       "source": "Disease||IBD",
@@ -3000,9 +2430,174 @@
       "value": 36
     },
     {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE164918",
+      "value": 36
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||PRJNA1251616",
+      "value": 36
+    },
+    {
+      "source": "Source||PRJNA1251616",
+      "target": "Disease||CD",
+      "value": 36
+    },
+    {
+      "source": "Source||GSE93624",
+      "target": "Disease||Healthy",
+      "value": 35
+    },
+    {
+      "source": "Source||GSE217352",
+      "target": "Disease||Healthy",
+      "value": 35
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE267465",
+      "value": 35
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||CD11b+ Phagocytes",
+      "value": 35
+    },
+    {
+      "source": "Cell Type||CD11b+ Phagocytes",
+      "target": "Treatment||__missing__",
+      "value": 35
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE285449",
+      "value": 35
+    },
+    {
+      "source": "Source||GSE285449",
+      "target": "Disease||IBD",
+      "value": 35
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||CD14+ Monocytes",
+      "value": 35
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||E-MTAB-10395",
+      "value": 35
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||PRJEB44664",
+      "value": 35
+    },
+    {
+      "source": "Source||PRJEB44664",
+      "target": "Disease||CD",
+      "value": 35
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE151686",
+      "value": 34
+    },
+    {
+      "source": "Source||GSE151686",
+      "target": "Disease||CD",
+      "value": 34
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA636953",
+      "value": 34
+    },
+    {
+      "source": "Source||PRJNA636953",
+      "target": "Disease||CD",
+      "value": 34
+    },
+    {
       "source": "Disease||UC",
       "target": "Tissue||Transverse",
       "value": 33
+    },
+    {
+      "source": "Source||GSE234736",
+      "target": "Disease||UC",
+      "value": 33
+    },
+    {
+      "source": "Source||GSE83687",
+      "target": "Disease||UC",
+      "value": 31
+    },
+    {
+      "source": "Cell Type||Macrophages",
+      "target": "Treatment||__missing__",
+      "value": 31
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA396640",
+      "value": 31
+    },
+    {
+      "source": "Source||PRJNA396640",
+      "target": "Disease||CD",
+      "value": 31
+    },
+    {
+      "source": "Tissue||Jejunum",
+      "target": "Therapy||__missing__",
+      "value": 30
+    },
+    {
+      "source": "Source||GSE243625",
+      "target": "Disease||UC",
+      "value": 30
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE157020",
+      "value": 30
+    },
+    {
+      "source": "Source||GSE157020",
+      "target": "Disease||CD",
+      "value": 30
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||PRJEB32359",
+      "value": 30
+    },
+    {
+      "source": "Source||PRJEB32359",
+      "target": "Disease||IBD",
+      "value": 30
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA759006",
+      "value": 30
+    },
+    {
+      "source": "Source||PRJNA759006",
+      "target": "Disease||IBD",
+      "value": 30
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE123141",
+      "value": 28
+    },
+    {
+      "source": "Tissue||Ileum",
+      "target": "Therapy||HSCT post",
+      "value": 28
     },
     {
       "source": "Disease||CD",
@@ -3010,8 +2605,33 @@
       "value": 28
     },
     {
+      "source": "Therapy||No biologics",
+      "target": "Cell Type||CD11b+",
+      "value": 27
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJEB41022",
+      "value": 27
+    },
+    {
+      "source": "Source||PRJEB41022",
+      "target": "Disease||CD",
+      "value": 27
+    },
+    {
       "source": "Disease||Healthy",
       "target": "Tissue||Intestine",
+      "value": 26
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE111819",
+      "value": 26
+    },
+    {
+      "source": "Source||GSE111819",
+      "target": "Disease||Diverticulitis",
       "value": 26
     },
     {
@@ -3020,13 +2640,73 @@
       "value": 26
     },
     {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE130038",
+      "value": 26
+    },
+    {
+      "source": "Source||GSE130038",
+      "target": "Disease||UC",
+      "value": 26
+    },
+    {
+      "source": "Source||GSE166869",
+      "target": "Disease||Healthy",
+      "value": 26
+    },
+    {
+      "source": "Source||GSE235236",
+      "target": "Disease||UC",
+      "value": 26
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA670418",
+      "value": 26
+    },
+    {
+      "source": "Source||PRJNA670418",
+      "target": "Disease||CD",
+      "value": 26
+    },
+    {
       "source": "Disease||IBD",
       "target": "Tissue||Sigmoid",
       "value": 25
     },
     {
+      "source": "Source||GSE228122",
+      "target": "Disease||CD",
+      "value": 25
+    },
+    {
+      "source": "Source||GSE199906",
+      "target": "Disease||Healthy",
+      "value": 25
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||GSE159034",
+      "value": 24
+    },
+    {
+      "source": "Source||GSE159034",
+      "target": "Disease||IBD",
+      "value": 24
+    },
+    {
+      "source": "Source||GSE146853",
+      "target": "Disease||IBS-C",
+      "value": 23
+    },
+    {
       "source": "Disease||IBS-C",
       "target": "Tissue||Sigmoid",
+      "value": 23
+    },
+    {
+      "source": "Source||GSE146853",
+      "target": "Disease||IBS-D",
       "value": 23
     },
     {
@@ -3035,9 +2715,114 @@
       "value": 23
     },
     {
+      "source": "Source||GSE166869",
+      "target": "Disease||IBS-D",
+      "value": 23
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA1106762",
+      "value": 23
+    },
+    {
+      "source": "Source||PRJNA1106762",
+      "target": "Disease||IBD",
+      "value": 23
+    },
+    {
+      "source": "Design||In vitro",
+      "target": "Isolation||Total",
+      "value": 22
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||GSE138364",
+      "value": 22
+    },
+    {
+      "source": "Tissue||Mesenteric lymph node",
+      "target": "Therapy||__missing__",
+      "value": 22
+    },
+    {
+      "source": "Source||GSE235236",
+      "target": "Disease||CD",
+      "value": 22
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA1029930",
+      "value": 22
+    },
+    {
+      "source": "Source||PRJNA1029930",
+      "target": "Disease||Colitis",
+      "value": 22
+    },
+    {
       "source": "Disease||Colitis",
       "target": "Tissue||Colon",
       "value": 22
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA932428",
+      "value": 22
+    },
+    {
+      "source": "Source||PRJNA932428",
+      "target": "Disease||UC",
+      "value": 22
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE66207",
+      "value": 21
+    },
+    {
+      "source": "Source||GSE146853",
+      "target": "Disease||Healthy",
+      "value": 21
+    },
+    {
+      "source": "Source||GSE183620",
+      "target": "Disease||CD",
+      "value": 21
+    },
+    {
+      "source": "Source||GSE228122",
+      "target": "Disease||UC",
+      "value": 21
+    },
+    {
+      "source": "Tissue||Ileum",
+      "target": "Therapy||Vedolizumab",
+      "value": 21
+    },
+    {
+      "source": "Source||GSE267465",
+      "target": "Disease||CD",
+      "value": 21
+    },
+    {
+      "source": "Source||GSE66207",
+      "target": "Disease||CD",
+      "value": 20
+    },
+    {
+      "source": "Source||GSE109142",
+      "target": "Disease||Healthy",
+      "value": 20
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE135170",
+      "value": 20
+    },
+    {
+      "source": "Source||GSE208684",
+      "target": "Disease||CD",
+      "value": 20
     },
     {
       "source": "Disease||Healthy",
@@ -3045,14 +2830,234 @@
       "value": 20
     },
     {
+      "source": "Source||E-MTAB-10395",
+      "target": "Disease||CD",
+      "value": 20
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE171244",
+      "value": 20
+    },
+    {
+      "source": "Source||GSE171244",
+      "target": "Disease||CD",
+      "value": 20
+    },
+    {
+      "source": "Source||GSE191234",
+      "target": "Disease||CD",
+      "value": 20
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA478832",
+      "value": 20
+    },
+    {
+      "source": "Source||PRJNA478832",
+      "target": "Disease||IBD",
+      "value": 20
+    },
+    {
+      "source": "Source||GSE166869",
+      "target": "Disease||IBS-C",
+      "value": 19
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||PRJEB98848",
+      "value": 19
+    },
+    {
+      "source": "Tissue||Intestine",
+      "target": "Therapy||Treatment naive",
+      "value": 18
+    },
+    {
+      "source": "Therapy||Treatment naive",
+      "target": "Cell Type||Macrophages",
+      "value": 18
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE135223",
+      "value": 18
+    },
+    {
+      "source": "Source||GSE135223",
+      "target": "Disease||Healthy",
+      "value": 18
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||Macrophages",
+      "value": 18
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE165636",
+      "value": 18
+    },
+    {
+      "source": "Source||GSE165636",
+      "target": "Disease||UC",
+      "value": 18
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||Endothelium",
+      "value": 18
+    },
+    {
+      "source": "Source||GSE164918",
+      "target": "Disease||Healthy",
+      "value": 18
+    },
+    {
+      "source": "Source||GSE164918",
+      "target": "Disease||UC",
+      "value": 18
+    },
+    {
+      "source": "Source||GSE191234",
+      "target": "Disease||Healthy",
+      "value": 18
+    },
+    {
+      "source": "Source||GSE199906",
+      "target": "Disease||CD",
+      "value": 18
+    },
+    {
+      "source": "Tissue||Colon",
+      "target": "Therapy||No biologics",
+      "value": 17
+    },
+    {
+      "source": "Source||GSE208684",
+      "target": "Disease||UC",
+      "value": 17
+    },
+    {
       "source": "Disease||Healthy",
       "target": "Tissue||Intestinal Mucosa",
       "value": 17
     },
     {
+      "source": "Tissue||Colon",
+      "target": "Therapy||TUDCA",
+      "value": 17
+    },
+    {
+      "source": "Therapy||TUDCA",
+      "target": "Cell Type||__missing__",
+      "value": 17
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE168759",
+      "value": 16
+    },
+    {
+      "source": "Source||GSE191234",
+      "target": "Disease||UC",
+      "value": 16
+    },
+    {
+      "source": "Source||GSE112057",
+      "target": "Disease||UC",
+      "value": 15
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE124350",
+      "value": 15
+    },
+    {
+      "source": "Source||GSE124350",
+      "target": "Disease||IBD",
+      "value": 15
+    },
+    {
+      "source": "Therapy||Anti-TNF",
+      "target": "Cell Type||CD11b+",
+      "value": 15
+    },
+    {
+      "source": "Source||GSE243625",
+      "target": "Disease||Healthy",
+      "value": 15
+    },
+    {
+      "source": "Source||E-MTAB-10395",
+      "target": "Disease||Healthy",
+      "value": 15
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE227747",
+      "value": 15
+    },
+    {
       "source": "Disease||IBD",
       "target": "Tissue||Transverse",
       "value": 14
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE64801",
+      "value": 14
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE69446",
+      "value": 14
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||Monocytes",
+      "value": 14
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE247742",
+      "value": 14
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||Sorted ILC3s",
+      "value": 14
+    },
+    {
+      "source": "Cell Type||Sorted ILC3s",
+      "target": "Treatment||__missing__",
+      "value": 14
+    },
+    {
+      "source": "Source||GSE267465",
+      "target": "Disease||Healthy",
+      "value": 14
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA741807",
+      "value": 14
+    },
+    {
+      "source": "Source||PRJNA741807",
+      "target": "Disease||CD",
+      "value": 14
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE152229",
+      "value": 13
+    },
+    {
+      "source": "Source||GSE152229",
+      "target": "Disease||UC",
+      "value": 13
     },
     {
       "source": "Disease||Healthy",
@@ -3075,6 +3080,31 @@
       "value": 12
     },
     {
+      "source": "Source||GSE112057",
+      "target": "Disease||Healthy",
+      "value": 12
+    },
+    {
+      "source": "Source||GSE135170",
+      "target": "Disease||IBD",
+      "value": 12
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||CD14- CD64- CD163- MNPs",
+      "value": 12
+    },
+    {
+      "source": "Cell Type||CD14- CD64- CD163- MNPs",
+      "target": "Treatment||__missing__",
+      "value": 12
+    },
+    {
+      "source": "Source||GSE138364",
+      "target": "Disease||CD",
+      "value": 12
+    },
+    {
       "source": "Disease||CD",
       "target": "Tissue||Mesenteric lymph node",
       "value": 12
@@ -3085,13 +3115,103 @@
       "value": 12
     },
     {
+      "source": "Therapy||Anti-integrin",
+      "target": "Cell Type||CD11b+",
+      "value": 12
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE220815",
+      "value": 12
+    },
+    {
+      "source": "Source||GSE220815",
+      "target": "Disease||UC",
+      "value": 12
+    },
+    {
+      "source": "Tissue||Colon",
+      "target": "Therapy||Treatment naive",
+      "value": 12
+    },
+    {
+      "source": "Source||GSE228122",
+      "target": "Disease||IBD",
+      "value": 12
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||GSE247146",
+      "value": 12
+    },
+    {
+      "source": "Source||GSE247146",
+      "target": "Disease||IBD",
+      "value": 12
+    },
+    {
+      "source": "Cell Type||CD14+ Monocytes",
+      "target": "Treatment||LPS",
+      "value": 12
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE334803",
+      "value": 12
+    },
+    {
+      "source": "Source||PRJEB98848",
+      "target": "Disease||Healthy",
+      "value": 12
+    },
+    {
+      "source": "Source||GSE168759",
+      "target": "Disease||PI-IBS",
+      "value": 11
+    },
+    {
       "source": "Disease||PI-IBS",
       "target": "Tissue||Colon",
       "value": 11
     },
     {
+      "source": "Source||GSE69446",
+      "target": "Disease||CD",
+      "value": 10
+    },
+    {
+      "source": "Tissue||Intestine",
+      "target": "Therapy||Immunosuppression",
+      "value": 10
+    },
+    {
+      "source": "Therapy||Immunosuppression",
+      "target": "Cell Type||Macrophages",
+      "value": 10
+    },
+    {
+      "source": "Source||GSE123141",
+      "target": "Disease||UC",
+      "value": 10
+    },
+    {
+      "source": "Source||GSE138364",
+      "target": "Disease||UC",
+      "value": 10
+    },
+    {
       "source": "Disease||UC",
       "target": "Tissue||Mesenteric lymph node",
+      "value": 10
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||CD14+ CD64+ CD163+ MNPs",
+      "value": 10
+    },
+    {
+      "source": "Cell Type||CD14+ CD64+ CD163+ MNPs",
+      "target": "Treatment||__missing__",
       "value": 10
     },
     {
@@ -3100,8 +3220,28 @@
       "value": 10
     },
     {
+      "source": "Tissue||Ileum",
+      "target": "Therapy||No biologics",
+      "value": 10
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA876940",
+      "value": 10
+    },
+    {
+      "source": "Source||PRJNA876940",
+      "target": "Disease||Healthy",
+      "value": 10
+    },
+    {
       "source": "Disease||IBD",
       "target": "Tissue||Descending",
+      "value": 9
+    },
+    {
+      "source": "Source||GSE64801",
+      "target": "Disease||NEC",
       "value": 9
     },
     {
@@ -3110,9 +3250,139 @@
       "value": 9
     },
     {
+      "source": "Source||GSE123141",
+      "target": "Disease||CD",
+      "value": 9
+    },
+    {
+      "source": "Source||GSE123141",
+      "target": "Disease||Healthy",
+      "value": 9
+    },
+    {
+      "source": "Cell Type||Endothelium",
+      "target": "Treatment||Tofacitinib",
+      "value": 9
+    },
+    {
+      "source": "Cell Type||Endothelium",
+      "target": "Treatment||__missing__",
+      "value": 9
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||E-MTAB-9746",
+      "value": 9
+    },
+    {
+      "source": "Source||E-MTAB-9746",
+      "target": "Disease||CD",
+      "value": 9
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJEB41167",
+      "value": 9
+    },
+    {
+      "source": "Source||PRJEB41167",
+      "target": "Disease||CD",
+      "value": 9
+    },
+    {
       "source": "Disease||IBD",
       "target": "Tissue||Ascending",
       "value": 8
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||CD45+ CD64+ HLA-DR+ CD206-",
+      "value": 8
+    },
+    {
+      "source": "Cell Type||CD45+ CD64+ HLA-DR+ CD206-",
+      "target": "Treatment||__missing__",
+      "value": 8
+    },
+    {
+      "source": "Source||GSE135170",
+      "target": "Disease||Healthy",
+      "value": 8
+    },
+    {
+      "source": "Therapy||HSCT pre",
+      "target": "Cell Type||__missing__",
+      "value": 8
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||GSE156044",
+      "value": 8
+    },
+    {
+      "source": "Tissue||Mesenteric Fat",
+      "target": "Therapy||__missing__",
+      "value": 8
+    },
+    {
+      "source": "Source||GSE235236",
+      "target": "Disease||Healthy",
+      "value": 8
+    },
+    {
+      "source": "Source||GSE247742",
+      "target": "Disease||UC",
+      "value": 8
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE274965",
+      "value": 8
+    },
+    {
+      "source": "Source||GSE274965",
+      "target": "Disease||CD",
+      "value": 8
+    },
+    {
+      "source": "Therapy||Vedolizumab",
+      "target": "Cell Type||Leukocytes",
+      "value": 8
+    },
+    {
+      "source": "Cell Type||Leukocytes",
+      "target": "Treatment||__missing__",
+      "value": 8
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||SRP390233",
+      "value": 8
+    },
+    {
+      "source": "Cell Type||Monocytes",
+      "target": "Treatment||MDP",
+      "value": 7
+    },
+    {
+      "source": "Cell Type||Monocytes",
+      "target": "Treatment||__missing__",
+      "value": 7
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||CD45+ CD64+ HLA-DR+ CD206+",
+      "value": 7
+    },
+    {
+      "source": "Cell Type||CD45+ CD64+ HLA-DR+ CD206+",
+      "target": "Treatment||__missing__",
+      "value": 7
+    },
+    {
+      "source": "Tissue||Colon",
+      "target": "Therapy||HSCT pre",
+      "value": 7
     },
     {
       "source": "Disease||IBS-C",
@@ -3120,8 +3390,118 @@
       "value": 7
     },
     {
+      "source": "Tissue||Colon",
+      "target": "Therapy||Anti-integrin",
+      "value": 7
+    },
+    {
+      "source": "Source||PRJEB98848",
+      "target": "Disease||CD",
+      "value": 7
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE67250",
+      "value": 6
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||Fibroblasts",
+      "value": 6
+    },
+    {
+      "source": "Cell Type||Fibroblasts",
+      "target": "Treatment||__missing__",
+      "value": 6
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||Epithelial Cells",
+      "value": 6
+    },
+    {
+      "source": "Cell Type||Epithelial Cells",
+      "target": "Treatment||__missing__",
+      "value": 6
+    },
+    {
+      "source": "Source||GSE247742",
+      "target": "Disease||CD",
+      "value": 6
+    },
+    {
+      "source": "Cell Type||CD14+ Monocytes",
+      "target": "Treatment||__missing__",
+      "value": 6
+    },
+    {
+      "source": "Cell Type||CD14+ Monocytes",
+      "target": "Treatment||FP10",
+      "value": 6
+    },
+    {
+      "source": "Cell Type||CD14+ Monocytes",
+      "target": "Treatment||Cad",
+      "value": 6
+    },
+    {
+      "source": "Isolation||Total",
+      "target": "Source||GSE294501",
+      "value": 6
+    },
+    {
+      "source": "Source||GSE334803",
+      "target": "Disease||Healthy",
+      "value": 6
+    },
+    {
+      "source": "Source||GSE334803",
+      "target": "Disease||UC",
+      "value": 6
+    },
+    {
       "source": "Disease||IBD",
       "target": "Tissue||Cecum",
+      "value": 5
+    },
+    {
+      "source": "Source||GSE64801",
+      "target": "Disease||Healthy",
+      "value": 5
+    },
+    {
+      "source": "Cell Type||Macrophages",
+      "target": "Treatment||CD VLP",
+      "value": 5
+    },
+    {
+      "source": "Cell Type||Macrophages",
+      "target": "Treatment||Non-IBD VLP",
+      "value": 5
+    },
+    {
+      "source": "Cell Type||Macrophages",
+      "target": "Treatment||UC VLP",
+      "value": 5
+    },
+    {
+      "source": "Tissue||Colon",
+      "target": "Therapy||HBOT",
+      "value": 5
+    },
+    {
+      "source": "Therapy||HBOT",
+      "target": "Cell Type||__missing__",
+      "value": 5
+    },
+    {
+      "source": "Source||GSE168759",
+      "target": "Disease||Healthy",
+      "value": 5
+    },
+    {
+      "source": "Tissue||Ileum",
+      "target": "Therapy||Anti-integrin",
       "value": 5
     },
     {
@@ -3130,8 +3510,48 @@
       "value": 5
     },
     {
+      "source": "Cell Type||CD14+ Monocytes",
+      "target": "Treatment||FP100",
+      "value": 5
+    },
+    {
+      "source": "Source||GSE227747",
+      "target": "Disease||CD",
+      "value": 5
+    },
+    {
+      "source": "Source||GSE227747",
+      "target": "Disease||IBD",
+      "value": 5
+    },
+    {
+      "source": "Source||GSE227747",
+      "target": "Disease||UC",
+      "value": 5
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||GSE67280",
+      "value": 4
+    },
+    {
+      "source": "Source||GSE69446",
+      "target": "Disease||Healthy",
+      "value": 4
+    },
+    {
+      "source": "Source||GSE156044",
+      "target": "Disease||CD",
+      "value": 4
+    },
+    {
       "source": "Disease||CD",
       "target": "Tissue||Mesenteric Fat",
+      "value": 4
+    },
+    {
+      "source": "Source||GSE156044",
+      "target": "Disease||Healthy",
       "value": 4
     },
     {
@@ -3140,14 +3560,119 @@
       "value": 4
     },
     {
+      "source": "Therapy||Anti-IL-12/23",
+      "target": "Cell Type||CD11b+",
+      "value": 4
+    },
+    {
       "source": "Disease||CD",
       "target": "Tissue||Jejunum",
+      "value": 4
+    },
+    {
+      "source": "Tissue||Jejunum",
+      "target": "Therapy||Vedolizumab",
+      "value": 4
+    },
+    {
+      "source": "Source||SRP390233",
+      "target": "Disease||Healthy",
+      "value": 4
+    },
+    {
+      "source": "Source||SRP390233",
+      "target": "Disease||Colitis",
       "value": 4
     },
     {
       "source": "Disease||Colitis",
       "target": "Tissue||Intestine",
       "value": 4
+    },
+    {
+      "source": "Source||GSE67250",
+      "target": "Disease||Healthy",
+      "value": 3
+    },
+    {
+      "source": "Source||GSE67250",
+      "target": "Disease||CD",
+      "value": 3
+    },
+    {
+      "source": "Tissue||Ileum",
+      "target": "Therapy||Anti-IL-12/23",
+      "value": 3
+    },
+    {
+      "source": "Source||GSE294501",
+      "target": "Disease||Healthy",
+      "value": 3
+    },
+    {
+      "source": "Source||GSE294501",
+      "target": "Disease||UC",
+      "value": 3
+    },
+    {
+      "source": "Source||GSE67280",
+      "target": "Disease||Healthy",
+      "value": 2
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||CD3+ LPMCs",
+      "value": 2
+    },
+    {
+      "source": "Cell Type||CD3+ LPMCs",
+      "target": "Treatment||__missing__",
+      "value": 2
+    },
+    {
+      "source": "Source||GSE67280",
+      "target": "Disease||UC",
+      "value": 2
+    },
+    {
+      "source": "Therapy||__missing__",
+      "target": "Cell Type||CD33+ LPMCs",
+      "value": 2
+    },
+    {
+      "source": "Cell Type||CD33+ LPMCs",
+      "target": "Treatment||__missing__",
+      "value": 2
+    },
+    {
+      "source": "Source||GSE81266",
+      "target": "Disease||Healthy",
+      "value": 2
+    },
+    {
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA593867",
+      "value": 2
+    },
+    {
+      "source": "Source||PRJNA593867",
+      "target": "Disease||CD",
+      "value": 2
+    },
+    {
+      "source": "Source||GSE66207",
+      "target": "Disease||Healthy",
+      "value": 1
+    },
+    {
+      "source": "Tissue||Ileum",
+      "target": "Therapy||HSCT pre",
+      "value": 1
+    },
+    {
+      "source": "Tissue||Colon",
+      "target": "Therapy||Anti-IL-12/23",
+      "value": 1
     },
     {
       "source": "Disease||UC",
@@ -3160,484 +3685,14 @@
       "value": 1
     },
     {
-      "source": "Tissue||Ileum",
-      "target": "Cell Type||__missing__",
-      "value": 3358
+      "source": "Isolation||polyA",
+      "target": "Source||PRJNA319301",
+      "value": 1
     },
     {
-      "source": "Tissue||Rectum",
-      "target": "Cell Type||__missing__",
-      "value": 2465
-    },
-    {
-      "source": "Tissue||Colon",
-      "target": "Cell Type||__missing__",
-      "value": 1966
-    },
-    {
-      "source": "Tissue||Blood",
-      "target": "Cell Type||__missing__",
-      "value": 1451
-    },
-    {
-      "source": "Tissue||Stool Associated",
-      "target": "Cell Type||__missing__",
-      "value": 762
-    },
-    {
-      "source": "Tissue||Sigmoid",
-      "target": "Cell Type||__missing__",
-      "value": 385
-    },
-    {
-      "source": "Tissue||Cecum",
-      "target": "Cell Type||__missing__",
-      "value": 234
-    },
-    {
-      "source": "Tissue||Intestine",
-      "target": "Cell Type||__missing__",
-      "value": 230
-    },
-    {
-      "source": "Tissue||Blood",
-      "target": "Cell Type||CD3+",
-      "value": 149
-    },
-    {
-      "source": "Tissue||Colon",
-      "target": "Cell Type||Memory CD8",
-      "value": 119
-    },
-    {
-      "source": "Tissue||Colon",
-      "target": "Cell Type||Memory CD4",
-      "value": 119
-    },
-    {
-      "source": "Tissue||Intestinal Mucosa",
-      "target": "Cell Type||CD3+",
-      "value": 116
-    },
-    {
-      "source": "Tissue||Colon",
-      "target": "Cell Type||\u03b3\u03b4 T Cells",
-      "value": 108
-    },
-    {
-      "source": "Tissue||Transverse",
-      "target": "Cell Type||__missing__",
-      "value": 106
-    },
-    {
-      "source": "Tissue||Descending",
-      "target": "Cell Type||__missing__",
-      "value": 75
-    },
-    {
-      "source": "Tissue||Ascending",
-      "target": "Cell Type||__missing__",
-      "value": 71
-    },
-    {
-      "source": "Tissue||Duodenum",
-      "target": "Cell Type||__missing__",
-      "value": 38
-    },
-    {
-      "source": "Tissue||Ileum",
-      "target": "Cell Type||CD14+ Monocytes",
-      "value": 35
-    },
-    {
-      "source": "Tissue||Jejunum",
-      "target": "Cell Type||__missing__",
-      "value": 34
-    },
-    {
-      "source": "Tissue||Colon",
-      "target": "Cell Type||CD11b+",
-      "value": 32
-    },
-    {
-      "source": "Tissue||Intestine",
-      "target": "Cell Type||Macrophages",
-      "value": 28
-    },
-    {
-      "source": "Tissue||Ileum",
-      "target": "Cell Type||CD11b+",
-      "value": 26
-    },
-    {
-      "source": "Tissue||Ascending",
-      "target": "Cell Type||CD11b+ Phagocytes",
-      "value": 20
-    },
-    {
-      "source": "Tissue||Blood",
-      "target": "Cell Type||Macrophages",
-      "value": 18
-    },
-    {
-      "source": "Tissue||Colon",
-      "target": "Cell Type||Endothelium",
-      "value": 18
-    },
-    {
-      "source": "Tissue||Ileum",
-      "target": "Cell Type||CD11b+ Phagocytes",
-      "value": 15
-    },
-    {
-      "source": "Tissue||Blood",
-      "target": "Cell Type||Monocytes",
-      "value": 14
-    },
-    {
-      "source": "Tissue||Colon",
-      "target": "Cell Type||Sorted ILC3s",
-      "value": 14
-    },
-    {
-      "source": "Tissue||Mesenteric lymph node",
-      "target": "Cell Type||CD14- CD64- CD163- MNPs",
-      "value": 12
-    },
-    {
-      "source": "Tissue||Mesenteric lymph node",
-      "target": "Cell Type||CD14+ CD64+ CD163+ MNPs",
-      "value": 10
-    },
-    {
-      "source": "Tissue||Colon",
-      "target": "Cell Type||CD45+ CD64+ HLA-DR+ CD206-",
-      "value": 8
-    },
-    {
-      "source": "Tissue||Mesenteric Fat",
-      "target": "Cell Type||__missing__",
-      "value": 8
-    },
-    {
-      "source": "Tissue||Blood",
-      "target": "Cell Type||Leukocytes",
-      "value": 8
-    },
-    {
-      "source": "Tissue||Colon",
-      "target": "Cell Type||CD45+ CD64+ HLA-DR+ CD206+",
-      "value": 7
-    },
-    {
-      "source": "Tissue||Colon",
-      "target": "Cell Type||Fibroblasts",
-      "value": 6
-    },
-    {
-      "source": "Tissue||Intestine",
-      "target": "Cell Type||Epithelial Cells",
-      "value": 6
-    },
-    {
-      "source": "Tissue||Intestine",
-      "target": "Cell Type||CD3+ LPMCs",
-      "value": 2
-    },
-    {
-      "source": "Tissue||Intestine",
-      "target": "Cell Type||CD33+ LPMCs",
-      "value": 2
-    },
-    {
-      "source": "Cell Type||__missing__",
-      "target": "Therapy||__missing__",
-      "value": 8982
-    },
-    {
-      "source": "Cell Type||__missing__",
-      "target": "Therapy||Treatment naive",
-      "value": 1618
-    },
-    {
-      "source": "Cell Type||CD3+",
-      "target": "Therapy||__missing__",
-      "value": 265
-    },
-    {
-      "source": "Cell Type||__missing__",
-      "target": "Therapy||Vedolizumab",
-      "value": 211
-    },
-    {
-      "source": "Cell Type||__missing__",
-      "target": "Therapy||Anti-TNF",
-      "value": 188
-    },
-    {
-      "source": "Cell Type||Memory CD8",
-      "target": "Therapy||__missing__",
-      "value": 119
-    },
-    {
-      "source": "Cell Type||Memory CD4",
-      "target": "Therapy||__missing__",
-      "value": 119
-    },
-    {
-      "source": "Cell Type||\u03b3\u03b4 T Cells",
-      "target": "Therapy||__missing__",
-      "value": 108
-    },
-    {
-      "source": "Cell Type||__missing__",
-      "target": "Therapy||HSCT post",
-      "value": 81
-    },
-    {
-      "source": "Cell Type||__missing__",
-      "target": "Therapy||Etrolizumab",
-      "value": 73
-    },
-    {
-      "source": "Cell Type||CD11b+ Phagocytes",
-      "target": "Therapy||__missing__",
-      "value": 35
-    },
-    {
-      "source": "Cell Type||CD14+ Monocytes",
-      "target": "Therapy||__missing__",
-      "value": 35
-    },
-    {
-      "source": "Cell Type||CD11b+",
-      "target": "Therapy||No biologics",
-      "value": 27
-    },
-    {
-      "source": "Cell Type||Macrophages",
-      "target": "Therapy||Treatment naive",
-      "value": 18
-    },
-    {
-      "source": "Cell Type||Macrophages",
-      "target": "Therapy||__missing__",
-      "value": 18
-    },
-    {
-      "source": "Cell Type||Endothelium",
-      "target": "Therapy||__missing__",
-      "value": 18
-    },
-    {
-      "source": "Cell Type||__missing__",
-      "target": "Therapy||TUDCA",
-      "value": 17
-    },
-    {
-      "source": "Cell Type||CD11b+",
-      "target": "Therapy||Anti-TNF",
-      "value": 15
-    },
-    {
-      "source": "Cell Type||Monocytes",
-      "target": "Therapy||__missing__",
-      "value": 14
-    },
-    {
-      "source": "Cell Type||Sorted ILC3s",
-      "target": "Therapy||__missing__",
-      "value": 14
-    },
-    {
-      "source": "Cell Type||CD14- CD64- CD163- MNPs",
-      "target": "Therapy||__missing__",
-      "value": 12
-    },
-    {
-      "source": "Cell Type||CD11b+",
-      "target": "Therapy||Anti-integrin",
-      "value": 12
-    },
-    {
-      "source": "Cell Type||Macrophages",
-      "target": "Therapy||Immunosuppression",
-      "value": 10
-    },
-    {
-      "source": "Cell Type||CD14+ CD64+ CD163+ MNPs",
-      "target": "Therapy||__missing__",
-      "value": 10
-    },
-    {
-      "source": "Cell Type||CD45+ CD64+ HLA-DR+ CD206-",
-      "target": "Therapy||__missing__",
-      "value": 8
-    },
-    {
-      "source": "Cell Type||__missing__",
-      "target": "Therapy||HSCT pre",
-      "value": 8
-    },
-    {
-      "source": "Cell Type||Leukocytes",
-      "target": "Therapy||Vedolizumab",
-      "value": 8
-    },
-    {
-      "source": "Cell Type||CD45+ CD64+ HLA-DR+ CD206+",
-      "target": "Therapy||__missing__",
-      "value": 7
-    },
-    {
-      "source": "Cell Type||Fibroblasts",
-      "target": "Therapy||__missing__",
-      "value": 6
-    },
-    {
-      "source": "Cell Type||Epithelial Cells",
-      "target": "Therapy||__missing__",
-      "value": 6
-    },
-    {
-      "source": "Cell Type||__missing__",
-      "target": "Therapy||HBOT",
-      "value": 5
-    },
-    {
-      "source": "Cell Type||CD11b+",
-      "target": "Therapy||Anti-IL-12/23",
-      "value": 4
-    },
-    {
-      "source": "Cell Type||CD3+ LPMCs",
-      "target": "Therapy||__missing__",
-      "value": 2
-    },
-    {
-      "source": "Cell Type||CD33+ LPMCs",
-      "target": "Therapy||__missing__",
-      "value": 2
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||__missing__",
-      "value": 9618
-    },
-    {
-      "source": "Therapy||Treatment naive",
-      "target": "Treatment||__missing__",
-      "value": 1636
-    },
-    {
-      "source": "Therapy||Vedolizumab",
-      "target": "Treatment||__missing__",
-      "value": 219
-    },
-    {
-      "source": "Therapy||Anti-TNF",
-      "target": "Treatment||__missing__",
-      "value": 203
-    },
-    {
-      "source": "Therapy||HSCT post",
-      "target": "Treatment||__missing__",
-      "value": 81
-    },
-    {
-      "source": "Therapy||Etrolizumab",
-      "target": "Treatment||__missing__",
-      "value": 73
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||Anti-TNF",
-      "value": 59
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||SARS-CoV-2",
-      "value": 43
-    },
-    {
-      "source": "Therapy||No biologics",
-      "target": "Treatment||__missing__",
-      "value": 27
-    },
-    {
-      "source": "Therapy||TUDCA",
-      "target": "Treatment||__missing__",
-      "value": 17
-    },
-    {
-      "source": "Therapy||Anti-integrin",
-      "target": "Treatment||__missing__",
-      "value": 12
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||LPS",
-      "value": 12
-    },
-    {
-      "source": "Therapy||Immunosuppression",
-      "target": "Treatment||__missing__",
-      "value": 10
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||Tofacitinib",
-      "value": 9
-    },
-    {
-      "source": "Therapy||HSCT pre",
-      "target": "Treatment||__missing__",
-      "value": 8
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||MDP",
-      "value": 7
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||FP10",
-      "value": 6
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||Cad",
-      "value": 6
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||CD VLP",
-      "value": 5
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||Non-IBD VLP",
-      "value": 5
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||UC VLP",
-      "value": 5
-    },
-    {
-      "source": "Therapy||HBOT",
-      "target": "Treatment||__missing__",
-      "value": 5
-    },
-    {
-      "source": "Therapy||__missing__",
-      "target": "Treatment||FP100",
-      "value": 5
-    },
-    {
-      "source": "Therapy||Anti-IL-12/23",
-      "target": "Treatment||__missing__",
-      "value": 4
+      "source": "Source||PRJNA319301",
+      "target": "Disease||UC",
+      "value": 1
     }
   ]
 }
